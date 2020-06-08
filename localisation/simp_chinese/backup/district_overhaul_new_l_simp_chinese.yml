@@ -1,0 +1,37 @@
+﻿l_simp_chinese:
+  allow_underground_city_project:0 "地下城市项目"
+  decision_search_for_cave_systems_effects:0 "人们将试图寻找大型地下洞穴来建造地下城市。"
+  ap_do_underground_city:0 "行星开发"
+  ap_do_underground_city_desc:0 "新技术为建造大型地下城市提供了机会。"
+  mod_do_establish_underground_city:0 ""
+  districtoverhaulundergroundcity.00.Name:0 "发现地下洞穴"
+  districtoverhaulundergroundcity.00.Desc:0 "我们发现了洞穴"
+  districtoverhaulundergroundcity.00.a:0 "完美"
+  
+  #Patch DO 2.0.0a
+  allow_district_hab_external_habitat:0 "将新区划解锁到栖息地，从而实现无限扩展。"
+  ap_do_external_habitats:0 "栖息地外部扩张"
+  ap_do_external_habitats_desc:0 "新技术使我们能够无限扩展我们的栖息地。"
+  
+  district_hab_external_habitat:0 "栖息地外部扩张"
+  mod_district_hab_external_habitat_max:0 "栖息地外部扩张"
+  district_hab_external_habitat_plural:0 "栖息地外部扩张"
+  district_hab_external_habitat_desc:0 ""
+  #Patch DO 2.0.0b
+  decision_show_hide_do_decisions:0 "显示/隐藏区划协议"
+  decision_show_hide_do_decisions_desc:0 ""
+ 
+  decision_secondary_bureaucratic:0 "建造行政区划"
+  decision_secondary_bureaucratic_desc:0 ""
+  decision_secondary_bureaucratic_t2:0 "升级至第二季官僚区划"
+  decision_secondary_bureaucratic_t2_desc:0 ""
+  decision_secondary_bureaucratic_requirements:0 "这个星球需要40人口以升级。"
+  
+  district_bureaucratic:0 "行政区划"
+  mod_district_bureaucratic_max:0 "行政区划"
+  district_bureaucratic_plural:0 "行政区划"
+  district_bureaucratic_desc:0 ""
+  district_bureaucratic_t2:0 "行政区划 §R(第二级)§!"
+  mod_district_bureaucratic_t2_max:0 "行政区划 §R(第二级)§!"
+  district_bureaucratic_t2_plural:0 "行政区划 §R(第二级)§!"
+  district_bureaucratic_t2_desc:0 ""

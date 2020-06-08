@@ -1,0 +1,7 @@
+﻿l_simp_chinese:
+
+ ASTEROID_RANDOM_NAME:  "[current_planet_name.GetName]-[Root.random_asteroid_name]"
+ ELYSIUM_RANDOM_NAME:  "Elysium - [Root.new_elysium_unnamed]"
+ HABITAT_RANDOM_NAME:  "Habitat - [Root.random_habitat_name]"
+ NAME_Sector_Z749:  "§RSector§! §YZ-749§!"
+ PLANET_RANDOM_NAME:  "[current_planet_name.GetName]-[Root.random_planet_name]"

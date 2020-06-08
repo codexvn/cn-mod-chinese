@@ -1,0 +1,13 @@
+﻿l_simp_chinese:
+
+ NAME_mem_colonial_corps:0  "殖民军"
+ NAME_mem_colonial_defense_fleet:0  "殖民地防御舰队"
+ NAME_mem_homeworld_defense_fleet:0  "母星防御舰队"
+ NAME_mem_lunar_age_colony:0  "[This.GetSpeciesName]卫星殖民地"
+ NAME_mem_lunar_age_colony_democratic:0  "[This.GetSpeciesName]议会共和国"
+ NAME_mem_lunar_age_colony_dictatorial:0  "[This.GetSpeciesName]主权国"
+ NAME_mem_lunar_age_colony_imperial:0  "[This.GetSpeciesName]行星王国"
+ NAME_mem_lunar_age_colony_oligarchic:0  "[This.GetSpeciesName]行星联盟"
+ NAME_mem_lunar_age_country:0  "[This.GetSpeciesName]文明"
+ NAME_mem_lunar_age_war:0  "殖民地征服"
+ NAME_mem_war_shuttle:0  "战机"

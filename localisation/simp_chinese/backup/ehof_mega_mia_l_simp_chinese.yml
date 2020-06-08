@@ -1,0 +1,211 @@
+﻿l_simp_chinese:
+
+	# Fleet went MIA
+	ehof_mia_01_reason:0 "然还不知道我们的舰队是否会返回，但我们应该在$ehof_ehof$采取进一步措施，以确保这种情况不会经常发生。\n\n舰队的船员已被宣布失踪，等待进一步通知。"
+	ehof_mega_mia_response.100:0 "我们只能希望船员们安全"
+
+	ehof_mia_ix_01_00:0 "销声匿迹!"												# Title
+	ehof_mia_ix_01_01:0 "我们的舰队("											# Fleet
+	ehof_mia_ix_01_02:0 ")通过$ehof_wormhole$传送到" 		# + 始端星系 +
+	ehof_mia_ix_01_03:0 "星系正常，有达到的意向"	# + 目的地星系 +
+	ehof_mia_ix_01_04:0 "但是从那以后，我们就没有收到过船只的消息。\n\n$ehof_mia_01_reason$$ehof_cooldown$"
+
+	ehof_mega_mia.10001_name:0 "§H[ehof_mia_fleet.GetName] $ehof_mia_ix_01_00$§!"
+	ehof_mega_mia.10001_desc:0 "$ehof_mia_ix_01_01$§B[ehof_mia_fleet.GetName]§!$ehof_mia_ix_01_02$ §H[ehof_mia_origin_system.GetName]§! $ehof_mia_ix_01_03$ §H[ehof_mia_origin_destination.GetName]§! $ehof_mia_ix_01_04$"
+
+	# Fleet arrives as debris
+	ehof_mia_02_reason:0 "$ehof_ehof$的物理学家认为，这支舰队所经过的$ehof_wormhole$可能在前往目的地的途中坍塌了，他们坚持认为，我们必须装备更好的$ehof_ehof$，以保护我们的旅客不受此类事件再次发生的影响。\n\n不幸的是，这支舰队的船员在行动中被正式宣布死亡， $ehof_ehof$ 事故调查仍在进行中，但已暂时停止。"
+	ehof_mega_mia_response.200:0 "这种事绝不能再发生!"
+
+	ehof_mia_ix_02_00:0 "行动中阵亡"																					# Title
+	ehof_mia_ix_02_01:0 "我们的$ehof_wormhole$是在这个产生的"															# + Destination System Star +
+	ehof_mia_ix_02_02:0 "星系...\n\n然而... 我们的舰队 ("																# Fleet
+	ehof_mia_ix_02_03:0 ") 没有通过的航行 $ehof_wormhole$ 一到那里就被摧毁了"	# + Destination System +
+	ehof_mia_ix_02_04:0 "星系\n\n$ehof_mia_02_reason$$ehof_cooldown$"
+
+	ehof_mega_mia.20001_name:0 "§R[ehof_aadebris_fleet.GetName] $ehof_mia_ix_02_00$§!"
+	ehof_mega_mia.20001_desc:0 "$ehof_mia_ix_02_01$ §H[ehof_aadebris_origin_destination.star.GetClassName]§! $ehof_mia_ix_02_02$§B[ehof_aadebris_fleet.GetName]§!$ehof_mia_ix_02_03$ §H[ehof_aadebris_origin_destination.GetName]§! $ehof_mia_ix_02_04$"
+
+	# Detontes on entering portal
+	ehof_mia_03_reason:0 "据认为，就在舰队进入它的一瞬间,$ehof_wormhole$崩溃.工程师们坚持认为，我们可以做更多的工作来提高我们的$ehof_ehof$，努力防止这种灾难再次发生。\n\n不幸的是，这支舰队的船员在行动中被正式宣布死亡 $ehof_ehof$ 事故调查仍在进行中，但已暂时停止。"
+	ehof_mega_mia_response.300:0 "这是我们国家悲伤的一天…"
+
+	ehof_mia_ix_03_00:0 "行动中阵亡"															# Title
+	ehof_mia_ix_03_01:0 "舰队的碎片 ("											# Fleet
+	ehof_mia_ix_03_02:0 ") 这是通过$ehof_wormhole$，同时试图到达"	# + Detination System +
+	ehof_mia_ix_03_03:0 "星系，已经出现在" 												# + Origin System +
+	ehof_mia_ix_03_04:0 "星系.\n\n$ehof_mia_03_reason$$ehof_cooldown$"
+
+	ehof_mega_mia.30001_name:0 "§R[ehof_detonate_fleet.GetName] $ehof_mia_ix_03_00$§!"
+	ehof_mega_mia.30001_desc:0 "$ehof_mia_ix_03_01$§B[ehof_detonate_fleet.GetName]§!$ehof_mia_ix_03_02$ §H[ehof_detonate_origin_destination.GetName]§! $ehof_mia_ix_03_03$ §H[ehof_detonate_origin_system.GetName]§! $ehof_mia_ix_03_04$"
+
+	# Damaged
+	ehof_mia_04_reason:0 "舰队的船员报告说，他们如何遇到敌对船只时，他们到达未知的地点，并与他们不断战斗，而他们在那里。他们不知道自己去了哪里，看到了什么，发生了什么，但很高兴他们终于回来了!"
+	ehof_mega_mia_response.400:0 "虽然我们哀悼死者，但我们颂扬生者"
+
+	ehof_mia_ix_04_00:0 "返回损坏"																		# Title
+	ehof_mia_ix_04_01:0 "舰队来了 ("																			# Fleet
+	ehof_mia_ix_04_02:0 ") 在行动中消失了，在通过$ehof_wormhole$传送到"	# + Detination System +
+	ehof_mia_ix_04_03:0 "星系，已经返回" 															# + Origin System +
+	ehof_mia_ix_04_04:0 "有很多船只失踪的星系…\n\n$ehof_mia_04_reason$"
+
+	ehof_mega_mia.40001_name:0 "§R[ehof_missing_fleet_0001.GetName] $ehof_mia_ix_04_00$§!"
+	ehof_mega_mia.40002_name:0 "§R[ehof_missing_fleet_0002.GetName] $ehof_mia_ix_04_00$§!"
+	ehof_mega_mia.40003_name:0 "§R[ehof_missing_fleet_0003.GetName] $ehof_mia_ix_04_00$§!"
+	ehof_mega_mia.40004_name:0 "§R[ehof_missing_fleet_0004.GetName] $ehof_mia_ix_04_00$§!"
+	ehof_mega_mia.40005_name:0 "§R[ehof_missing_fleet_0005.GetName] $ehof_mia_ix_04_00$§!"
+	ehof_mega_mia.40006_name:0 "§R[ehof_missing_fleet_0006.GetName] $ehof_mia_ix_04_00$§!"
+	ehof_mega_mia.40007_name:0 "§R[ehof_missing_fleet_0007.GetName] $ehof_mia_ix_04_00$§!"
+	ehof_mega_mia.40008_name:0 "§R[ehof_missing_fleet_0008.GetName] $ehof_mia_ix_04_00$§!"
+	ehof_mega_mia.40009_name:0 "§R[ehof_missing_fleet_0009.GetName] $ehof_mia_ix_04_00$§!"
+	ehof_mega_mia.40010_name:0 "§R[ehof_missing_fleet_0010.GetName] $ehof_mia_ix_04_00$§!"
+	ehof_mega_mia.40011_name:0 "§R[ehof_missing_fleet_0011.GetName] $ehof_mia_ix_04_00$§!"
+	ehof_mega_mia.40012_name:0 "§R[ehof_missing_fleet_0012.GetName] $ehof_mia_ix_04_00$§!"
+	ehof_mega_mia.40013_name:0 "§R[ehof_missing_fleet_0013.GetName] $ehof_mia_ix_04_00$§!"
+	ehof_mega_mia.40014_name:0 "§R[ehof_missing_fleet_0014.GetName] $ehof_mia_ix_04_00$§!"
+	ehof_mega_mia.40015_name:0 "§R[ehof_missing_fleet_0015.GetName] $ehof_mia_ix_04_00$§!"
+
+	ehof_mega_mia.40001_desc:0 "$ehof_mia_ix_04_01$§B[ehof_missing_fleet_0001.GetName]§!$ehof_mia_ix_04_02$ §H[ehof_origin_destination_0001.GetName]§! $ehof_mia_ix_04_03$ §H[ehof_origin_system_0001.GetName]§! $ehof_mia_ix_04_04$"
+	ehof_mega_mia.40002_desc:0 "$ehof_mia_ix_04_01$§B[ehof_missing_fleet_0002.GetName]§!$ehof_mia_ix_04_02$ §H[ehof_origin_destination_0002.GetName]§! $ehof_mia_ix_04_03$ §H[ehof_origin_system_0002.GetName]§! $ehof_mia_ix_04_04$"
+	ehof_mega_mia.40003_desc:0 "$ehof_mia_ix_04_01$§B[ehof_missing_fleet_0003.GetName]§!$ehof_mia_ix_04_02$ §H[ehof_origin_destination_0003.GetName]§! $ehof_mia_ix_04_03$ §H[ehof_origin_system_0003.GetName]§! $ehof_mia_ix_04_04$"
+	ehof_mega_mia.40004_desc:0 "$ehof_mia_ix_04_01$§B[ehof_missing_fleet_0004.GetName]§!$ehof_mia_ix_04_02$ §H[ehof_origin_destination_0004.GetName]§! $ehof_mia_ix_04_03$ §H[ehof_origin_system_0004.GetName]§! $ehof_mia_ix_04_04$"
+	ehof_mega_mia.40005_desc:0 "$ehof_mia_ix_04_01$§B[ehof_missing_fleet_0005.GetName]§!$ehof_mia_ix_04_02$ §H[ehof_origin_destination_0005.GetName]§! $ehof_mia_ix_04_03$ §H[ehof_origin_system_0005.GetName]§! $ehof_mia_ix_04_04$"
+	ehof_mega_mia.40006_desc:0 "$ehof_mia_ix_04_01$§B[ehof_missing_fleet_0006.GetName]§!$ehof_mia_ix_04_02$ §H[ehof_origin_destination_0006.GetName]§! $ehof_mia_ix_04_03$ §H[ehof_origin_system_0006.GetName]§! $ehof_mia_ix_04_04$"
+	ehof_mega_mia.40007_desc:0 "$ehof_mia_ix_04_01$§B[ehof_missing_fleet_0007.GetName]§!$ehof_mia_ix_04_02$ §H[ehof_origin_destination_0007.GetName]§! $ehof_mia_ix_04_03$ §H[ehof_origin_system_0007.GetName]§! $ehof_mia_ix_04_04$"
+	ehof_mega_mia.40008_desc:0 "$ehof_mia_ix_04_01$§B[ehof_missing_fleet_0008.GetName]§!$ehof_mia_ix_04_02$ §H[ehof_origin_destination_0008.GetName]§! $ehof_mia_ix_04_03$ §H[ehof_origin_system_0008.GetName]§! $ehof_mia_ix_04_04$"
+	ehof_mega_mia.40009_desc:0 "$ehof_mia_ix_04_01$§B[ehof_missing_fleet_0009.GetName]§!$ehof_mia_ix_04_02$ §H[ehof_origin_destination_0009.GetName]§! $ehof_mia_ix_04_03$ §H[ehof_origin_system_0009.GetName]§! $ehof_mia_ix_04_04$"
+	ehof_mega_mia.40010_desc:0 "$ehof_mia_ix_04_01$§B[ehof_missing_fleet_0010.GetName]§!$ehof_mia_ix_04_02$ §H[ehof_origin_destination_0010.GetName]§! $ehof_mia_ix_04_03$ §H[ehof_origin_system_0010.GetName]§! $ehof_mia_ix_04_04$"
+	ehof_mega_mia.40011_desc:0 "$ehof_mia_ix_04_01$§B[ehof_missing_fleet_0011.GetName]§!$ehof_mia_ix_04_02$ §H[ehof_origin_destination_0011.GetName]§! $ehof_mia_ix_04_03$ §H[ehof_origin_system_0011.GetName]§! $ehof_mia_ix_04_04$"
+	ehof_mega_mia.40012_desc:0 "$ehof_mia_ix_04_01$§B[ehof_missing_fleet_0012.GetName]§!$ehof_mia_ix_04_02$ §H[ehof_origin_destination_0012.GetName]§! $ehof_mia_ix_04_03$ §H[ehof_origin_system_0012.GetName]§! $ehof_mia_ix_04_04$"
+	ehof_mega_mia.40013_desc:0 "$ehof_mia_ix_04_01$§B[ehof_missing_fleet_0013.GetName]§!$ehof_mia_ix_04_02$ §H[ehof_origin_destination_0013.GetName]§! $ehof_mia_ix_04_03$ §H[ehof_origin_system_0013.GetName]§! $ehof_mia_ix_04_04$"
+	ehof_mega_mia.40014_desc:0 "$ehof_mia_ix_04_01$§B[ehof_missing_fleet_0014.GetName]§!$ehof_mia_ix_04_02$ §H[ehof_origin_destination_0014.GetName]§! $ehof_mia_ix_04_03$ §H[ehof_origin_system_0014.GetName]§! $ehof_mia_ix_04_04$"
+	ehof_mega_mia.40015_desc:0 "$ehof_mia_ix_04_01$§B[ehof_missing_fleet_0015.GetName]§!$ehof_mia_ix_04_02$ §H[ehof_origin_destination_0015.GetName]§! $ehof_mia_ix_04_03$ §H[ehof_origin_system_0015.GetName]§! $ehof_mia_ix_04_04$"
+
+	# Hostile
+	ehof_mia_05_reason:0 "看来他们是我们的船，还有我们的船员。我们不知道他们离开时发生了什么事，但他们看到我们很不高兴。"
+	ehof_mega_mia_response.500:0 "§R动员舰队!§!"
+
+	ehof_mia_ix_05_00:0 "返回的敌意"																		# Title
+	ehof_mia_ix_05_01:0 "舰队来了 ("																			# Fleet
+	ehof_mia_ix_05_02:0 ") 在实际行动中丢失了，在通过$ehof_wormhole$传送到"	# + Detination System +
+	ehof_mia_ix_05_03:0 "星系，已经返回" 															# + Origin System +
+	ehof_mia_ix_05_04:0 "星系有很多失踪的船只，而且非常§R敌对§! 向我们!\n\n$ehof_mia_05_reason$"
+
+	ehof_mega_mia.50000_name:0 "§R[root.GetName] $ehof_mia_ix_05_00$§!"
+	ehof_mega_mia.50000_desc:0 "$ehof_mia_ix_05_01$§B[root.GetName]§!) 行动中消失的，已经回来了 §H[root.solar_system.GetName]§! 星系以及非常 §R敌对§! 向我们!\n\n$ehof_mia_05_reason$"
+
+	ehof_mega_mia.50001_name:0 "§R[ehof_missing_fleet_0001.GetName] $ehof_mia_ix_05_00$§!"
+	ehof_mega_mia.50002_name:0 "§R[ehof_missing_fleet_0002.GetName] $ehof_mia_ix_05_00$§!"
+	ehof_mega_mia.50003_name:0 "§R[ehof_missing_fleet_0003.GetName] $ehof_mia_ix_05_00$§!"
+	ehof_mega_mia.50004_name:0 "§R[ehof_missing_fleet_0004.GetName] $ehof_mia_ix_05_00$§!"
+	ehof_mega_mia.50005_name:0 "§R[ehof_missing_fleet_0005.GetName] $ehof_mia_ix_05_00$§!"
+	ehof_mega_mia.50006_name:0 "§R[ehof_missing_fleet_0006.GetName] $ehof_mia_ix_05_00$§!"
+	ehof_mega_mia.50007_name:0 "§R[ehof_missing_fleet_0007.GetName] $ehof_mia_ix_05_00$§!"
+	ehof_mega_mia.50008_name:0 "§R[ehof_missing_fleet_0008.GetName] $ehof_mia_ix_05_00$§!"
+	ehof_mega_mia.50009_name:0 "§R[ehof_missing_fleet_0009.GetName] $ehof_mia_ix_05_00$§!"
+	ehof_mega_mia.50010_name:0 "§R[ehof_missing_fleet_0010.GetName] $ehof_mia_ix_05_00$§!"
+	ehof_mega_mia.50011_name:0 "§R[ehof_missing_fleet_0011.GetName] $ehof_mia_ix_05_00$§!"
+	ehof_mega_mia.50012_name:0 "§R[ehof_missing_fleet_0012.GetName] $ehof_mia_ix_05_00$§!"
+	ehof_mega_mia.50013_name:0 "§R[ehof_missing_fleet_0013.GetName] $ehof_mia_ix_05_00$§!"
+	ehof_mega_mia.50014_name:0 "§R[ehof_missing_fleet_0014.GetName] $ehof_mia_ix_05_00$§!"
+	ehof_mega_mia.50015_name:0 "§R[ehof_missing_fleet_0015.GetName] $ehof_mia_ix_05_00$§!"
+
+	ehof_mega_mia.50001_desc:0 "$ehof_mia_ix_05_01$§B[ehof_missing_fleet_0001.GetName]§!$ehof_mia_ix_05_02$ §H[ehof_origin_destination_0001.GetName]§! $ehof_mia_ix_05_03$ §H[ehof_origin_system_0001.GetName]§! $ehof_mia_ix_05_04$"
+	ehof_mega_mia.50002_desc:0 "$ehof_mia_ix_05_01$§B[ehof_missing_fleet_0002.GetName]§!$ehof_mia_ix_05_02$ §H[ehof_origin_destination_0002.GetName]§! $ehof_mia_ix_05_03$ §H[ehof_origin_system_0002.GetName]§! $ehof_mia_ix_05_04$"
+	ehof_mega_mia.50003_desc:0 "$ehof_mia_ix_05_01$§B[ehof_missing_fleet_0003.GetName]§!$ehof_mia_ix_05_02$ §H[ehof_origin_destination_0003.GetName]§! $ehof_mia_ix_05_03$ §H[ehof_origin_system_0003.GetName]§! $ehof_mia_ix_05_04$"
+	ehof_mega_mia.50004_desc:0 "$ehof_mia_ix_05_01$§B[ehof_missing_fleet_0004.GetName]§!$ehof_mia_ix_05_02$ §H[ehof_origin_destination_0004.GetName]§! $ehof_mia_ix_05_03$ §H[ehof_origin_system_0004.GetName]§! $ehof_mia_ix_05_04$"
+	ehof_mega_mia.50005_desc:0 "$ehof_mia_ix_05_01$§B[ehof_missing_fleet_0005.GetName]§!$ehof_mia_ix_05_02$ §H[ehof_origin_destination_0005.GetName]§! $ehof_mia_ix_05_03$ §H[ehof_origin_system_0005.GetName]§! $ehof_mia_ix_05_04$"
+	ehof_mega_mia.50006_desc:0 "$ehof_mia_ix_05_01$§B[ehof_missing_fleet_0006.GetName]§!$ehof_mia_ix_05_02$ §H[ehof_origin_destination_0006.GetName]§! $ehof_mia_ix_05_03$ §H[ehof_origin_system_0006.GetName]§! $ehof_mia_ix_05_04$"
+	ehof_mega_mia.50007_desc:0 "$ehof_mia_ix_05_01$§B[ehof_missing_fleet_0007.GetName]§!$ehof_mia_ix_05_02$ §H[ehof_origin_destination_0007.GetName]§! $ehof_mia_ix_05_03$ §H[ehof_origin_system_0007.GetName]§! $ehof_mia_ix_05_04$"
+	ehof_mega_mia.50008_desc:0 "$ehof_mia_ix_05_01$§B[ehof_missing_fleet_0008.GetName]§!$ehof_mia_ix_05_02$ §H[ehof_origin_destination_0008.GetName]§! $ehof_mia_ix_05_03$ §H[ehof_origin_system_0008.GetName]§! $ehof_mia_ix_05_04$"
+	ehof_mega_mia.50009_desc:0 "$ehof_mia_ix_05_01$§B[ehof_missing_fleet_0009.GetName]§!$ehof_mia_ix_05_02$ §H[ehof_origin_destination_0009.GetName]§! $ehof_mia_ix_05_03$ §H[ehof_origin_system_0009.GetName]§! $ehof_mia_ix_05_04$"
+	ehof_mega_mia.50010_desc:0 "$ehof_mia_ix_05_01$§B[ehof_missing_fleet_0010.GetName]§!$ehof_mia_ix_05_02$ §H[ehof_origin_destination_0010.GetName]§! $ehof_mia_ix_05_03$ §H[ehof_origin_system_0010.GetName]§! $ehof_mia_ix_05_04$"
+	ehof_mega_mia.50011_desc:0 "$ehof_mia_ix_05_01$§B[ehof_missing_fleet_0011.GetName]§!$ehof_mia_ix_05_02$ §H[ehof_origin_destination_0011.GetName]§! $ehof_mia_ix_05_03$ §H[ehof_origin_system_0011.GetName]§! $ehof_mia_ix_05_04$"
+	ehof_mega_mia.50012_desc:0 "$ehof_mia_ix_05_01$§B[ehof_missing_fleet_0012.GetName]§!$ehof_mia_ix_05_02$ §H[ehof_origin_destination_0012.GetName]§! $ehof_mia_ix_05_03$ §H[ehof_origin_system_0012.GetName]§! $ehof_mia_ix_05_04$"
+	ehof_mega_mia.50013_desc:0 "$ehof_mia_ix_05_01$§B[ehof_missing_fleet_0013.GetName]§!$ehof_mia_ix_05_02$ §H[ehof_origin_destination_0013.GetName]§! $ehof_mia_ix_05_03$ §H[ehof_origin_system_0013.GetName]§! $ehof_mia_ix_05_04$"
+	ehof_mega_mia.50014_desc:0 "$ehof_mia_ix_05_01$§B[ehof_missing_fleet_0014.GetName]§!$ehof_mia_ix_05_02$ §H[ehof_origin_destination_0014.GetName]§! $ehof_mia_ix_05_03$ §H[ehof_origin_system_0014.GetName]§! $ehof_mia_ix_05_04$"
+	ehof_mega_mia.50015_desc:0 "$ehof_mia_ix_05_01$§B[ehof_missing_fleet_0015.GetName]§!$ehof_mia_ix_05_02$ §H[ehof_origin_destination_0015.GetName]§! $ehof_mia_ix_05_03$ §H[ehof_origin_system_0015.GetName]§! $ehof_mia_ix_05_04$"
+
+	# Damaged & Hostile
+	ehof_mia_06_reason:0 "由于大量船只失踪并拒绝与我们联络，他们毫无理由地攻击我们。我们不知道他们离开时发生了什么，但他们已经严重受损，不想谈论此事。"
+	ehof_mega_mia_response.600:0 "§R动员舰队!§!"
+
+	ehof_mia_ix_06_00:0 "返回的敌意"																		# Title
+	ehof_mia_ix_06_01:0 "舰队来了 ("																			# Fleet
+	ehof_mia_ix_06_02:0 ") 在实际行动中丢失了，在通过$ehof_wormhole$传送到"	# + Detination System +
+	ehof_mia_ix_06_03:0 "星系，已经返回" 															# + Origin System +
+	ehof_mia_ix_06_04:0 "星系有很多失踪的船只，而且非常 §R敌对§! 向我们!\n\n$ehof_mia_06_reason$"
+
+	ehof_mega_mia.60001_name:0 "§R[ehof_missing_fleet_0001.GetName] $ehof_mia_ix_06_00$§!"
+	ehof_mega_mia.60002_name:0 "§R[ehof_missing_fleet_0002.GetName] $ehof_mia_ix_06_00$§!"
+	ehof_mega_mia.60003_name:0 "§R[ehof_missing_fleet_0003.GetName] $ehof_mia_ix_06_00$§!"
+	ehof_mega_mia.60004_name:0 "§R[ehof_missing_fleet_0004.GetName] $ehof_mia_ix_06_00$§!"
+	ehof_mega_mia.60005_name:0 "§R[ehof_missing_fleet_0005.GetName] $ehof_mia_ix_06_00$§!"
+	ehof_mega_mia.60006_name:0 "§R[ehof_missing_fleet_0006.GetName] $ehof_mia_ix_06_00$§!"
+	ehof_mega_mia.60007_name:0 "§R[ehof_missing_fleet_0007.GetName] $ehof_mia_ix_06_00$§!"
+	ehof_mega_mia.60008_name:0 "§R[ehof_missing_fleet_0008.GetName] $ehof_mia_ix_06_00$§!"
+	ehof_mega_mia.60009_name:0 "§R[ehof_missing_fleet_0009.GetName] $ehof_mia_ix_06_00$§!"
+	ehof_mega_mia.60010_name:0 "§R[ehof_missing_fleet_0010.GetName] $ehof_mia_ix_06_00$§!"
+	ehof_mega_mia.60011_name:0 "§R[ehof_missing_fleet_0011.GetName] $ehof_mia_ix_06_00$§!"
+	ehof_mega_mia.60012_name:0 "§R[ehof_missing_fleet_0012.GetName] $ehof_mia_ix_06_00$§!"
+	ehof_mega_mia.60013_name:0 "§R[ehof_missing_fleet_0013.GetName] $ehof_mia_ix_06_00$§!"
+	ehof_mega_mia.60014_name:0 "§R[ehof_missing_fleet_0014.GetName] $ehof_mia_ix_06_00$§!"
+	ehof_mega_mia.60015_name:0 "§R[ehof_missing_fleet_0015.GetName] $ehof_mia_ix_06_00$§!"
+
+	ehof_mega_mia.60001_desc:0 "$ehof_mia_ix_06_01$§B[ehof_missing_fleet_0001.GetName]§!$ehof_mia_ix_06_02$ §H[ehof_origin_destination_0001.GetName]§! $ehof_mia_ix_06_03$ §H[ehof_origin_system_0001.GetName]§! $ehof_mia_ix_06_04$"
+	ehof_mega_mia.60002_desc:0 "$ehof_mia_ix_06_01$§B[ehof_missing_fleet_0002.GetName]§!$ehof_mia_ix_06_02$ §H[ehof_origin_destination_0002.GetName]§! $ehof_mia_ix_06_03$ §H[ehof_origin_system_0002.GetName]§! $ehof_mia_ix_06_04$"
+	ehof_mega_mia.60003_desc:0 "$ehof_mia_ix_06_01$§B[ehof_missing_fleet_0003.GetName]§!$ehof_mia_ix_06_02$ §H[ehof_origin_destination_0003.GetName]§! $ehof_mia_ix_06_03$ §H[ehof_origin_system_0003.GetName]§! $ehof_mia_ix_06_04$"
+	ehof_mega_mia.60004_desc:0 "$ehof_mia_ix_06_01$§B[ehof_missing_fleet_0004.GetName]§!$ehof_mia_ix_06_02$ §H[ehof_origin_destination_0004.GetName]§! $ehof_mia_ix_06_03$ §H[ehof_origin_system_0004.GetName]§! $ehof_mia_ix_06_04$"
+	ehof_mega_mia.60005_desc:0 "$ehof_mia_ix_06_01$§B[ehof_missing_fleet_0005.GetName]§!$ehof_mia_ix_06_02$ §H[ehof_origin_destination_0005.GetName]§! $ehof_mia_ix_06_03$ §H[ehof_origin_system_0005.GetName]§! $ehof_mia_ix_06_04$"
+	ehof_mega_mia.60006_desc:0 "$ehof_mia_ix_06_01$§B[ehof_missing_fleet_0006.GetName]§!$ehof_mia_ix_06_02$ §H[ehof_origin_destination_0006.GetName]§! $ehof_mia_ix_06_03$ §H[ehof_origin_system_0006.GetName]§! $ehof_mia_ix_06_04$"
+	ehof_mega_mia.60007_desc:0 "$ehof_mia_ix_06_01$§B[ehof_missing_fleet_0007.GetName]§!$ehof_mia_ix_06_02$ §H[ehof_origin_destination_0007.GetName]§! $ehof_mia_ix_06_03$ §H[ehof_origin_system_0007.GetName]§! $ehof_mia_ix_06_04$"
+	ehof_mega_mia.60008_desc:0 "$ehof_mia_ix_06_01$§B[ehof_missing_fleet_0008.GetName]§!$ehof_mia_ix_06_02$ §H[ehof_origin_destination_0008.GetName]§! $ehof_mia_ix_06_03$ §H[ehof_origin_system_0008.GetName]§! $ehof_mia_ix_06_04$"
+	ehof_mega_mia.60009_desc:0 "$ehof_mia_ix_06_01$§B[ehof_missing_fleet_0009.GetName]§!$ehof_mia_ix_06_02$ §H[ehof_origin_destination_0009.GetName]§! $ehof_mia_ix_06_03$ §H[ehof_origin_system_0009.GetName]§! $ehof_mia_ix_06_04$"
+	ehof_mega_mia.60010_desc:0 "$ehof_mia_ix_06_01$§B[ehof_missing_fleet_0010.GetName]§!$ehof_mia_ix_06_02$ §H[ehof_origin_destination_0010.GetName]§! $ehof_mia_ix_06_03$ §H[ehof_origin_system_0010.GetName]§! $ehof_mia_ix_06_04$"
+	ehof_mega_mia.60011_desc:0 "$ehof_mia_ix_06_01$§B[ehof_missing_fleet_0011.GetName]§!$ehof_mia_ix_06_02$ §H[ehof_origin_destination_0011.GetName]§! $ehof_mia_ix_06_03$ §H[ehof_origin_system_0011.GetName]§! $ehof_mia_ix_06_04$"
+	ehof_mega_mia.60012_desc:0 "$ehof_mia_ix_06_01$§B[ehof_missing_fleet_0012.GetName]§!$ehof_mia_ix_06_02$ §H[ehof_origin_destination_0012.GetName]§! $ehof_mia_ix_06_03$ §H[ehof_origin_system_0012.GetName]§! $ehof_mia_ix_06_04$"
+	ehof_mega_mia.60013_desc:0 "$ehof_mia_ix_06_01$§B[ehof_missing_fleet_0013.GetName]§!$ehof_mia_ix_06_02$ §H[ehof_origin_destination_0013.GetName]§! $ehof_mia_ix_06_03$ §H[ehof_origin_system_0013.GetName]§! $ehof_mia_ix_06_04$"
+	ehof_mega_mia.60014_desc:0 "$ehof_mia_ix_06_01$§B[ehof_missing_fleet_0014.GetName]§!$ehof_mia_ix_06_02$ §H[ehof_origin_destination_0014.GetName]§! $ehof_mia_ix_06_03$ §H[ehof_origin_system_0014.GetName]§! $ehof_mia_ix_06_04$"
+	ehof_mega_mia.60015_desc:0 "$ehof_mia_ix_06_01$§B[ehof_missing_fleet_0015.GetName]§!$ehof_mia_ix_06_02$ §H[ehof_origin_destination_0015.GetName]§! $ehof_mia_ix_06_03$ §H[ehof_origin_system_0015.GetName]§! $ehof_mia_ix_06_04$"
+	
+	# Unharmed
+	ehof_mia_07_reason:0 "舰队里的船员根本不记得离开过我们。他们说一分钟前他们还在向 $ehof_wormhole$ 接着他们就被我们欢呼起来。他们根本不知道他们失踪了多长时间。"
+	ehof_mega_mia_response.700:0 "不可思议!"
+
+	ehof_mia_ix_07_00:0 "毫发无伤地返回"																	# Title
+	ehof_mia_ix_07_01:0 "舰队来了 ("																			# Fleet
+	ehof_mia_ix_07_02:0 ") 在实际行动中丢失了，在通过$ehof_wormhole$传送到"	# + Detination System +
+	ehof_mia_ix_07_03:0 "星系，已经返回" 															# + Origin System +
+	ehof_mia_ix_07_04:0 "星系完全毫发无损。\n\n$ehof_mia_07_reason$"
+
+	ehof_mega_mia.70001_name:0 "§G[ehof_missing_fleet_0001.GetName] $ehof_mia_ix_07_00$§!"
+	ehof_mega_mia.70002_name:0 "§G[ehof_missing_fleet_0002.GetName] $ehof_mia_ix_07_00$§!"
+	ehof_mega_mia.70003_name:0 "§G[ehof_missing_fleet_0003.GetName] $ehof_mia_ix_07_00$§!"
+	ehof_mega_mia.70004_name:0 "§G[ehof_missing_fleet_0004.GetName] $ehof_mia_ix_07_00$§!"
+	ehof_mega_mia.70005_name:0 "§G[ehof_missing_fleet_0005.GetName] $ehof_mia_ix_07_00$§!"
+	ehof_mega_mia.70006_name:0 "§G[ehof_missing_fleet_0006.GetName] $ehof_mia_ix_07_00$§!"
+	ehof_mega_mia.70007_name:0 "§G[ehof_missing_fleet_0007.GetName] $ehof_mia_ix_07_00$§!"
+	ehof_mega_mia.70008_name:0 "§G[ehof_missing_fleet_0008.GetName] $ehof_mia_ix_07_00$§!"
+	ehof_mega_mia.70009_name:0 "§G[ehof_missing_fleet_0009.GetName] $ehof_mia_ix_07_00$§!"
+	ehof_mega_mia.70010_name:0 "§G[ehof_missing_fleet_0010.GetName] $ehof_mia_ix_07_00$§!"
+	ehof_mega_mia.70011_name:0 "§G[ehof_missing_fleet_0011.GetName] $ehof_mia_ix_07_00$§!"
+	ehof_mega_mia.70012_name:0 "§G[ehof_missing_fleet_0012.GetName] $ehof_mia_ix_07_00$§!"
+	ehof_mega_mia.70013_name:0 "§G[ehof_missing_fleet_0013.GetName] $ehof_mia_ix_07_00$§!"
+	ehof_mega_mia.70014_name:0 "§G[ehof_missing_fleet_0014.GetName] $ehof_mia_ix_07_00$§!"
+	ehof_mega_mia.70015_name:0 "§G[ehof_missing_fleet_0015.GetName] $ehof_mia_ix_07_00$§!"
+
+	ehof_mega_mia.70001_desc:0 "$ehof_mia_ix_07_01$§B[ehof_missing_fleet_0001.GetName]§!$ehof_mia_ix_07_02$ §H[ehof_origin_destination_0001.GetName]§! $ehof_mia_ix_07_03$ §H[ehof_origin_system_0001.GetName]§! $ehof_mia_ix_07_04$"
+	ehof_mega_mia.70002_desc:0 "$ehof_mia_ix_07_01$§B[ehof_missing_fleet_0002.GetName]§!$ehof_mia_ix_07_02$ §H[ehof_origin_destination_0002.GetName]§! $ehof_mia_ix_07_03$ §H[ehof_origin_system_0002.GetName]§! $ehof_mia_ix_07_04$"
+	ehof_mega_mia.70003_desc:0 "$ehof_mia_ix_07_01$§B[ehof_missing_fleet_0003.GetName]§!$ehof_mia_ix_07_02$ §H[ehof_origin_destination_0003.GetName]§! $ehof_mia_ix_07_03$ §H[ehof_origin_system_0003.GetName]§! $ehof_mia_ix_07_04$"
+	ehof_mega_mia.70004_desc:0 "$ehof_mia_ix_07_01$§B[ehof_missing_fleet_0004.GetName]§!$ehof_mia_ix_07_02$ §H[ehof_origin_destination_0004.GetName]§! $ehof_mia_ix_07_03$ §H[ehof_origin_system_0004.GetName]§! $ehof_mia_ix_07_04$"
+	ehof_mega_mia.70005_desc:0 "$ehof_mia_ix_07_01$§B[ehof_missing_fleet_0005.GetName]§!$ehof_mia_ix_07_02$ §H[ehof_origin_destination_0005.GetName]§! $ehof_mia_ix_07_03$ §H[ehof_origin_system_0005.GetName]§! $ehof_mia_ix_07_04$"
+	ehof_mega_mia.70006_desc:0 "$ehof_mia_ix_07_01$§B[ehof_missing_fleet_0006.GetName]§!$ehof_mia_ix_07_02$ §H[ehof_origin_destination_0006.GetName]§! $ehof_mia_ix_07_03$ §H[ehof_origin_system_0006.GetName]§! $ehof_mia_ix_07_04$"
+	ehof_mega_mia.70007_desc:0 "$ehof_mia_ix_07_01$§B[ehof_missing_fleet_0007.GetName]§!$ehof_mia_ix_07_02$ §H[ehof_origin_destination_0007.GetName]§! $ehof_mia_ix_07_03$ §H[ehof_origin_system_0007.GetName]§! $ehof_mia_ix_07_04$"
+	ehof_mega_mia.70008_desc:0 "$ehof_mia_ix_07_01$§B[ehof_missing_fleet_0008.GetName]§!$ehof_mia_ix_07_02$ §H[ehof_origin_destination_0008.GetName]§! $ehof_mia_ix_07_03$ §H[ehof_origin_system_0008.GetName]§! $ehof_mia_ix_07_04$"
+	ehof_mega_mia.70009_desc:0 "$ehof_mia_ix_07_01$§B[ehof_missing_fleet_0009.GetName]§!$ehof_mia_ix_07_02$ §H[ehof_origin_destination_0009.GetName]§! $ehof_mia_ix_07_03$ §H[ehof_origin_system_0009.GetName]§! $ehof_mia_ix_07_04$"
+	ehof_mega_mia.70010_desc:0 "$ehof_mia_ix_07_01$§B[ehof_missing_fleet_0010.GetName]§!$ehof_mia_ix_07_02$ §H[ehof_origin_destination_0010.GetName]§! $ehof_mia_ix_07_03$ §H[ehof_origin_system_0010.GetName]§! $ehof_mia_ix_07_04$"
+	ehof_mega_mia.70011_desc:0 "$ehof_mia_ix_07_01$§B[ehof_missing_fleet_0011.GetName]§!$ehof_mia_ix_07_02$ §H[ehof_origin_destination_0011.GetName]§! $ehof_mia_ix_07_03$ §H[ehof_origin_system_0011.GetName]§! $ehof_mia_ix_07_04$"
+	ehof_mega_mia.70012_desc:0 "$ehof_mia_ix_07_01$§B[ehof_missing_fleet_0012.GetName]§!$ehof_mia_ix_07_02$ §H[ehof_origin_destination_0012.GetName]§! $ehof_mia_ix_07_03$ §H[ehof_origin_system_0012.GetName]§! $ehof_mia_ix_07_04$"
+	ehof_mega_mia.70013_desc:0 "$ehof_mia_ix_07_01$§B[ehof_missing_fleet_0013.GetName]§!$ehof_mia_ix_07_02$ §H[ehof_origin_destination_0013.GetName]§! $ehof_mia_ix_07_03$ §H[ehof_origin_system_0013.GetName]§! $ehof_mia_ix_07_04$"
+	ehof_mega_mia.70014_desc:0 "$ehof_mia_ix_07_01$§B[ehof_missing_fleet_0014.GetName]§!$ehof_mia_ix_07_02$ §H[ehof_origin_destination_0014.GetName]§! $ehof_mia_ix_07_03$ §H[ehof_origin_system_0014.GetName]§! $ehof_mia_ix_07_04$"
+	ehof_mega_mia.70015_desc:0 "$ehof_mia_ix_07_01$§B[ehof_missing_fleet_0015.GetName]§!$ehof_mia_ix_07_02$ §H[ehof_origin_destination_0015.GetName]§! $ehof_mia_ix_07_03$ §H[ehof_origin_system_0015.GetName]§! $ehof_mia_ix_07_04$"

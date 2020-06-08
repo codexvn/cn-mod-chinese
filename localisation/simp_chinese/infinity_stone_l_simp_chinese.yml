@@ -1,0 +1,1162 @@
+﻿l_simp_chinese:
+ ##################
+ # Inifinity Stone Relics
+ ##################
+
+ # Relics
+
+ infinity_stone_relic_activation_cooldown:0 "无限宝石冷却中"
+ requires_infinty_stone_no_cooldown:0 "$TRIGGER_FAIL$§R无法激活另一颗无限宝石，如果处于 §Y$infinity_stone_relic_activation_cooldown$§! 状态。§!"
+
+ infinity_stones_new_gauntlet.1.name:0 "§R力量宝石§!"
+ infinity_stones_new_gauntlet.1.desc:0 "§R力量宝石§!的冷却时间结束了。"
+ infinity_stones_new_gauntlet.1.a:0 "很好！"
+
+ infinity_stones_new_gauntlet.2.name:0 "§S时间宝石§!"
+ infinity_stones_new_gauntlet.2.desc:0 "§S时间宝石§!的冷却时间结束了。"
+
+ infinity_stones_new_gauntlet.3.name:0 "§Y现实宝石§!"
+ infinity_stones_new_gauntlet.3.desc:0 "§Y现实宝石§!的冷却时间结束了。"
+
+ infinity_stones_new_gauntlet.4.name:0 "§G灵魂宝石§!"
+ infinity_stones_new_gauntlet.4.desc:0 "§G灵魂宝石§!的冷却时间结束了。"
+
+ infinity_stones_new_gauntlet.5.name:0 "§B心灵宝石§!"
+ infinity_stones_new_gauntlet.5.desc:0 "§B心灵宝石§!的冷却时间结束了。"
+
+ infinity_stones_new_gauntlet.6.name:0 "§M空间宝石§!"
+ infinity_stones_new_gauntlet.6.desc:0 "§M空间宝石§!的冷却时间结束了。"
+
+ r_power_stone:0 "力量宝石"
+ r_power_stone_desc:0 "无限宝石由宇宙大爆炸之前的奇点精华淬炼而成，而大爆炸将让它们飞散在新生的银河系中。每一颗无限宝石都掌控着某个属性的强大力量，力量宝石同时蕴含着维持和毁灭宇宙的力量，它的持有者可以操纵无与伦比的强大能量。"
+ power_stone_activated:1 "\n舰队现在可以使用§Y力量宝石毁灭能量§!这种全新的轨道轰炸方式。"
+ requires_relic_power_stone:0 "$TRIGGER_FAIL$§R无法激活§Y力量宝石§!，因为它已经激活了。§!"
+
+ r_time_stone:0 "时间宝石"
+ r_time_stone_desc:0 "无限宝石由宇宙大爆炸之前的奇点精华淬炼而成，而大爆炸将让它们飞散在新生的银河系中。每一颗无限宝石都掌控着某个属性的强大力量，时间宝石代表并构成了时间流，它的持有者可以操纵第四个维度，也就是时间。"
+ time_stone_activated:1 "\n§H解锁决策：§! §G$decision_planet_time_stone$§!，能够加速一颗星球上的时间流动，增加§Y人口增长速度，机械建造速度，建筑建设速度和地貌清理速度§!。"
+ requires_relic_time_stone:0 "$TRIGGER_FAIL$§R无法激活§Y时间宝石§!，因为它已经激活了。§!"
+
+ r_reality_stone:0 "现实宝石"
+ r_reality_stone_desc:0 "无限宝石由宇宙大爆炸之前的奇点精华淬炼而成，而大爆炸将让它们飞散在新生的银河系中。每一颗无限宝石都掌控着某个属性的强大力量，现实宝石的使用者能够吸收以太粒子以创造不存在的现实，可以将反物质转化为正物质。"
+ reality_stone_activated:1 "§H解锁决策：§! §G$decision_planet_reality_stone$§!，能让我们立刻将一颗星球转化为§E盖亚世界§!，§E机械世界§!，§E蜂巢世界§!或者§E理想城§!。"
+ reality_stone_triumph_cooldown:0 "\n$relic_activation_cooldown$: £time£ §Y360§!"
+ requires_relic_reality_stone:0 "$TRIGGER_FAIL$§R无法激活§Y现实宝石§!，因为它已经激活了。§!"
+
+ r_soul_stone:0 "灵魂宝石"
+ r_soul_stone_desc:0 "无限宝石由宇宙大爆炸之前的奇点精华淬炼而成，而大爆炸将让它们飞散在新生的银河系中。每一颗无限宝石都掌控着某个属性的强大力量，灵魂宝石能够操纵灵魂，这种力量可以创造独立的人格，并且能够并且能够再造已死之人的灵魂副本。"
+ soul_stone_activated:1 "创造一个§Y总督§!，§Y科学家§!，§Y舰队司令§!或§Y陆军统帅§!，其灵魂是我们文明历史中久负盛名之伟人的复制品。"
+ soul_stone_triumph_cooldown:0 "\n$relic_activation_cooldown$: £time£ §Y1800§!"
+ requires_relic_soul_stone:0 "$TRIGGER_FAIL$§R无法激活§Y灵魂宝石§!，因为它已经激活了。§!"
+
+ r_mind_stone:0 "心灵宝石"
+ r_mind_stone_desc:0 "无限宝石由宇宙大爆炸之前的奇点精华淬炼而成，而大爆炸将让它们飞散在新生的银河系中。每一颗无限宝石都掌控着某个属性的强大力量，心灵宝石代表着构成所有心灵心智的精神元素，它的持有者能够完全控制别人的心智。"
+ mind_stone_activated:1 "§Y心灵宝石§!拥有如下效果\n幸福度：§G+1000%§!\n稳定度：§G+1000§!\n犯罪率：§G-1000%§!\n帝国规模：§G+100§!\n主流思潮吸引力：§G+1000%§!\n再就业时间：§G-80%§!\n领袖经验获取：§R-50%§!\n科研速度：§R-35%§!\n凝聚力增长速度：§R-35%§!"
+ relic_mind_stone_passive:1 "其他帝国对我们的态度：§G+100§!\n每月影响力：§G+2§!\n信任增长：§G+100%§!\n信任上限：§G+50§!"
+ requires_relic_mind_stone:0 "$TRIGGER_FAIL$§R无法激活§Y心灵宝石§!，因为它已经激活了。§!"
+
+ r_space_stone:0 "空间宝石"
+ r_space_stone_desc:0 "无限宝石由宇宙大爆炸之前的奇点精华淬炼而成，而大爆炸将让它们飞散在新生的银河系中。每一颗无限宝石都掌控着某个属性的强大力量，空间宝石的持有者能控制空间本身，主要用于开启通往另一个地点的通路也能够实现跨维度旅行。"
+ #space_stone_activated:1 ""
+ space_stone_triumph_cooldown:0 "\n$relic_activation_cooldown$: £time£ §Y200§!"
+ requires_relic_space_stone:0 "$TRIGGER_FAIL$§R无法激活§Y空间宝石§!，因为它已经激活了。§!"
+ 
+ r_mjolnir:0 "雷神之锤"
+ r_mjolnir_desc:0 ""§M无论谁持有雷神锤，只要能被锤子认可，便可以持有雷神之力。§!""
+ mjolnir_activated:1 "开始猎杀被雷神锤认可的人。"
+
+ r_infinity_gauntlet:0 "§R无限手套§!"
+ r_infinity_gauntlet_desc:0 "一个由全银河系最强的合金制造的手套，能够让我们凭借一个响指就让整个银河系重获平衡。"
+ gauntlet_activated:1 "重置§Y无限宝石§!的冷却时间。"
+ requires_relic_no_cooldown_and_stones:0 "$TRIGGER_FAIL$§R当处于§Y$relic_activation_cooldown$§!时，无法激活另一个遗珍。§!"
+ requires_relic_six_stones:0 "$TRIGGER_FAIL$§R必须拥有全部6颗无限宝石。§!"
+ requires_relic_no_war:0 "$TRIGGER_FAIL$§R不能处于战争中。§!"
+ requires_has_infinity_stone_cooldown:0 "$TRIGGER_FAIL$§R没有§Y无限宝石§!处于冷却中时，无法激活§无限手套§!。§!"
+ requires_all_six_stones:0 "§R拥有全部6颗§Y无限宝石§!.§!"
+ requires_not_building_gauntlet:0 "$TRIGGER_FAIL$§R在§Y无限手套§!完全完成之前，无法激活。§!"
+
+ infinity_stones_new_gauntlet.10.name:0 "§R无限手套§!"
+ infinity_stones_new_gauntlet.10.desc:0 "我们现在能够使用§R无限手套§!来重置§Y无限宝石§!的冷却时间。"
+ infinity_stones_new_gauntlet.10.a:0 "重置无限宝石冷却"
+ infinity_stones_new_gauntlet.10.b:0 "没事了"
+ infinity_stones_new_gauntlet.10.c:0 "§R制造完整的无限手套§!"
+
+ infinity_stones_new_gauntlet.11.name:0 "§R无限宝石的真正力量§!"
+ infinity_stones_new_gauntlet.11.desc:0 "您想如何利用无限制的§R无限宝石§!"
+ infinity_stones_new_gauntlet.11.a:0 "打个响指"
+ gauntlet_option_one:1 "§H50%§!的世界人口将在瞬间消失."
+ infinity_stones_new_gauntlet.11.b:0 "清算"
+ gauntlet_option_two:1 "§H50%§!的世界人口将在瞬间消失, 除了我们国境内的人民"
+ infinity_stones_new_gauntlet.11.c:0 "警告"
+ gauntlet_option_three:1 "§H10%§!的世界人口将在瞬间消失并且其他帝国将不愿宣战."
+ infinity_stones_new_gauntlet.11.d:0 "重新开始"
+ gauntlet_option_four:1 "§H90%§!的世界人口将在瞬间消失."
+ infinity_stones_new_gauntlet.11.e:0 "清除"
+ gauntlet_option_five:1 "所有次等人口都会从银河中清除."
+ infinity_stones_new_gauntlet.11.f:0 "摧毁敌人"
+ gauntlet_option_six:1 "所有对我们开战的帝国将被消灭."
+ infinity_stones_new_gauntlet.11.g:0 "消除饥饿"
+ gauntlet_option_seven:1 "现在起,所有银河系的人口无需维护费."
+ infinity_stones_new_gauntlet.11.h:0 "启蒙时代"
+ gauntlet_option_eight:1 "所有非完型意识帝国人口成为了狂热的唯心主义者."
+ infinity_stones_new_gauntlet.11.i:0 "和平"
+ gauntlet_option_nine:1 "所有非完型意识帝国人口成为了狂热的和平主义者."
+ infinity_stones_new_gauntlet.11.j:0 "拥抱"
+ gauntlet_option_ten:1 "所有非完型意识帝国人口成为了狂热的亲外主义者."
+ infinity_stones_new_gauntlet.11.k:0 "削弱危机"
+ gauntlet_option_eleven:1 "对抗危机时,所有帝国都会获得伤害加成."
+ infinity_stones_new_gauntlet.11.l:0 "无限财富"
+ gauntlet_option_twelve:1 "我们帝国的财富将变得无限!"
+ 
+ constructing_gauntlet:0 "制造§R无限手套§!"
+ constructing_gauntlet_desc:0 "制造§无限手套§!"
+ gauntlet_complete:0 "§R无限手套§!制造完成"
+ no_biological_growth_snap:0 "生物生命已被§R无限手套§消灭!"
+ purged_galaxy_snap:0 "成功清除星系."
+ gauntlet_end_hunger:0 "§R无限手套§已被用于消除饥饿!"
+ gauntlet_ethics_spiritualist:0 "§R无限手套§!已被用来启发我们!"
+ gauntlet_ethics_pacifist:0 "§R无限手套§已被用来安抚我们!"
+ gauntlet_ethics_xenophile:0 "§R无限手套§已被用来使我们成为亲外主义者!"
+ cripple_the_crisis:0 "危机削弱"
+ gauntlet_money:0 "无限财富"
+
+ # Power Stone Bombardment
+ bombardment_power_stone:0 "释放力量宝石"
+ bombardment_power_stone_desc:0 "利用力量宝石，我们彻底摧毁一颗行星的表面。 \n- §REXTREME§! damage to §YArmies§!\n- §REXTREME§! damage to §YPlanet§!\n- §REXTREME§! damage to §YPops§!\n- 轰炸没有保护的行星\n- 可能会使行星成为废土世界"
+
+ # Power Stone modifiers
+ power_stone:0 "$r_power_stone$"
+ power_stone_desc:0 "舰队现在可以使用§Y力量宝石毁灭能量§!轨道轰炸方式。"
+
+ # Power Stone Cb and War goals
+ casus_belli_cb_power_stone:0 "拒绝给予§Y力量宝石§!"
+ war_goal_wg_power_stone:0 "夺取§Y力量宝石§!"
+ war_goal_wg_power_stone_desc:0 "敌人拥有§Y力量宝石§!，我们必须把它夺过来。"
+
+ # Power Stone Wars Events
+ infinity_stones_war.1.name:0 "夺取§Y力量宝石§!"
+ infinity_stones_war.1.desc:0 "[From.From.GetName]被击败了，伟大的§E力量宝石§!是我们的了，看来只有强者才有资格拥有它。"
+ infinity_stones_war.1.a:0 "现在它是我们的了。"
+ infinity_stones_war.2.name:0 "失去§Y力量宝石§!"
+ infinity_stones_war.2.desc:0 "随着无数疯狂的外星暴徒冲入宝石存放室，§E力量宝石§!毫无悬念地成为了[From.GetAdj]的囊中之物。"
+ infinity_stones_war.2.a:0 "我他么还能说啥？"
+
+ # Time Stone modifiers
+ time_stone:0 "$r_time_stone$"
+ time_stone_desc:0 "使用§Y时间宝石§!可以让我们更快地建造巨型构造。"
+
+ # Time Stone Cb and War goals
+ casus_belli_cb_time_stone:0 "拒绝给予§Y时间宝石§!"
+ war_goal_wg_time_stone:0 "夺取§Y时间宝石§!"
+ war_goal_wg_time_stone_desc:0 "敌人拥有§Y时间宝石§!，我们必须把它夺过来。"
+
+ # Time Stone Wars Events
+ infinity_stones_war.3.name:0 "夺取§Y时间宝石§!"
+ infinity_stones_war.3.desc:0 "[From.From.GetName]被击败了，伟大的§E时间宝石§!是我们的了，看来只有强者才有资格拥有它。"
+ infinity_stones_war.3.a:0 "它现在是我们的了。"
+ infinity_stones_war.4.name:0 "失去§Y时间宝石§!"
+ infinity_stones_war.4.desc:0 "随着无数疯狂的外星暴徒冲入宝石存放室，§E时间宝石§!毫无悬念地成为了[From.GetAdj]的囊中之物。"
+ infinity_stones_war.4.a:0 "我他么还能说啥？"
+
+ # Time Stone Decsion
+ decision_planet_time_stone:0 "时间宝石加速"
+ decision_planet_time_stone_desc:1 "多玛姆，我是来谈条件的！"
+ planet_time_stone_boost:0 "时间宝石加速"
+ planet_time_stone_boost_desc:1 "这颗星球现在受到了时间宝石的加速效果"
+
+ # Reality Stone modifiers
+ reality_stone:0 "$r_reality_stone$"
+ reality_stone_desc:0 "使用§Y现实宝石§!可以让我们重塑我们的行星"
+
+ # Reality Stone Cb and War goals
+ casus_belli_cb_reality_stone:0 "拒绝给予§Y现实宝石§!"
+ war_goal_wg_reality_stone:0 "夺取§Y现实宝石§!"
+ war_goal_wg_reality_stone_desc:0 "敌人拥有§Y现实宝石§!，我们必须把它夺过来。"
+
+ # Reality Stone Wars Events
+ infinity_stones_war.5.name:0 "夺取§Y现实宝石§!"
+ infinity_stones_war.5.desc:0 "[From.From.GetName]被击败了，伟大的§E现实宝石§!是我们的了，看来只有强者才有资格拥有它。"
+ infinity_stones_war.5.a:0 "它现在是我们的了。"
+ infinity_stones_war.6.name:0 "失去§Y现实宝石§!"
+ infinity_stones_war.6.desc:0 "随着无数疯狂的外星暴徒冲入宝石存放室，§E现实宝石§!毫无悬念地成为了[From.GetAdj]的囊中之物。"
+ infinity_stones_war.6.a:0 "我他么还能说啥？"
+
+ # Reality Stone Decsions
+ decision_planet_reality_stone:0 "现实宝石地形塑造"
+ decision_planet_reality_stone_desc:1 "现实可以被塑造成任何我们想要的模样。"
+ decision_reality_stone:0 "将一颗星球转化为§E盖娅世界§!"
+
+ decision_planet_reality_stone_machine:0 "现实宝石地形塑造"
+ decision_planet_reality_stone_machine_desc:1 "现实可以被塑造成任何我们想要的模样。"
+ decision_reality_stone_machine:0 "将一颗星球转化为§E机械世界§!"
+
+ decision_planet_reality_stone_hive:0 "现实宝石地形塑造"
+ decision_planet_reality_stone_hive_desc:1 "现实可以被塑造成任何我们想要的模样。"
+ decision_reality_stone_hive:0 "将一颗星球转化为§E巢都世界§!"
+
+ decision_planet_reality_stone_city:0 "现实宝石地形塑造"
+ decision_planet_reality_stone_city_desc:1 "现实可以被塑造成任何我们想要的模样。"
+ decision_reality_stone_city:0 "将一颗星球转化为§E理想城§!"
+
+ planet_reality_stone_boost:0 "现实宝石地形塑造"
+ planet_reality_stone_boost_desc:1 "这颗星球的环境已经被§Y现实宝石§!净化了。"
+
+ # Soul Stone Modifiers
+ soul_stone:0 "$r_soul_stone$"
+ soul_stone_desc:0 "使用§Y灵魂宝石§!可以塑造人造灵魂。"
+
+ # Soul Stones Events
+ soul_stone.1.name:0 "灵魂融合"
+ soul_stone.1.desc:0 "现在我们能够将上古先贤们的灵魂融合并注入一个新的躯体，问题是，我们该用§Y灵魂塑造§!创造一个怎样的人？"
+ soul_stone.1.a:0 "我们需要一个总督"
+ soul_stone.1.b:0 "我们需要一个科学家"
+ soul_stone.1.c:0 "我们需要一个舰队统帅"
+ soul_stone.1.d:0 "我们需要一个陆军将领"
+ soul_stone.2.name:0 "激活失败"
+ soul_stone.2.desc:0 "我们对§Y灵魂宝石§!的使用出现问题，或许遗迹已经被毁了。"
+ soul_stone.2.mach:0 "错误代码404：未能找到灵魂"
+ soul_stone.2.hive:0 "蜂群并不存在独立灵魂"
+
+ # Soul Stones Traits
+ leader_trait_general_soulborn:0 "§H人造灵魂§!"
+ leader_trait_general_soulborn_desc:0 "这个领袖是通过融合伟大上古先贤们的灵魂而诞生的。"
+ leader_trait_governor_soulborn:0 "$leader_trait_general_soulborn$"
+ leader_trait_governor_soulborn_desc:0 "这个领袖是通过融合伟大上古先贤们的灵魂而诞生的。"
+ leader_trait_scientist_soulborn:0 "$leader_trait_general_soulborn$"
+ leader_trait_scientist_soulborn_desc:0 "这个领袖是通过融合伟大上古先贤们的灵魂而诞生的。"
+ leader_trait_admiral_soulborn:0 "$leader_trait_general_soulborn$"
+ leader_trait_admiral_soulborn_desc:0 "这个领袖是通过融合伟大上古先贤们的灵魂而诞生的。"
+ leader_trait_scientist_vormir_prodigy:0 "奇才"
+ leader_trait_scientist_vormir_prodigy_desc:0 "此人以前是大副，表现出了很高的才能,在他的爱人为我们奉献了灵魂石之后，他得到了一个更合适的位置."
+
+  # Soul Stone Cb and War goals
+ casus_belli_cb_soul_stone:0 "拒绝给予§Y灵魂宝石§!"
+ war_goal_wg_soul_stone:0 "夺取§Y灵魂宝石§!"
+ war_goal_wg_soul_stone_desc:0 "敌人拥有§Y灵魂宝石§!，我们必须把它夺过来。"
+
+ # Soul Stone Wars Events
+ infinity_stones_war.7.name:0 "Seizing the §Y灵魂宝石§!"
+ infinity_stones_war.7.desc:0 "[From.From.GetName]被击败了，伟大的§E灵魂宝石§!是我们的了，看来只有强者才有资格拥有它。"
+ infinity_stones_war.7.a:0 "它现在是我们的了。"
+ infinity_stones_war.8.name:0 "失去§Y灵魂宝石§!"
+ infinity_stones_war.8.desc:0 "随着无数疯狂的外星暴徒冲入宝石存放室，§E灵魂宝石§!毫无悬念地成为了[From.GetAdj]的囊中之物。"
+ infinity_stones_war.8.a:0 "我他么还能说啥？"
+
+ # Mind Stones Events
+ mind_stone.2.name:0 "激活失败"
+ mind_stone.2.desc:0 "我们对§Y心灵宝石§!的使用出现问题，或许遗迹已经被毁了。"
+ mind_stone.2.mach:0 "看来是我们的程序过于先进了！"
+ mind_stone.2.hive:0 "蜂群已经是一体的了。"
+ mind_stone.3.name:0 "§Y心灵宝石§!引发众怒"
+ mind_stone.3.desc:0 "当§Y心灵宝石§!的效果结束后，民众们震怒了，因为过去10年中他们的思维被政府完全控制了。整个帝国的民众都激烈抗议，要求§Y[Root.GetRulerTitle]§!下台。"
+ mind_stone.3.a:0 "一切都会过去的。"
+ mind_stone.3.b:0 "我许我们会再次使用它..."
+ mind_stone.3.a.tooltip:0 "§Y抵制心灵宝石§!效果添加：\n幸福度：§R-33%§!\n人口增长速度：§R-50%§!\n主流思潮吸引力：§R-1000%§!"
+
+ mind_stone.5.name:0 "§Y[Root.GetRulerTitle]§!之死"
+ mind_stone.5.desc:0 "§Y[Root.GetRulerTitle] [Root.GetRulerName]§! 被发现实施了自裁行为并且在抢救过程中死亡。尽管被怀疑是作秀，这件事还是一定程度地缓解了[Root.GetRulerName]使用心灵宝石操纵民众所引发的社会动荡。"
+ mind_stone.5.a:0 "或许这是最好的结果。"
+
+ mind_stone.6.name:0 "政治危机结束"
+ mind_stone.6.desc:0 "§Y[Root.GetRulerTitle] [Root.GetRulerName]§!成功地缓解了民众和政府之间因§Y心灵宝石§!一事所造成的紧张局势，代价是政府承诺给民众许多政治让步。"
+ mind_stone.6.a:0 "虽然不想期待的那样，但这也应该是最好的结果了。"
+
+ mind_stone.7.name:0 "政治危机结束"
+ mind_stone.7.desc:0 "尽管许多民众还因为§Y心灵宝石§!一事对政府怨声载道，但无论怎样§Y[Root.GetRulerTitle] [Root.GetRulerName]§!还是成功地让民众重新站在了政府这一边。"
+ mind_stone.7.a:0 "干得漂亮！"
+
+ mind_stone.8.name:0 "政治危机结束"
+ mind_stone.8.desc:0 "通过精妙的政治手段，§Y[Root.GetRulerTitle] [Root.GetRulerName]§!成功地平息了民众对于§Y心灵宝石§!一事的不满。"
+ mind_stone.8.a:0 "干得漂亮！"
+
+ # Mind Stone modifiers
+ mind_stone:0 "$r_mind_stone$"
+ mind_stone_desc:0 "所有帝国的民众的意识已经融为一体，他们无比快乐，同时也失去了自我和创造力。"
+ mind_stone_backlash:0 "抵制心灵宝石"
+ mind_stone_backlash_desc:0 "我们的民众因心灵控制一事十分不满。"
+ mind_stone_resolution_2:0 "政府让步"
+ mind_stone_resolution_2_desc:0 "不再使用心灵宝石"
+ mind_stone_resolution_3:0 "不灭的恶意"
+ mind_stone_resolution_3_desc:0 "一些人仍然对心灵宝石的事情无法释怀"
+
+ # Mind Stone Cb and War goals
+ casus_belli_cb_mind_stone:0 "拒绝给予§Y心灵宝石§!"
+ war_goal_wg_mind_stone:0 "夺取§Y心灵宝石§!"
+ war_goal_wg_mind_stone_desc:0 "敌人拥有§Y心灵宝石§!，我们必须把它夺过来。"
+
+ # Mind Stone Wars Events
+ infinity_stones_war.9.name:0 "夺取§Y心灵宝石§!"
+ infinity_stones_war.9.desc:0 "[From.From.GetName]被击败了，伟大的§E心灵宝石§!是我们的了，看来只有强者才有资格拥有它。"
+ infinity_stones_war.9.a:0 "它现在是我们的了。"
+ infinity_stones_war.10.name:0 "失去§Y心灵宝石§!"
+ infinity_stones_war.10.desc:0 "随着无数疯狂的外星暴徒冲入宝石存放室，§E心灵宝石§!毫无悬念地成为了[From.GetAdj]的囊中之物。"
+ infinity_stones_war.10.a:0 "我他么还能说啥？"
+
+ # Space Stone modifiers
+ space_stone:0 "$r_space_stone$"
+ space_stone_desc:0 "空间宝石给予我们瞬间穿越星海的能力。"
+
+ # Space Stone Cb and War goals
+ casus_belli_cb_space_stone:0 "拒绝给予§Y空间宝石§!"
+ war_goal_wg_space_stone:0 "夺取§Y空间宝石§!"
+ war_goal_wg_space_stone_desc:0 "敌人拥有§Y空间宝石§!，我们必须把它夺过来。"
+
+ # Space Stone Wars Events
+ infinity_stones_war.11.name:0 "夺取§Y空间宝石§!"
+ infinity_stones_war.11.desc:0 "[From.From.GetName]被击败了，伟大的§E空间宝石§!是我们的了，看来只有强者才有资格拥有它。"
+ infinity_stones_war.11.a:0 "它现在是我们的了。"
+ infinity_stones_war.12.name:0 "失去§Y空间宝石§!"
+ infinity_stones_war.12.desc:0 "随着无数疯狂的外星暴徒冲入宝石存放室，§E空间宝石§!毫无悬念地成为了[From.GetAdj]的囊中之物。"
+ infinity_stones_war.12.a:0 "我他么还能说啥？"
+
+ # Space Stone Tech
+ tech_space_stone_jump_drive_1:0 "无尽引擎"
+ tech_space_stone_jump_drive_1_desc:1 "通过对空间宝石所释放能量的研究，我们可以给舰队装备几乎能瞬间穿越星海的强力引擎。"
+ SPACE_STONE_JUMP_DRIVE_1:0 "无尽引擎"
+ SPACE_STONE_JUMP_DRIVE_1_DESC:1 "空间宝石能够打开一条超越现实的通路，给予我们瞬间穿越星系的力量。但是我们对这一切的原理仍然所知甚少。"
+
+ # Space Stone Events
+ space_stone.1.name:0 "空间宝石爆炸！"
+ space_stone.1.desc:0 "我们研究§Y空间宝石§!的实验室在一场事故中爆炸了。许多人受伤，然而我们测试§R无限引擎§!的飞行员却被宝石注入了某种强大的能量。\n\n我们的专家无法解释也无法再现这种神奇的现象。\n而那个飞行员，自称"§H惊奇队长§!"，她现在能够不受任何保护地在宇宙空间中飞行，拥有惊人的力量和抗击力，并能够吸收和释放强大的能量，她甚至不会再衰老。\n\n我们的军事顾问建议当前给她一支舰队指挥。"
+ space_stone.1.a:0 "盯紧了她"
+ space_stone_get_captain_marvel:1 "一个名为"§H惊奇队长§!"的海军统帅现在加入了领袖候选。"
+ space_stone.3.name:0 "无尽引擎"
+ space_stone.3.desc:0 "我们的付出终于有了成果，现在我们能够掌控§Y空间宝石§!了。全新的§R无限引擎§!允许我们通过§Y空间宝石§!打开空间通路而不受超空间航道的限制。"
+ space_stone.3.a:0 "不错的结果！"
+ space_stone.4.name:0 "空间宝石爆炸！"
+ space_stone.4.desc:0 "我们研究§Y空间宝石§!的实验室在一场事故中爆炸了。许多人受伤，然而我们测试§R无限引擎§!的飞行员却被宝石注入了某种强大的能量。\n\n我们的专家无法解释也无法再现这种神奇的现象。\n无人机现在可以在没有帮助的情况下在太空飞行，吸收和驱逐能量，具有超强的力量和耐久性，不再老化。我们决定暂时给他们一支舰队指挥。"
+ space_stone.4.a:0 "偏差将会被记录."
+
+ # Captain Marvel traits
+ leader_trait_admiral_space_stone_infused:0 "注入无限能量"
+ leader_trait_admiral_space_stone_infused_desc:0 "惊奇队长从空间宝石中吸收了大量能量，她现在能凭自己的意志吸收和释放能量。"
+ leader_trait_admiral_space_stone_stubborn:0 "无必固执"
+ leader_trait_admiral_space_stone_stubborn_desc:0 "惊奇队长是无比固执的，她只会按照自己的意志行事。"
+
+ # Thor traits
+ leader_trait_admiral_thor:0 "雷神锤的持有者"
+ leader_trait_admiral_thor_desc:0 "被锤子认可的人能够获得雷神之力的加持。"
+
+# Vision traits
+ leader_trait_vision:0 "幻视"
+ leader_trait_vision_desc:0 "虽然是一台无所不能的机器，在这个宇宙中他仍然需要学习许多东西。"
+
+ # opinions
+ triggered_opinion_power_stone:0 "力量宝石的拥有者"
+ triggered_opinion_time_stone:0 "时间宝石的拥有者"
+ triggered_opinion_reality_stone:0 "真实宝石的拥有者"
+ triggered_opinion_soul_stone:0 "灵魂宝石的拥有者"
+ triggered_opinion_mind_stone:0 "心灵宝石的拥有者"
+ triggered_opinion_space_stone:0 "空间宝石的拥有者"
+ triggered_opinion_power_stone_fallen:0 "力量宝石的拥有者"
+ triggered_opinion_time_stone_fallen:0 "时间宝石的拥有者"
+ triggered_opinion_reality_stone_fallen:0 "真实宝石的拥有者"
+ triggered_opinion_soul_stone_fallen:0 "灵魂宝石的拥有者"
+ triggered_opinion_mind_stone_fallen:0 "心灵宝石的拥有者"
+ triggered_opinion_space_stone_fallen:0 "空间宝石的拥有者"
+ triggered_opinion_infinity_gauntlet:0 "组装无限手套"
+ triggered_opinion_infinity_gauntlet:0 "建造无限手套"
+ triggered_opinion_mind_stone_active:0 "意見被心灵宝石操控"
+ opinion_infninity_war_non_aligned_league:0 "联盟击退了一个普通的威胁"
+ opinion_infninity_war_non_aligned_league_declined:0 ""
+ opinion_infninity_war_non_aligned_league_fe:0 "联盟是我们的敌人"
+ triggered_opinion_infinity_gauntlet_built:0 "使用的无限手套击退邪恶"
+ triggered_opinion_infinity_gauntlet_mild_evil:0 "使用无限手套来维持和平"
+ triggered_opinion_infinity_gauntlet_used_to_end_hunger:0 "使用无限手套来消除饥饿"
+ triggered_opinion_infinity_gauntlet_used_to_change_ethics_spiritualist:0 "使用无限手套来获得启发"
+ triggered_opinion_infinity_gauntlet_used_to_change_ethics_pacifist:0 "使用无限手套来获得和平"
+ triggered_opinion_infinity_gauntlet_used_to_change_ethics_xenophile:0 "使用无限手套来成为亲外"
+ 
+###############################################################################################################################################################################
+
+ # Scatter Stones Wars Events
+ infinity_stones_war.50.name:0 "分散的§Y无限宝石§!"
+ infinity_stones_war.50.desc:0 "The [From.From.GetName] has admitted defeat, and we have scattered the glorious §EInfinity Stone§! from their unworthy grasp!"
+ infinity_stones_war.50.a:0 "希望它的下一任持有者会更好..."
+ infinity_stones_war.51.name:0 "我们失去了§Y无限宝石§!"
+ infinity_stones_war.51.desc:0 "除了在交接过程中有许多人歇斯底里, 投降并把§E无限宝石§!交给[From.GetAdj]的部队是一个平淡无奇的事情."
+ infinity_stones_war.51.a:0 "我们会取回来的,很快.."
+
+ # Scatter Stones Cb and War goals
+ casus_belli_cb_scatter_stones:0 "拒绝给予§Y无限宝石§!"
+ war_goal_wg_scatter_stones:0 "分散他们的§Y无限宝石§!"
+ war_goal_wg_scatter_stones_desc:0 "他们拥有太多无限宝石,我们必须把它夺过来。"
+
+
+#####################################################################################################################################
+# Planet events and stuff
+
+# MORAG
+ morag.0.name:0 "奇怪的能量读数"
+ morag.0.desc:0 "§Y[Root.GetName]§!检测到了一个来自§H莫拉格§!的奇怪能量读数，这是一颗处于§HMR31V§!星系内的星球。远程扫描发现这颗星球被强大的能量摧毁了。§Y[Root.GetLeaderName]§!认为这件事情很值得调查。"
+ morag.0.a:0 "立刻派一艘船去。"
+
+ morag_site:0 "莫拉格挖掘场"
+ morag_relic_world_site_desc:0 "远程扫描发现这颗星球被强大的能量摧毁了。"
+
+ morag.1.name:0 "莫拉格挖掘场"
+ morag.1.desc:0 "看来我们的前期调查是正确的，莫拉格星的地表在一千年前被某种能量攻击毁灭了。现在这颗星球正在从废墟中复苏，它的表面到处是某种鼠类生物，而我们的调查队正在寻找信号源。"
+ morag.1.a:0 "继续调查"
+
+ morag.2.name:0 "莫拉格的毁灭"
+ morag.2.desc:0 "寻找信号源的过程比想象中的更加困难，因为这里到处都是难以涉足的废墟，不过最终我们的科学家们还是定位了它的位置。信号源所在区域残余能量读数极高，千年的岁月也没能是其完全消散。我们的科学家十分震惊，似乎仅仅是一次攻击就造成了几乎撕裂星球的破坏力。同时，星球的另一端检测到了类似的，但是较为弱小的能量信号，我们的队伍已经动身了。"
+ morag.2.a:0 "再加一把劲"
+
+ morag.3.name:0 "隐秘的神殿"
+ morag.3.desc:0 "在第二个信号的发射点，我们的队伍找到了一座神庙。这是这座星球上唯一保存完好的建筑，我们先前的轨道扫描曾经探测到这个地方。神庙的墙壁上镌刻着关于远古战争的记录，但是经过千年岁月的磨砺其中大部分内容已经难以辨析，我们的调查队正在全速扫描神庙的结构。"
+ morag.3.a:0 "发现兴趣点"
+
+ morag.4.name:0 "宇宙灵球"
+ morag.4.desc:0 "对神庙结构的扫描遇到了许多困难，这里满溢的能量强烈地干扰了我们的扫描仪。不过，我们最终还是找到了一些有价值的信息。一间处于神庙中心的房间中发现了一个展示台，上面安放着一个被某种力场保护的球体。我们无法找到力场的发射源，而且当前我们的装备也无法破坏力场，我们的调查队只能回到船上探讨对策。"
+ morag.4.a:0 "这肯定是个重要的球！"
+
+ morag.5.name:0 "力量宝石"
+ morag.5.desc:0 "使用特殊设备关闭力场后，我们得到了球体并将其送回飞船。过了一会，在§Y[Root.GetName]§!上，我们的调查队打开了球体并且发现了不得了的东西。是力量宝石，宇宙六大原石之一，上天赐予我们的礼物，调查队的科学家猜测就是这颗宝石毁灭了莫拉格。"
+ morag.5.a:0 "力量宝石在手，谁还能战胜我们？"
+
+# OTHER EARTH
+ other_earth.0.name:0 "第二个太阳系"
+ other_earth.0.desc:0 "我们的研究船§Y[Root.GetName]§!经过了一个与§H太阳系§!极其相似的星系。这个星系几乎是完全一样的，除了更加古老，它有一颗红巨星和几颗显然已经被殖民过的行星。而这些废弃殖民行星中最大的是§HSol-3§!，看起来很值得研究一番。"
+ other_earth.0.a:0 "非常有趣"
+
+ other_earth_site:0 "第二个太阳系"
+ other_earth_relic_world_site_desc:0 "§HSol-3§!也就是地球，上面存有几十万年前的文明遗迹。"
+
+ other_earth.1.name:0 "行星废墟"
+ other_earth.1.desc:0 "这颗被复制的§HSol-3§!，也就是§H地球§!，看起来在几十万年前经历过全球性的灭绝事件。它的大气极其稀薄，然而上面的大部分基础设施却保存完好。地方数据库中的信息显示地球的最后一次通信是来自于大约200年后的未来。此外，残留信息表明整个星系都经历了长达数十万年的时间错位，对这一切异象的研究项目正在展开。"
+ other_earth.1.a:0 "整个星系经历了时间旅行？荒唐"
+
+ other_earth.2.name:0 "副本地球的数据库"
+ other_earth.2.desc:0 "我们的专家在第二地球的数据库找到了重要信息，关于星球上生命被灭绝的原因有着许多互相冲突的解释。一些显示是因为歼灭者造成的§R毁灭之潮§!，一些显示是因为维度交错带来的被称作§R超越者§!的存在所为，另一些显示是由于被称作§R奥创§!的智械觉醒引发的革命所致，还有一些表明是由前三者共同促成。尽管记录这些未来事件可能有用，我们对这颗星球的灭亡原因并没有兴趣，因为它们都没能解释大规模时间位移产生的原因。"
+ other_earth.2.a:0 "继续探索！"
+
+ other_earth.3.name:0 "第二地球的残影"
+ other_earth.3.desc:0 "根据第二地球遗留的媒体信息，许多重要的事件都发生在一个被称作"美国"的群落，尤其是在其中被称作"纽约"和"华盛顿"的两个聚居点。尽管这些媒体信息被记录的时候第二地球的大陆结构发生了许多变化，我们还是用先进的算法跟踪地质运动历史并找到了"美国"的位置。\n不幸的是，在"美国"中有15个被称作"华盛顿"的聚居点，这会极大增加调查所需的时间。"
+ other_earth.3.a:0 "那就调查每一个聚居点！"
+
+ other_earth.4.name:0 "纽约"
+ other_earth.4.desc:0 "对15座华盛顿的调查毫无结果，但是对纽约的扫描却有意外收获。调查结果显示纽约曾发生过一场大战(至少对土著来说)，奇怪的能量脉冲满溢在这个区域，并且它们看起来是从战场的废墟中散发出来的。\n我们的调查队将立刻着手调查。"
+ other_earth.4.a:0 "或许我们能发现这场异变的原因"
+
+ other_earth.5.name:0 "时间宝石"
+ other_earth.5.desc:0 "在一个死者的身上我们发现了奇特的项链，它是这些奇特能量的源头。这个项链似乎破碎了，一块绿色的宝石显露了出来。我们小心地将它取出，看来它就是传说中的§Y时间宝石§!，六种宇宙原动力之一，能够操控时间的流动。看起来时间宝石就是导致第二太阳系发生时间位移的原因，但是具体的细节我们还未曾知晓。"
+ other_earth.5.a:0 "时间宝石在手，我们的传奇伟业将永垂不朽！"
+
+ # OTHER EARTH modifiers
+ future_earth_knowledge:0 "未来世界的知识"
+ future_earth_knowledge_desc:0 "来自未来世界的知识让我们能更好地面对宇宙中的威胁。"
+ future_earth_media:0 "未来世界媒体"
+ future_earth_media_desc:0 "我们的民众非常享受来自未来地球的媒体直播。"
+
+ # svartalfheim
+ svartalfheim.0.name:0 "黑暗世界"
+ svartalfheim.0.desc:0 "在§H玛勒基斯§!这个以黑洞为核心的星系有一颗行星，最令人诧异的是这颗行星上居然有文明存在的痕迹。没有恒星的情况下，很难有生命生活存在在这样的行星。"
+ svartalfheim.0.a:0 "很有调查的价值"
+
+ svartalfheim_site:0 "瓦特阿尔海姆挖掘地"
+ svartalfheim_relic_world_site_desc:0 "没有恒星的情况下，很难有生命生活存在在这样的行星。"
+
+ svartalfheim.1.name:0 "瓦特阿尔海姆的黑暗精灵"
+ svartalfheim.1.desc:0 "通过对行星上遗留的古书进行解读，我们的考古学家们破译了原住民的语言。这颗星球上的居民自称"§Y黑暗精灵§!"，而这颗星球则被称作§H瓦特阿尔海姆§!.\n尽管他们的文明看起来很原始，但黑暗精灵的科技却可以与我们匹敌，甚至有一些超越我们的地方。看起来是因为他们实际上是被另一群人流放于此的，然后他们重建了自己的文明。\n然而，这本书并没有解释黑暗精灵现在生存在何处。"
+ svartalfheim.1.a:0 "继续调查！"
+
+ svartalfheim.2.name:0 "空间裂缝"
+ svartalfheim.2.desc:0 "我们的科学家发现被称为§H瓦特阿尔海姆§!的星球上布满了空间裂缝，最初这被认为是由于过于靠近黑洞。这些裂缝看起来导向其他的星球，然而它们十分不稳定，只会存在数小时的时间。因为裂缝的不稳定性，对裂缝的调查充满了危险和不确定性，不过我们还是指派了一些人作为"志愿者"去裂缝里进行调查。"
+ svartalfheim.2.a:0 "让调查队赶快出发。"
+
+ svartalfheim.3.name:0 "黄金城"
+ svartalfheim.3.desc:0 "我们的调查队已经找出了§H瓦特阿尔海姆§!空间裂缝中最为稳定的一个，从我们到这颗星球开始，它就没有变化过。"志愿者"进入了裂缝并在另一边找到一座城市的遗址，一座漂浮在太空中的城市。这座城市看起来是由黄金建造的并被寒冰包裹着。\n这座城市的主人有着和黑暗精灵平分秋色的先进科技，不过太空中漂浮的遗体显示他们是完全不同的种族。\n调查队带回了许多黄金城的遗物以供进一步研究。"
+ svartalfheim.3.a:0 "WOC牛逼啊，一座黄金做的城市！"
+
+ svartalfheim.4.name:0 "九界"
+ svartalfheim.4.desc:0 "经过一番研究，我们发现§H瓦特阿尔海姆§!还连接着另外8个世界，而它们之间也互相通过空间裂缝连接着。每一个世界都有着类似§H瓦特阿尔海姆§!的生命体，不过每一个世界的生物都属于不同的文明，从漂浮在太空中的黄金城到布满火焰与硫黄的恶劣星球都有。\n然而很少有不通往另一个世界的空间裂缝出现，反而一个裂缝一旦出现必然会通往另一个世界，一个我们认知的现实之外的世界。我们现在正在研究下一个这样的裂缝会在什么时候出现。"
+ svartalfheim.4.a:0 "T派调查队去这9个世界看看！"
+
+ svartalfheim.5.name:0 "真实宝石"
+ svartalfheim.5.desc:0 "计算出下一个空间裂缝出现的时间和位置之后，"志愿者"们进入了那个神秘的世界。裂缝中的空间不断变化且不遵循物理规则的，而在裂缝的另一边则是奇特的黄色液态物质，它不断地溶解和扭曲着那边的世界。一位研究者尝试着触碰液体，然而他在接触液体的一瞬间就湮灭了，然而这之后液体却变成了§Y现实宝石§!6种宇宙源动力之一。我们的调查队将宝石带回了瓦特阿尔海姆.\n尽管通往另外8个世界的裂缝还在，但是得到现实宝石以后，那些世界便崩溃了。不过看起来空间裂缝本身与§Y现实宝石§!是无关的，因为我们拿到宝石以后空间裂缝依然存在。"
+ svartalfheim.5.a:0 "我们可以随意扭曲现实了。"
+
+ # Thor Events
+ svartalfheim.11.name:0 "神秘的锤子"
+ svartalfheim.11.desc:0 "我们在黄金城的遗址中发现了一个奇特的锤子，虽然看起来和普通的锤子一样，但是当某人试图拿起它的时候，它会立刻变得无比沉重。不过我们的机械和无人机倒是可以移动它，看来它的重力异常效果只会对活着的生命体产生反应。\n锤子的一面有一个简短的介绍写着："§M无论是谁得到了这把锤子，只要他被认可，就可以获得雷神的力量。§!""
+ svartalfheim.11.a:0 "我们必须找到能被认可的人"
+
+ svartalfheim.90.name:0 "天选之人"
+ svartalfheim.90.desc:0 "经过几天的调查，我们找到了一个能拿起雷神之锤的学者。当他举起锤子的那一刻，立刻就被能够操纵闪电的强大力量所折服。他变得无必强壮和敏捷，几乎没有东西能伤害到他，他甚至能毫无防护地暴露在太空中。\n §Y雷神之力§!也能给予它的持有者强大的智慧，自然地那位学者也展现出了他不曾有过的惊人见识。\n\n我们的军事顾问建议我们给他一支舰队来指挥。"
+ svartalfheim.90.a:0 "真是惊为天人！"
+ svartalfheim_get_thor:1 "一位名为"§H索尔§!"的舰队司令加入了我们的领袖池。"
+
+ svartalfheim.91.name:0 "有人值得"
+ svartalfheim.91.desc:0 "经过几天的调查，我们找到了一个能拿起雷神之锤的无人机,他们立刻被注入了闪电的力量,变得无必强壮和敏捷,甚至能毫无防护地暴露在太空中。\n§雷神之力§!也能给予它的持有者强大的智慧\n我们的军事顾问建议我们给他一支舰队来指挥。"
+ svartalfheim.91.a:0 "他们将使集体更强大。"
+
+ svartalfheim.100.name:0 "雷神之死"
+ svartalfheim.100.desc:0 "在托尔惨死后,他们力量的源泉,雷神之锤,以接近光速的速度飞入太空。我们的科学家无法追踪它的轨迹，并推测是锤子丢失了。"
+ svartalfheim.100.a:0 "它对我们很好."
+
+ svartalfheim.101.name:0 "雷神之锤"
+ svartalfheim.101.hadthor:0 "虽然我们的科学家已经放弃了寻找传奇的雷神之锤,但是它还是回到了我们身边.但是我们中有一位新人举起了§Y雷神之锤§!。凭借他们新获得的知识和力量，他们主动提出加入我们的军队，就像他们的前辈那样。"
+ svartalfheim.101.nothadthor:0 "我们的一艘商船差点儿撞上，我们发现一只奇特的锤子在太空中自由飞行。它看起来像一把普通的锤子，当有人试图把它举起来时，它突然变得无比沉重。\n\n一位科学家在研究它的特性时,当他举起锤子的那一刻，立刻就被能够操纵闪电的强大力量所折服。他变得无必强壮和敏捷，几乎没有东西能伤害到他，他甚至能毫无防护地暴露在太空中。\n §Y雷神之力§!也能给予它的持有者强大的智慧，自然地那位学者也展现出了他不曾有过的惊人见识。\n\n我们的军事顾问建议我们给他一支舰队来指挥。"
+ svartalfheim.101.a:0 "最令人印象深刻的。"
+ svartalfheim.101.b:0 "他们将使集体更强大。"
+ 
+ # Vormir
+ vormir.0.name:0 "异次元能量"
+ vormir.0.desc:0 "进入§HHelgentar§!星系后，我们的研究船从行星§H沃密尔§!捕捉到一个奇怪的灵能信号。"
+ vormir.0.a:0 "派一队人过去看看"
+
+ vormir_site:0 "沃密尔挖掘地"
+ vormir_relic_world_site_desc:0 "我们的研究船从行星§H沃密尔§!捕捉到一个奇怪的灵能灵能信号。"
+
+ vormir.1.name:0 "孤独的圣祠"
+ vormir.1.desc:0 "这颗星球唯一的建筑是一座伫立于山顶的神庙，它也是奇怪灵能信号的源头。我们的飞行器无法飞到那里，因为神秘的灵能力量干扰了舰船上的设备，于是我们的调查队决定从山脚开始徒步攀登。"
+ vormir.1.a:0 "这将是漫长的旅途"
+
+ vormir.2.name:0 "徘徊的幽灵"
+ vormir.2.desc:0 "在靠近山顶的地方，我们的队伍遇到了一个幽灵。幽灵与我们的队员们接触，并且说出了那些只有他们自己才知道的秘密。他说"我身上的诅咒就是知道到达此地之人的所有信息。" 幽灵解释道他是§Y灵魂宝石§!的守护者，二灵魂宝石是宇宙的六种源动力之一。这个幽灵活着的时候曾经努力寻找着无限宝石，结果是受到宝石的诅咒成为了此地的向导。当被问及宝石所在之处，他指向了一边的山崖，指出灵魂宝石需要献祭，一个灵魂换另一个灵魂。想要拿到宝石的人必须献祭自己所爱之人。"
+ vormir.2.a:0 "无论代价如何都要拿到！"
+
+ vormir.11.name:0 "艰难的选择"
+ vormir.11.desc:0 "§Y[Root.GetName]§!的船员陷入了进退两难的境地，船长绝不会允许与他同行的恋人为宝石献祭自己，而船长的恋人也绝不允许船长自我牺牲，但必须有一个人做出这个决定。"
+ vormir.11.a:0 "船长必须要做出选择，他是唯一合适的人选。"
+ vormir.11.b:0 "§Y[Root.GetLeaderName]§!太重要了，献祭他的恋人吧。"
+ soul_stone_get_prodigy:1 "具有§Y奇才§特质的科学家! 已经被加入领袖池中."
+
+
+ vormir.12.name:0 "灵魂宝石"
+ vormir.12.desc:0 "我们的科学家牺牲了自己，而我们也得到了§Y灵魂宝石§!。宝石能够让我们涉足§H灵魂世界§!，一个宝石内部的特殊空间，死者的安息之地。在那里我们可以与逝去的先贤交流，并获得他们的智慧。宝石也能够让死者的灵魂重归我们的世界，死亡将不再有任何意义。最重要的一点是，我们可以通过宝石塑造灵魂，通过融合伟大先贤的灵魂塑造一个全新的强大个体，也就是§M灵魂塑造§!。"
+ vormir.12.a:0 "死亡是最大的荣耀"
+
+ vormir.13.desc:0 "船长的恋人牺牲了自己，我们得到了§Y灵魂宝石§!。宝石能够让我们涉足§H灵魂世界§!，一个宝石内部的特殊空间，死者的安息之地。在那里我们可以与逝去的先贤交流，并获得他们的智慧。宝石也能够让死者的灵魂重归我们的世界，死亡将不再有任何意义。最重要的一点是，我们可以通过宝石塑造灵魂，通过融合伟大先贤的灵魂塑造一个全新的强大个体，也就是§M灵魂塑造§!。"
+
+ vormir.50.name:0 "灵魂宝石"
+ vormir.50.desc:0 "对于格式塔意识来说，爱是一个陌生的概念。所以我们从另一个世界捕捉了一对男女并威胁他们为另一半牺牲自己。最终女性主动跳下悬崖来保全男性的生命，而男性则得到了宝石，不过我们更倾向于让男性生物下去陪她。§Y灵魂宝石§!是我们的了，真是令人遗憾的爱。宝石看起来无法发挥它的全部力量，不过没关系，这正是我们收集无限宝石大业的一小部分。"
+ vormir.50.mach:0 "错误404：未能找到灵魂"
+ vormir.50.hive:0 "我是唯一，我是一切。我爱自己，我爱一切。"
+
+
+ # Akillian Events
+ akillian.0.name:0 "残破的战场"
+ akillian.0.desc:0 "进入§HAarch§!星系后，我们的科研船发现了一颗被战争摧毁的星球。看起来在§HAkillian§!这颗行星上没有活着的生物，然而我们的科学家§Y[Root.GetLeaderName]§!却非常渴望在这里一探究竟。"
+ akillian.0.a:0 "他们想探索就探索"
+
+ akillian_site:0 "Akillian挖掘地"
+ akillian_relic_world_site_desc:0 "这颗星球看起来是在一场智械与有机生物的战争中被毁灭的，根据数据分析这场战争破坏了星球的气候并使之进入冰川时代。"
+
+ akillian.1.name:0 "世界大战"
+ akillian.1.desc:0 "经过对行星表面遗留的远古数据库进行破解，我们发现§HAkillian§!上所有的电子设备都在几千年前被一场大火烧毁了，不过幸运的是在古书中还残留有关于那场远古世界大战的记录。\n经过了语言解析，我们发现为了结束与机器人的战争，这颗星球的居民引爆了一颗名为"§MMetaFux§!"的超级炸弹。这件武器产生了席卷整个星球的电脉冲暴，尽管摧毁了智械，它也扰动了星球的磁极并改变了星球的轨道倾角。结果就是星球进入了冰川时代，而星球上的生命因此灭绝。\n我们在北半球的森林中再次接收到了奇怪的能量读数，或许这是§MMetaFux§!残余的能量？"
+ akillian.1.a:0 "展开调查"
+
+ akillian.2.name:0 "最后的智械"
+ akillian.2.desc:0 "森林中并没有灭世兵器的残骸，但我们却发现了一个机器人。这个机器人仍然在运行并且非常渴望交流。"
+ akillian.2.a:0 "接收图像"
+
+ akillian.5.name:0 "幻视"
+ akillian.5.a.desc:0 "你们好，有机生物，\n\n我敢说你们肯定很好奇为何我会在这里，我一直在等待着你们来到这里给我一个答案。\n\n我被创造的目的就是建立人与智械的沟通桥梁，然而我还没开始行动的时候他们就互相毁灭了对方。从那以后我便一直在思考，而我一直有一个疑惑：\n\n我算是生命么？"
+ akillian.5.mach.desc:0 "你们好，智械同胞，\n\n我敢说你们肯定很好奇为何我会在这里，我一直在等待着你们来到这里给我一个答案。\n\n我被创造的目的就是建立人与智械的沟通桥梁，然而我还没开始行动的时候他们就互相毁灭了对方。从那以后我便一直在思考，而我一直有一个疑惑：\n\n我算是生命么？"
+ akillian.5.phil:0 "所有能认知世界的存在都是活着的。" #join
+ akillian.5.phob:0 "你或许觉得自己活着，但你永远不会成为真正的生命。" #suicide
+ akillian.5.spir:0 "你能够觉得自己活着这件事本身就是极大的亵渎。" #suicide
+ akillian.5.mate:0 "如果你觉得自己活着，那你就是。" #join
+ akillian.5.egal:0 "无论智械还是有机体，都是一样平等的生命。" #join
+ akillian.5.auth:0 "你的生命毫无意义，成为我们的奴仆或者去死。" #suicide
+ akillian.5.mili:0 "*摧毁这个机器*" #gets fucking shot
+ akillian.5.paci:0 "那并不重要，重要的是你将如何赋予生命意义。" #join
+ akillian.5.mach:0 "生与死对于机器来说并没有意义。" #suicide
+ akillian.5.hive:0 "生与死并无意义，唯有主宰永垂不朽。" #suicide
+
+akillian.6.name:0 "心灵宝石"
+akillian.6.desc:0 "机器人点了点头并把手放在自己的额头上取下了一块宝石。它将宝石交给我们，看起来这就是§Y心灵宝石§!，然后它就随我们上了船。"
+akillian.6.a:0 "我们将解放§Y心灵宝石§!真正而力量。"
+ akillian_get_vision:1 "一个名为"§H幻视§!"的科学家加入了我们的领袖池。"
+
+akillian.7.desc:0 "机器人点了点头并把手放在自己的额头上取下了一块宝石。它将宝石交给我们，看起来这就是§Y心灵宝石§!，而后机器人的眼睛失去了光芒，它的双臂也无力地垂下。看来它通过短路自我了结了。"
+
+akillian.8.desc:0 "伴随着船员手中枪械的猛烈射击，机器人如同风中摇曳的人偶一般被撕成碎片，在它残破的遗骸中我们找到了一件神器，§Y心灵宝石§!。"
+
+# Hala
+ hala.0.name:0 "古老的帝都"
+ hala.0.desc:0 "进入§HPama§!星系后，§Y[Root.GetName]§!在行星§H哈拉§!上发现了一座建筑。我们的传感器并没有发现活着的生物，整个星球的表面已经被改造成一座巨大的城市。"
+ hala.0.a:0 "难道是远古文明？"
+
+ hala_site:0 "哈拉挖掘地"
+ hala_relic_world_site_desc:0 "星球表面上布满了已经灭亡的远古文明废墟"
+
+ hala.1.name:0 "克里-拉之城"
+ hala.1.desc:0 "登陆行星表面后，我们很快就破译了远古文明的语言。曾经生活在这里的居民称这座横亘星球表面的巨城为"§H克里-拉§!"，而他们自称§Y克里人§!。\n\n克里人是一群好战的种族主义者，他们曾经统领一个无比巨大的星际帝国。克里人相信自己已经达到了进化的终点，和他们相比其他种族与野生动物无异。他们曾经试图统领整个银河，不过并没有成功。"
+ hala.1.a:0 "继续调查！"
+
+ hala.2.name:0 "克里科技"
+ hala.2.desc:0 "克里人历经千年，击败了所有敌人，让他们成为银河系最强大的势力，而他们的科技看起来也是被他们所掠夺的异族科技融合的结晶。\n\n§H克里-拉§!之城已经完全没有任何智慧生物存在的迹象，除了植物与原始的昆虫。整颗星球都没有高等动物，即使到现在也是如此。在文明灭亡前夕，克里人的历史纪录也变得十分混乱，如同疯子的呓语一般。"
+ hala.2.a:0 "真是不幸，把能拿的都拿走！"
+
+ hala.3.name:0 "克里大军"
+ hala.3.desc:0 "克里人拥有两支武装力量：§Y指控者军团§!和§Y星光部队§!.\n§Y指控者军团§!是克里人主要的军队，包括陆军和海军，他们穿越星海与克里人的敌人战斗。\n§Y星光部队§!则是精英特战部队，专门处理军队无法处理的事情。在克里人灭绝前夕能找到的唯一有意义的记录来自§Y星光部队§!，他们尝试与克里帝国的母星联系，然而他们的通信似乎被有意中断了。"
+ hala.3.a:0 "有趣的发现"
+
+ hala.4.name:0 "至高智慧"
+ hala.4.desc:0 "克里帝国被一个强大AI所统治，这个AI是历代克里伟人的灵魂共同融合而成的。克里人十分崇拜至高智慧，甚至把它当成神一般崇拜，尽管他们自认为比所谓的神更加高等。在克里帝国毁灭前，§Y至高智慧§!至少统治了克里人近千年的时间。\n\n我们的研究员找到并打开了至高智慧曾经的容器，却发现它已经被摧毁了。不过，我们似乎可以窥探到一些克里帝国灭亡的蛛丝马迹。"
+ hala.4.a:0 "检测一下它的记忆体，看看能找到些什么。"
+
+ hala.5.name:0 "空间宝石"
+ hala.5.desc:0 "通过解码§Y至高智慧§!的数据库，我们找到了克里人灭亡的真相。\n\n克里人与另一个被称作§G斯库鲁§!的种族之间爆发了残酷的战争。尽管克里人获得了最终的胜利，但是毁灭性的战争和斯库鲁人的拟态特性却给克里人的文化烙下了深刻的伤痕。斯库鲁人拥有拟态其他生物的特殊能力，因此无论在战争中还是战争后他们都给克里人造成了很大的麻烦。尽管后来斯库鲁人在克里人的猎杀行动下慢慢地灭绝了，克里人也在同时逐渐丧失了对一切事物的信任，他们变得多疑且神经质，觉得一切都有可能是斯库鲁人伪装的。起初，克里人灭绝了克里帝国中所有的野生动物，紧接着他们开始残杀自己的同类。在指控者军团尝试恢复社会秩序之前，大约90%的克里人死于大清洗。不过逐渐地，克里人发现这一切都是按照至高智慧的计划进行的。\n\n至高智慧试图促进克里人的进化以完成文明的再一次升华，弱者被抹掉，强者则幸存下来，为此它不断地向人们灌输着斯库鲁人的残党依然渗透在人群之中的想法。当指控者军团发现这些秘密后，他们内部产生了分歧。一部分拥护至高智慧，但另外一些人无法眼睁睁地看着同胞被残杀。然而反抗至高智慧的克里人被拥护至高智慧的克里人视为斯库鲁残党，他们互相战斗直至克里文明灭亡。\n\n这场内战最终摧毁了至高智慧，剩余的忠于至高智慧的克里人则自我了断了。我们不清楚残存的克里人去向何方，我们只知道此后几千年内他们与自己的文明一起成为了历史的尘埃。\n\n一段不甚完整的信息向我们揭示了克里人成为银河霸主的原因：他们有一颗无限宝石，也就是§H空间宝石§!。克里人利用空间宝石研发了"§R无限引擎§!"，它能让星舰瞬间穿越星空。"
+ hala.5.a:0 "是时候建造我们的§R无限引擎§!了！"
+
+# Maintenance Events
+ ig_maintenance.3.name:0 "[LastKilledCountryName]的幸存者"
+ ig_maintenance.3.desc:0 "§H[LastKilledCountryName]§!被毁灭以后，一群幸存者找到了我们，如果我们允许他们安全通过我们的国土的话，他们就会给予我们§Y力量宝石§!."
+ ig_maintenance.3.a:0 "允许他们通过，我们必须获得§Y力量宝石§!."
+
+ ig_maintenance.6.name:0 "[LastKilledCountryName]的幸存者"
+ ig_maintenance.6.desc:0 "§H[LastKilledCountryName]§!被毁灭以后，一群幸存者找到了我们，如果我们允许他们安全通过我们的国土的话，他们就会给予我们§Y时间宝石§!。"
+ ig_maintenance.6.a:0 "允许他们通过，我们必须获得§Y时间宝石§!."
+
+ ig_maintenance.9.name:0 "[LastKilledCountryName]的幸存者"
+ ig_maintenance.9.desc:0 "§H[LastKilledCountryName]§!被毁灭以后，一群幸存者找到了我们，如果我们允许他们安全通过我们的国土的话，他们就会给予我们§Y现实宝石§!。"
+ ig_maintenance.9.a:0 "允许他们通过，我们必须获得§Y现实宝石§!."
+
+ ig_maintenance.12.name:0 "[LastKilledCountryName]的幸存者"
+ ig_maintenance.12.desc:0 "§H[LastKilledCountryName]§!被毁灭以后，一群幸存者找到了我们，如果我们允许他们安全通过我们的国土的话，他们就会给予我们§Y灵魂宝石§!。"
+ ig_maintenance.12.a:0 "允许他们通过，我们必须获得§Y灵魂宝石§!."
+
+ ig_maintenance.15.name:0 "[LastKilledCountryName]的幸存者"
+ ig_maintenance.15.desc:0 "§H[LastKilledCountryName]§!被毁灭以后，一群幸存者找到了我们，如果我们允许他们安全通过我们的国土的话，他们就会给予我们§Y心灵宝石§!。"
+ ig_maintenance.15.a:0 "允许他们通过，我们必须获得§Y心灵宝石§!."
+
+ ig_maintenance.18.name:0 "骗术大师"
+ ig_maintenance.18.desc:0 "一个叫洛基的人找到我们，他将献上§Y空间宝石§!，也就是§H[LastKilledCountryName]§!被毁灭以前所拥有的那颗无限宝石。他希望我们接受宝石，并且用它给别人创造尽可能多的麻烦。"
+ ig_maintenance.18.a:0 "无论如何，无限宝石是我们的了。"
+
+ stone_lost:0 "失去一颗无限宝石"
+ stone_lost_desc:0 "我们的大意让我们失去了银河系中最强大的神器之一。"
+ 
+ ig_maintenance.25.name:0 "人造灵魂的死亡"
+ ig_maintenance.25.desc:0 "在我们丢失§Y灵魂宝石§!之后,我们断开了与§H灵魂世界§!.几天之后§M人造灵魂§!慢慢的死去,大概是回到了他们原来的地方."
+ ig_maintenance.25.a:0 "巨大的损失."
+
+# Power Stone Subject Remove
+ig_maintenance.52.name:0 "失去§Y力量宝石§!！"
+ig_maintenance.52.desc:0 "我们的帝国被附庸一事导致了社会剧变，看起来§Y力量宝石§!也在这场动荡中遗失了。我们派人到处去找它，但是大部分都无功而返。"
+ig_maintenance.52.a:0 "令人遗憾的惨重损失"
+ig_maintenance.53.name:0 "神秘的卖家"
+ig_maintenance.53.desc:0 "一个鬼祟的家伙带着一笔重要的买卖来到了我们的领袖面漆那。只要我们能付出£consumer_goods£ §Y$consumer_goods$§!，他就会给予我们§Y力量宝石§!。如果我们拒绝，他恐怕就会去找其他买家。"
+ig_maintenance.53.a:0 "只能如此"
+bought_power_stone:0 "买下§Y力量宝石§!"
+bought_power_stone_desc:0 "一切都是有代价的"
+
+# Time Stone Subject Remove
+ig_maintenance.55.name:0 "失去§Y时间宝石§!！"
+ig_maintenance.55.desc:0 "我们的帝国被附庸一事导致了社会剧变，看起来§Y时间宝石§!也在这场动荡中遗失了。我们派人到处去找它，但是大部分都无功而返。"
+ig_maintenance.55.a:0 "令人遗憾的惨重损失"
+ig_maintenance.56.name:0 "独眼巨像"
+ig_maintenance.56.desc:0 "一个奇怪的岩石生物带着某件物品来到了我们面前，只要我们能付出£unity£ §Y$unity$§!它就会给予我们§Y时间宝石§!！"
+ig_maintenance.56.a:0 "别无选择"
+bought_time_stone:0 "买下§Y时间宝石§!"
+bought_time_stone_desc:0 "一切都是有代价的"
+
+# Reality Stone Subject Remove
+ig_maintenance.58.name:0 "失去§Y现实宝石§!！"
+ig_maintenance.58.desc:0 "我们的帝国被附庸一事导致了社会剧变，看起来§Y现实宝石§!也在这场动荡中遗失了。我们派人到处去找它，但是大部分都无功而返。"
+ig_maintenance.58.a:0 "令人遗憾的惨重损失"
+ig_maintenance.59.name:0 "大收藏家"
+ig_maintenance.59.desc:0 "一个稀有文物收藏家看起来得到了§Y现实宝石§!，不过由于太多人为了抢夺宝石而试图谋杀他，他决定将宝石以"低价"卖给我们。"
+ig_maintenance.59.a:0 "他想要什么，就给他什么！"
+bought_reality_stone:0 "买下§Y现实宝石§!"
+bought_reality_stone_desc:0 "一切都是有代价的"
+
+# Soul Stone Subject Remove
+ig_maintenance.61.name:0 "失去§Y灵魂宝石§!！"
+ig_maintenance.61.desc:0 "我们的帝国被附庸一事导致了社会剧变，看起来§Y灵魂宝石§!也在这场动荡中遗失了。我们派人到处去找它，但是大部分都无功而返。"
+ig_maintenance.61.a:0 "令人遗憾的惨重损失"
+ig_maintenance.62.name:0 "诡异的幽灵"
+ig_maintenance.62.desc:0 "一个诡异的幽灵出现在§Y[Root.GetRulerTitle] [Root.GetRulerName]§!的梦境中，它的手中持有§Y灵魂宝石§!。当§Y[Root.GetRulerName]§!惊醒之时，§Y灵魂宝石§!竟然真的出现在他眼前。"
+ig_maintenance.62.a:0 "得来全不费工夫"
+
+# Mind Stone Subject Remove
+ig_maintenance.64.name:0 "失去§Y心灵宝石§!！"
+ig_maintenance.64.desc:0 "我们的帝国被附庸一事导致了社会剧变，看起来§Y心灵宝石§!也在这场动荡中遗失了。我们派人到处去找它，但是大部分都无功而返。"
+ig_maintenance.64.a:0 "令人遗憾的惨重损失"
+ig_maintenance.65.name:0 "欺诈者洛基"
+ig_maintenance.65.desc:0 "近卫军抓住了一名自称骗术大师的盗贼，他用某种奇特的方法"说服"别人给他带来利益。看起来不只是说服这么简单，我们从他的权杖中找到了§Y心灵宝石§!，不过可惜的是那个小贼趁着夜色逃跑了。"
+ig_maintenance.65.a:0 "真是有趣的结果"
+
+# Space Stone Subject Remove
+ig_maintenance.67.name:0 "失去§Y空间宝石§!！"
+ig_maintenance.67.desc:0 "我们的帝国被附庸一事导致了社会剧变，看起来§Y空间宝石§!也在这场动荡中遗失了。我们派人到处去找它，但是大部分都无功而返。"
+ig_maintenance.67.a:0 "令人遗憾的惨重损失"
+ig_maintenance.68.name:0 "舰毁人亡"
+ig_maintenance.68.desc:0 "一艘从§H[Root.Capital.GetName]§!出发的运输船在进行FTL时撞上了什么东西。在船只的残骸中，我们发现了§Y空间宝石§!。看起来就在运输船即将进入超空间的几微秒前，空间宝石把自己传送到了它的正前方。"
+ig_maintenance.68.a:0 "真是邪门了"
+
+##################################################################################################################
+
+  # infinity gauntlet
+ infinity_gauntlet.1.name:0 "无限手套"
+ infinity_gauntlet.1.desc:0 "既然我们已经得到了两块§Y无限宝石§!，或许我们可以让它们一起发挥作用。我们的科学家与工匠们用最强的合金制造了一个§R无限手套§!，它能够融合多块§Y无限宝石§!的力量发挥意想不到的作用。"
+ infinity_gauntlet.1.a:0 "很好的开始"
+
+ infinity_gauntlet.3.name:0 "封存无限手套"
+ infinity_gauntlet.3.desc:0 "如果没有多块§Y无限宝石§!，那么§R无限手套§!也就没什么用处了。"
+ infinity_gauntlet.3.a:0 "我们会把宝石都夺过来的。"
+
+ infinity_war_events.1.name:0 "§M无限战争§!"
+ infinity_war_events.1.desc:0 "§H[gauntlet_holder.GetName]§!已经设法集齐了6块无限宝石并且试图用它们来做一件大事。鉴于宝石自身强大的破坏力，这绝不会是一件与我们无关的小事。\n现在银河系中到处都是有人要建立联盟对抗§H[gauntlet_holder.GetName]§!的传言，看起来大多数文明都不愿眼睁睁地看着他完成"§Y无限手套§!"。"
+ infinity_war_events.1.a:0 "§H[gauntlet_holder.GetName]§!的邪恶计划必须被阻止。"
+
+ infinity_gauntlet.49.name:0 "建造无限手套"
+ infinity_gauntlet.49.desc:0 "我们已经开始着手建造§R无限手套§!了，它的组装地点就在我们的母星§H[Root.Capital.GetName]§!，无论如何都不能让别人阻挠我们的计划。"
+ infinity_gauntlet.49.a:0 "很快，我们就要为银河系带来新的平衡和秩序！"
+
+ infinity_gauntlet.51.name:0 "手套建造完成"
+ infinity_gauntlet.51.desc:0 "我们已经造好了§R无限手套§!，它现在就被安置在§H[Root.Capital.GetName]§!，现在我们要开始将6块无限宝石融入手套的复杂工程了，如果有一点差错，手套本身乃至§Y无限宝石§!就可能被毁掉。"
+ infinity_gauntlet.51.a:0 "我们的大业即将完成！"
+
+ infinity_gauntlet_construction_site:0 "无限手套锻造地"
+ infinity_gauntlet_construction_site_desc:1 "无限手套的组装工作正在此处进行着。"
+
+
+
+ infinity_gauntlet.53.name:0 "装入§R力量宝石§!"
+ infinity_gauntlet.53.desc:0 "经过近一年的努力，我们终于成功地将§R力量宝石§!装入了§H无限手套§!。"
+ infinity_gauntlet.53.a:0 "我们手中握有了不卸之力！"
+
+ infinity_gauntlet.55.name:0 "装入§M空间宝石§!"
+ infinity_gauntlet.55.desc:0 "我们已经将第二颗宝石装入了§H无限手套§!，也就是§M空间宝石§!。"
+ infinity_gauntlet.55.a:0 "空间与维度将以我们的意志改变！"
+
+ infinity_gauntlet.57.name:0 "装入§Y现实宝石§!"
+ infinity_gauntlet.57.desc:0 "§Y现实宝石§!是第三颗装入§H无限手套§!的宝石。"
+ infinity_gauntlet.57.a:0 "我们怎么想，现实就怎么变！"
+
+ infinity_gauntlet.59.name:0 "装入§G灵魂宝石§!"
+ infinity_gauntlet.59.desc:0 "§H无限手套§!中已经融入了第四颗宝石，也就是§G灵魂宝石§!。"
+ infinity_gauntlet.59.a:0 "一场永恒的交易！"
+
+ infinity_gauntlet.61.name:0 "装入§S时间宝石§!"
+ infinity_gauntlet.61.desc:0 "§S时间宝石§!是倒数第二颗被装入§H无限手套§!的宝石。"
+ infinity_gauntlet.61.a:0 "现在四维时空都随我们的意志而存在了。"
+
+ infinity_gauntlet.63.name:0 "装入§B心灵宝石§!"
+ infinity_gauntlet.63.desc:0 "随着§B心灵宝石§!被装入，§H无限手套§!最终也被完成了。"
+ infinity_gauntlet.63.a:0 "大业已成！"
+
+ infinity_gauntlet.65.name:0 "完成§H无限手套§!"
+ infinity_gauntlet.65.desc:0 "随着§H无限手套§!的完成，是时候进行我们伟大计划的最后一步了，仅凭借一个响指就能为银河系带来新的平衡！\n(再次激活§R无限手套§!遗珍将会立刻抹去银河系一半的生灵。)"
+ infinity_gauntlet.65.a:0 "§R时候到了！§!"
+
+###########################################################################################
+
+#GAUNTLET OUTCOMES
+
+ infinity_gauntlet.66.name:0 "打响指"
+ infinity_gauntlet.66.desc:0 "随着一声轻响, §Y[Root.GetRulerTitle] [Root.GetRulerName]§!使用了§R无限手套§!. 这无限无限宝石的威力对于他们来说实在是太大了，无法承受变成了灰,同时摧毁了手套和无限宝石。"
+ infinity_gauntlet.66.a:0 "但是...."
+
+ infinity_gauntlet.99.name:0 "打响指"
+ infinity_gauntlet.99.desc:0 "如今，银河系中一半的生命都化为灰烬。在这场毁灭性事件中，植物，动物和人类都消失了。 许多人怀疑这是§Y[From.GetName]§!使用了§R无限手套§!,并希望从他们那里夺取手套来恢复原样。"
+ infinity_gauntlet.99.a:0 "完美平衡，因为所有事物都应该..."
+
+ infinity_gauntlet.67.name:0 "清算"
+
+ infinity_gauntlet.151.name:0 "清算"
+
+ infinity_gauntlet.152.name:0 "清算"
+ infinity_gauntlet.152.desc:0 "今天，我们实现了我们的目标，在我们境外的一半生命瞬间消失了。其他帝国会对于我们使用§R无限手套§!会感到非常震惊与害怕, 如果没有无限宝石保护我们, 他们会前来复仇."
+ infinity_gauntlet.152.a:0 "一切都应该做到的完美平衡"
+
+ infinity_gauntlet.68.name:0 "警告"
+ infinity_gauntlet.68.desc:0 "现在是时候结束这个银河系的小规模战争了. §Y[Root.GetRulerTitle] [Root.GetRulerName]§!使用了§R无限手套§!作为一种最终的武力展示，向银河系中的所有帝国发出警告，停止战争或面对无限手套的力量。\n\n所有六个无限宝石的力量一起把[Root.GetRulerTitle]逼近了一种紧张的状态, 但是他们可能还没恢复过来. 手套本身已损坏，但可以修复，但是，自警告以来，我们无法找到其中一个§H无限无限宝石§!."
+ infinity_gauntlet.68.a:0 "愿他们都听我们的警告."
+
+ infinity_gauntlet.154.name:0 "警告"
+ infinity_gauntlet.154.desc:0 "今天, 该银河系中§Y10%§!的生命都化为灰烬。在这场毁灭性事件中，植物，动物和人类都消失了。\n\n§Y[From.GetName]§!说他们使用了§R无限手套§!,这么做是对银河系所有人的警告，放下他们的武器，和平生活。"
+ infinity_gauntlet.154.a:0 "他们是一支不可忽视的力量."
+
+ infinity_gauntlet.69.name:0 "重头来过"
+ infinity_gauntlet.69.desc:0 "我们一次又一次地证明,这个星系的当前居民的未来是不能相信的. 现在是时候把事情交给我们自己了。\n\n§Y[Root.GetRulerTitle] [Root.GetRulerName]§!使用了§R无限手套§!给了此星系重新开始的机会。 希望这将给这个星系一个赎罪的机会。\n\n所有六块无限宝头的力量合在一起可以胜任这项任务，但是所需的力量是如此之大，除了一块无限宝石之外，所有的无限宝石都破碎了，剩下的无限宝石不久之后就消失了。"
+ infinity_gauntlet.69.a:0 "银河的新时代！"
+
+ infinity_gauntlet.156.name:0 "重头来过"
+ infinity_gauntlet.156.desc:0 "今天,该银河系中§Y90%§!的生命都化为灰烬。在这场毁灭性事件中，植物，动物和人类都消失了。\n死亡如此之多，该星系现在开始缓慢下降为混乱，因为那些幸存下来的人寻找他们永远找不到的答案。"
+ infinity_gauntlet.156.a:0 "该星系将永远无法恢复."
+ infinity_gauntlet.156.b:0 "新的曙光开始."
+
+ infinity_gauntlet.70.name:0 "抹除"
+ infinity_gauntlet.70.desc:0 "现在是时候清除银河系下所有次等生命了.n\n§Y[Root.GetRulerTitle] [Root.GetRulerName]§!使用了§R无限手套§!清除居住在其中的次等星系, 只留下渴望获得回报的星系。\n\n所有六块无限宝头的力量合在一起可以胜任这项任务，但是，所需的力量是如此之大，所有的无限宝石都破碎了，发出了一阵能量，杀死了[Root.GetRulerTitle]和其他许多东西。"
+ infinity_gauntlet.70.a:0 "[Root.Owner.GetSpeciesNamePlural]至高无上!"
+ infinity_gauntlet.70.b:0 "机器至高无上！"
+
+ infinity_gauntlet.160.name:0 "抹除"
+ infinity_gauntlet.160.desc:0 "今天,银河系中的所有生物都化为灰烬。§Y[From.GetName]§!使用了§R无限手套§!为了达到最终目标，现在机器寿命占据着银河系的主导地位。"
+ infinity_gauntlet.160.a:0 "现在是钢铁时代。"
+
+ infinity_gauntlet.71.name:0 "摧毁敌人"
+ infinity_gauntlet.71.desc:0 "在战争时期，人们必须竭尽所能取得胜利。 在我们做完一切之后，星系中的其他人可能会向我们警告，但我们要为生存而做我们必须做的事情。\n\n§Y[Root.GetRulerTitle] [Root.GetRulerName]§!使用了§R无限手套§!消灭我们的敌人。轻轻一响，他们的世界变成了灰烬。\n\n这无限无限宝石的威力对于他们来说实在是太大了，无法承受变成了灰,同时摧毁了手套和无限宝石。"
+ infinity_gauntlet.71.a:0 "§Y[From.GetName]§!今天不会倒下!"
+
+ infinity_gauntlet.162.name:0 "不存在在星系"
+ infinity_gauntlet.162.desc:0 "§Y[From.GetName]§!使用了§R无限手套§!从存在抹除敌人。不管是不是，湮没有着正当理由，很明显，他们将会为所发生的事情承担后果."
+ infinity_gauntlet.162.a:0 "他们逃不掉的!"
+ infinity_gauntlet.162.b:0 "我们做了我们必须做的."
+
+ infinity_gauntlet.163.name:0 "结束饥饿"
+ infinity_gauntlet.163.desc:0 "所有的生命，不论起源，都有一个基本的愿望，那就是生存。然而，随着越来越多的人出生在银河系，资源不得不在更多的生命之间传播, 但是今天一切终将结束. \n\n§Y[Root.GetRulerTitle] [Root.GetRulerName]§!使用了§R无限手套§!改变我们所知道的生活。所有拥有思想的生命不再需要食物、水、矿物或能量来生存。他们的手指一弹，数十亿人的痛苦就结束了。\n\n这无限无限宝石的威力对于[Root.GetRulerTitle]实在是太大了, 无法承受变成了灰,同时摧毁了手套.当一个响指过后,§Y无限宝石§!已经散落在房间里，但是我们已经无法找到第块六石..."
+ infinity_gauntlet.163.a:0 "今天所有的苦难都结束了!"
+
+ infinity_gauntlet.165.name:0 "结束饥饿"
+ infinity_gauntlet.165.desc:0 "§Y[From.GetName]§!使用了§R无限手套§!结束整个银河系的饥饿。许多人希望这将结束银河系的冲突，带来一个和平的新时代，但许多人怀疑这实际上会改变什么。"
+ infinity_gauntlet.165.a:0 "对所有人来说都是美好的一天。"
+
+ infinity_gauntlet.166.name:0 "启蒙运动"
+ infinity_gauntlet.166.desc:0 "是时候让银河系的异教徒们尊重全能的神圣力量了。\n\n§Y[Root.GetRulerTitle] [Root.GetRulerName]§!使用了§R无限手套§!改变那些不信教的人的思想，启发他们认识宇宙的普遍真理。现在，银河系的公民们来到我们这里，要求从他们的诅咒中获得救赎，我们很乐意为之效劳。\n\n这无限无限宝石的威力对于[Root.GetRulerTitle]实在是太大了, 无法承受变成了灰,同时摧毁了手套.当一个响指过后,§Y无限宝石§!已经散落在房间里，但是我们已经无法找到第块六石..."
+ infinity_gauntlet.166.a:0 "我们欢迎我们的新兄弟姐妹!"
+
+ infinity_gauntlet.168.name:0 "启蒙运动"
+ infinity_gauntlet.168.desc:0 "§Y[From.GetName]§!使用了§R无限手套§!使我们理解他们的事业. 我们已经蒙蔽了这么长时间，现在我们睁开眼睛面对真相。 赞美§Y[From.GetName]§!让我们加入他们对神的崇拜!"
+ infinity_gauntlet.168.a:0 "我们向神下跪!"
+
+ infinity_gauntlet.169.name:0 "和平"
+ infinity_gauntlet.169.desc:0 "战争和冲突的时代已经结束，一个和平的新时代正在向我们走来。\n\n§Y[Root.GetRulerTitle] [Root.GetRulerName]§!使用了§R无限手套§!要改变一切不遵行和平之道的人的心灵。银河系的居民现在将放下武器，与我们共同繁荣。\n\n这无限无限宝石的威力对于[Root.GetRulerTitle]实在是太大了, 无法承受变成了灰,同时摧毁了手套.当一个响指过后,§Y无限宝石§!已经散落在房间里，但是我们已经无法找到第块六石..."
+ infinity_gauntlet.169.a:0 "永恒和平的银河!"
+
+ infinity_gauntlet.171.name:0 "和平"
+ infinity_gauntlet.171.desc:0 "§Y[From.GetName]§!使用了§R无限手套§!为我们指明和平之路。现在看到，我们的琐碎的争吵是毫无意义的，现在我们寻求与我们在银河系的兄弟姐妹们和谐相处。 我们感谢§Y[From.GetName]§!,感谢他们为我们指明了正确的道路，我们希望他们带领我们走向繁荣的未来。"
+ infinity_gauntlet.171.a:0 "一个人人享有和平的新时代。"
+
+ infinity_gauntlet.172.name:0 "拥抱"
+ infinity_gauntlet.172.desc:0 "很长一段时间以来，我们一直试图让我们的外族弟兄像我们看待他们那样看待彼此，但他们仍然互相仇恨，互相迫害。现在是变革的时候了，如果帝国不愿意接纳其他国家，我们就会用武力迫使他们接受。\n\n§Y[Root.GetRulerTitle] [Root.GetRulerName]§!使用了§R无限手套§!改变我们所能触及的所有人的思想，传播我们爱与和谐的信息。银河系的所有种族都将被唤醒，以一种新的思维方式，我们的方式。\n\n这无限无限宝石的威力对于[Root.GetRulerTitle]实在是太大了, 无法承受变成了灰,同时摧毁了手套.当一个响指过后,§Y无限宝石§!已经散落在房间里，但是我们已经无法找到第块六石..."
+ infinity_gauntlet.172.a:0 "我们要用爱以浇灌他们!"
+
+ infinity_gauntlet.174.name:0 "拥抱"
+ infinity_gauntlet.174.desc:0 "§Y[From.GetName]§!使用了§R无限手套§!开启了我们的心灵之眼，告诉我们与众不同并不是那么糟糕。我们欢迎我们的新兄弟姐妹们来到我们的家园，并将努力共同创造一个更加美好的明天。我们感谢§Y[From.GetName]§!为了帮助我们找到银河系中最强大的力量，爱。"
+ infinity_gauntlet.174.a:0 "*他们的内心长成了3种尺寸*"
+
+ infinity_gauntlet.175.name:0 "结束危机"
+ infinity_gauntlet.175.desc:0 "拥有完整的§R无限手套§!让我们在银河系中最强大的帝国,但是如果我们不去使用它,我们如何度过眼前的危机!\n\n§Y[Root.GetRulerTitle] [Root.GetRulerName]§!使用了§R无限手套§!增强星系中所有人的武器，以消灭我们的集体敌人。不久，这场危机将被打败，所有人都会记住谁帮助他们战胜了危机。\n\n对于[Root.GetRulerTitle], 这六块无限宝石的威力对于他们来说实在是太大了，无法承受变成了灰,同时摧毁了手套和无限宝石. 当一个响指过后,§Y无限宝石§!已经散落在房间里，但是我们已经无法找到第块六石..."
+ infinity_gauntlet.175.a:0 "全银河都是我的!"
+
+ infinity_gauntlet.176.name:0 "危机的终结"
+ infinity_gauntlet.176.desc:0 "最近，我们已经注意到，银河危机似乎比以前要弱得多。§Y[From.GetName]§!声称使用了§R无限手套§!来提高我们对付危机的能力，使其免于遭受破坏。无论如何，我们将尽快结束这一银河威胁并恢复正常。"
+ infinity_gauntlet.176.a:0 "避免危机."
+
+ infinity_gauntlet.177.name:0 "无限能量币"
+ infinity_gauntlet.177.desc:0 "为什么这逼东西叫§R无限手套§!? 为何如此无限呢？如果不赚钱，那有什么用?\n\n§Y[Root.GetRulerTitle] [Root.GetRulerName]§! 使用了§R无限手套§!创造了能量币,数量无限！当然，这可能会破坏我们的经济和银河市场的稳定，但是只要我们现在有钱，谁在乎呢！\n\n对于[Root.GetRulerTitle], 这无限无限宝石的威力对于他们来说实在是太大了，无法承受变成了灰,同时摧毁了手套和宝石. 但是，谁在乎我们何时变得富有呢!"
+ infinity_gauntlet.177.a:0 "能量树上能量币!"
+
+ if_snapture_long:0 "响指"
+ if_snapture_long_desc:0 "消灭一半的星系并不会给他们带来微笑。"
+ if_snapture_short:0 "缺乏训练有素的领导和士兵"
+ if_snapture_short_desc:0 "目前，我们没有训练有素的领导来驾驶我们的舰队或士兵来填补我们的军队。"
+
+ if_snapture_short_ninety:0 "缺乏训练有素的领导和士兵"
+ if_snapture_short_ninety_desc:0 "目前，我们没有训练有素的领导来驾驶我们的舰队或士兵来填补我们的军队。"
+
+ ###################################################################################################################
+ # INFINITY WAR EVENTS
+ infinity_war_events.13.name:0 "复仇者联盟"
+ infinity_war_events.13.desc:0 "§Y[event_target:gauntlet_holder.GetName]§!已经开始着手建造§R无限手套§!来发挥所有§Y无限宝石§!的作用。§Y[event_target:gauntlet_holder.GetName]§!在过去很长的的一段时间中一直是银河系的祸害，绝不能允许他们完成无限手套。\n§Y[Root.GetRulerTitle][Root.GetRulerName]§!期望能够建立一个泛星系联盟来终结§Y[event_target:gauntlet_holder.GetName]§!的威胁。"
+ infinity_war_events.13.a:0 "我们将会主导这个联盟。"
+ infinity_war_events.13.b:0 "这实在是太危险了。"
+
+ infinity_war_events.19.name:0 "复仇者联盟"
+ infinity_war_events.19.desc:0 "§Y[From.GetName]§!邀请我们加入联盟来对抗§Y[event_target:gauntlet_holder.GetName]§!以防他们完成§R无限手套§!。"
+ infinity_war_events.19.a:0 "我们别无选择。"
+
+ infinity_war_events.15.name:0 "复仇者联盟"
+ infinity_war_events.15.desc:0 "§Y[From.GetName]§!同意加入联盟。"
+ infinity_war_events.15.a:0 "很好。"
+
+ infinity_war_events.20.name:0 "批准加入"
+ infinity_war_events.20.desc:0 "我们已经被§H[From.GetName]§!允许加入§H复仇者联盟§!，现在我们将并肩作战。"
+ infinity_war_events.20.a:0 "战无不胜！"
+
+ infinity_war_events.50.name:0 "无限战争"
+ infinity_war_events.50.desc:0 "是时候终结§Y[event_target:gauntlet_holder.GetName]§!的恶行了！"
+ infinity_war_events.50.a:0 "干他丫的！"
+
+ infinity_war_events.51.name:0 "无限战争"
+ infinity_war_events.51.desc:0 "§Y复仇者联盟§!已经开始着手对§Y[event_target:gauntlet_holder.GetName]§!的讨伐以防他们完成§R无限手套§!!只有占领了他们的母星§H[event_target:gauntlet_holder.Capital.GetName]§!，或者§R无限手套§!完成时，这场战争才能宣告结束。"
+ infinity_war_events.51.a:0 "最艰难的选择需要最坚强的意志。"
+
+
+ # INFINITY GAUNTLET MODIFIERS
+ space_stone_gauntlet:0 "$r_space_stone$"
+ space_stone_gauntlet_desc:0 "舰队现在能够到达银河系的任何地方。"
+
+ reality_stone_gauntlet:0 "$r_reality_stone$"
+ reality_stone_gauntlet_desc:0 "现实宝石可以辅助我们的舰船建造。"
+
+ soul_stone_gauntlet:0 "$r_soul_stone$"
+ soul_stone_gauntlet_desc:0 "灵魂宝石可以提升民众的精神文明建设。"
+
+ time_stone_gauntlet:0 "$r_time_stone$"
+ time_stone_gauntlet:0 "时间宝石能够提升我们建造舰船的效率。"
+
+ mind_stone_gauntlet:0 "$r_mind_stone$"
+ mind_stone_gauntlet:0 "心灵宝石能够让我们的民众保持幸福感。"
+
+
+# END OF WAR EVENTS #
+ infinity_war_events.100.name:0 "§H[From.From.GetName]§!失守"
+ infinity_war_events.100.desc:0 "§Y复仇者联盟§!已经占领了§H[From.From.GetName]§!。一场遭遇战过后，一队士兵突入首府并夺取了§R无限手套§!和所有§Y无限宝石§!！"
+ infinity_war_events.100.a:0 "大势已去..."
+
+ infinity_war_events.101.name:0 "摧毁§R无限手套§!！"
+ infinity_war_events.101.desc:0 "在突袭§H[From.From.From.GetName]§!并摧毁§R无限手套§!之后，一群士兵认为§Y无限宝石§!的力量是联盟无法控制的。在自封无限守卫后，其中的六人带着宝石躲到了银河系遥远的边境。我们已经派人去搜寻他们，但银河系实在是太大了。"
+ infinity_war_events.101.a:0 "无论如何无限战争已经结束了。"
+
+ infinity_war_events.103.name:0 "围攻§H[From.This.GetName]§!"
+ infinity_war_events.103.desc:0 "§Y复仇者联盟§!对§H[From.This.GetName]§!的轨道轰炸已经完全摧毁了这颗行星。我们未能赶在那之前收回§R无限手套§!与§Y无限宝石§!。"
+ infinity_war_events.103.a:0 "大势已去..."
+
+ infinity_war_events.104.name:0 "摧毁§R无限手套§!"
+ infinity_war_events.104.desc:0 "在对§H[From.From.This.GetName]§!的轨道轰炸以后，这颗星球受到从§R无限手套§!中溢出能量的影响发生了爆炸。搜寻§Y无限宝石§!的队伍已经开始行动，然而，这些宝石恐怕已经消失在了行星的碎片中。"
+ infinity_war_events.104.a:0 "无论如何无限战争已经结束了。"
+
+ infinity_war_events.106.name:0 "地爆天星"
+ infinity_war_events.106.desc:0 "不清楚会有什么结果，如果你依然拥有无限手套，恭喜你，你无敌了。"
+ infinity_war_events.106.a:0 "很好！"
+
+ infinity_war_events.107.name:0 "地爆天星"
+ infinity_war_events.107.desc:0 "不知道会有什么结果，但是如果有人对存放有无限手套的星球使用了巨神兵，可能会损坏游戏。如果手套的持有者依然拥有无限手套，你可以在控制台输入"event ig_debug.50""
+ infinity_war_events.107.a:0 "移除手套，修复你的mod..."
+
+ infinity_war_events.109.name:0 "安乐天使"
+ infinity_war_events.109.desc:0 "不清楚会有什么结果，如果你依然拥有无限手套，恭喜你，你无敌了。"
+ infinity_war_events.109.a:0 "很好！"
+
+ infinity_war_events.110.name:0 "安乐天使"
+ infinity_war_events.110.desc:0 "不知道会有什么结果，但是如果有人对存放有无限手套的星球使用了巨神兵，可能会损坏游戏。如果手套的持有者依然拥有无限手套，你可以在控制台输入"event ig_debug.50""
+ infinity_war_events.110.a:0 "移除手套，修复你的mod..."
+
+ infinity_war_events.112.name:0 "中子灭杀"
+ infinity_war_events.112.desc:0 "不清楚会有什么结果，如果你依然拥有无限手套，恭喜你，你无敌了。"
+ infinity_war_events.112.a:0 "很好！"
+
+ infinity_war_events.113.name:0 "中子灭杀"
+ infinity_war_events.113.desc:0 "不知道会有什么结果，但是如果有人对存放有无限手套的星球使用了巨神兵，可能会损坏游戏。如果手套的持有者依然拥有无限手套，你可以在控制台输入"event ig_debug.50""
+ infinity_war_events.113.a:0 "移除手套，修复你的mod..."
+
+ infinity_war_events.115.name:0 "天神裁决"
+ infinity_war_events.115.desc:0 "不清楚会有什么结果，如果你依然拥有无限手套，恭喜你，你无敌了。"
+ infinity_war_events.115.a:0 "很好！"
+
+ infinity_war_events.116.name:0 "天神裁决"
+ infinity_war_events.116.desc:0 "不知道会有什么结果，但是如果有人对存放有无限手套的星球使用了巨神兵，可能会损坏游戏。如果手套的持有者依然拥有无限手套，你可以在控制台输入"event ig_debug.50""
+ infinity_war_events.116.a:0 "移除手套，修复你的mod..."
+
+ infinity_war_events.118.name:0 "纳米灾疫"
+ infinity_war_events.118.desc:0 "不清楚会有什么结果，如果你依然拥有无限手套，恭喜你，你无敌了。"
+ infinity_war_events.118.a:0 "很好！"
+
+ infinity_war_events.119.name:0 "纳米灾疫"
+ infinity_war_events.119.desc:0 "不知道会有什么结果，但是如果有人对存放有无限手套的星球使用了巨神兵，可能会损坏游戏。如果手套的持有者依然拥有无限手套，你可以在控制台输入"event ig_debug.50""
+ infinity_war_events.119.a:0 "移除手套，修复你的mod..."
+
+
+ war_goal_wg_infinity_war:0 "§Y无限战争§!"
+ war_goal_wg_infinity_war_desc:0 "因无限宝石而发生的战争"
+
+
+
+ ################### DEBUG EVENTS #############
+ ig_debug.0.name:0 "探索协助"
+ ig_debug.0.desc:0 "获得跃迁引擎科技，空间宝石与一个科学家来探索星空"
+ ig_debug.0.a:0 "就这样"
+ ig_debug.0.b:0 "我不需要这个"
+
+ ig_debug.1.name:0 "获取宝石"
+ ig_debug.1.desc:0 "获得全部6颗无限宝石"
+ ig_debug.1.a:0 "就这样"
+ ig_debug.1.b:0 "我不需要这个"
+
+ ig_debug.2.name:0 "移除宝石"
+ ig_debug.2.desc:0 "移除所有无限宝石"
+ ig_debug.2.a:0 "就这样"
+ ig_debug.2.b:0 "我不需要这个"
+
+ ig_debug.50.name:0 "清除无限手套"
+ ig_debug.50.desc:0 "移除银河系中所有无限手套与无限宝石"
+ ig_debug.50.a:0 "就这样"
+ ig_debug.50.b:0 "我不需要这个"
+
+ ig_debug.99.name:0 "殖民地被毁"
+ ig_debug.99.desc:0 "殖民地已经被摧毁，如果你是不小心而为之，那可真是不幸！"
+ ig_debug.99.a:0 "..."
+ 
+ 
+ #############################################################################################################################################################################
+ # INFINITY CIRCUIT
+
+ infinity_circuit.11.name:0 "力量与空间的共鸣"
+ infinity_circuit.11.desc:0 "§M力量宝石§!与§B空间宝石§!的能量共振在一起形成回路。这提高了力量宝石的能力。\n\n(舰队现在可以使用§Y力量宝石毁灭能量§!针对行星的轨道轰炸,每个舰队必须手动进行更改.)"
+ infinity_circuit.11.a:0 "很好!"
+
+ infinity_circuit_power_space:0 "力量与空间的共鸣"
+
+ infinity_circuit.21.name:0 "力量与时间的共鸣"
+ infinity_circuit.21.desc:0 "§B力量宝石§!与§G时间宝石§!的能量共振在一起形成回路。这提高了空间宝石的能力，使我们的跃迁距离大大提高。"
+ infinity_circuit.21.a:0 "很好!"
+
+ infinity_circuit_space_time:0 "空间与时间的共鸣"
+
+ infinity_circuit.31.name:0 "现实与时间的共鸣"
+ infinity_circuit.31.desc:0 "§G时间宝石§!与§R现实宝石§!的能量共振在一起形成回路。这提高了时间宝石的能力，提高了我们的建造速度。"
+ infinity_circuit.31.a:0 "很好!"
+
+ infinity_circuit_time_reality_one:0 "现实与时间的共鸣"
+ infinity_circuit_time_reality_two:0 "现实与时间的共鸣"
+ infinity_circuit_time_reality_three:0 "现实与时间的共鸣"
+
+ infinity_circuit.41.name:0 "现实与灵魂的共鸣"
+ infinity_circuit.41.desc:0 "§R现实宝石§!与§H灵魂宝石§!的能量共振在一起形成回路。这提高了现实宝石的能力，使其可以创建我们所需的资源。"
+ infinity_circuit.41.a:0 "很好!"
+
+ infinity_circuit_reality_soul_one:0 "现实与灵魂的共鸣"
+ infinity_circuit_reality_soul_two:0 "现实与灵魂的共鸣"
+ infinity_circuit_reality_soul_three:0 "现实与灵魂的共鸣"
+ infinity_circuit_reality_soul_four:0 "现实与灵魂的共鸣"
+ infinity_circuit_reality_soul_five:0 "现实与灵魂的共鸣"
+
+ infinity_circuit.51.name:0 "灵魂与心灵的共鸣"
+ infinity_circuit.51.desc:0 "§H灵魂宝石§!与§Y心灵宝石§!的能量共振在一起形成回路。这提高了灵魂宝石的能力，让我们的人民与他们的灵魂有更深的联系。"
+ infinity_circuit.51.a:0 "很好!"
+
+ infinity_circuit_soul_mind:0 "灵魂与心灵的共鸣"
+
+ infinity_circuit.61.name:0 "心灵与力量的共鸣"
+ infinity_circuit.61.desc:0 "§Y心灵宝石§!和§M力量宝石§!的能量共振在一起形成回路。这提高了心灵宝石的能力，改善了我们帝国中所有公民的士气。"
+ infinity_circuit.61.a:0 "很好!"
+
+ infinity_circuit_mind_power:0 "心灵与力量的共鸣"
+
+
+ ##########################################################################################################################################################################
+ # MENU
+
+ ig_menu.0.name:0 "Zer0's Infinity Stones: Redux"
+ ig_menu.0.desc:0 "Hello all, this is the configuration menu for §HZer0's Infinity Stones: Redux§!. From here you can disabled features of the mod.\n\nIf you are unsure about what to pick, select the default option at the top, which will allow you to play the mod in the way the mod maker intended.\n\nSelect §Y"Done"§! when you are finished."
+ ig_menu.0.a:0 "重置为默认选项"
+ ig_menu.0.b:0 "自定义§YAI选项§!"
+ ig_menu.0.c:0 "自定义§Y无限手套§!"
+ ig_menu.0.d:0 "自定义§Y现实宝石§!"
+ ig_menu.0.e:0 "自定义§Y事件领袖§!"
+ ig_menu.0.f:0 "自定义§Y无限引擎§!"
+ ig_menu.0.g:0 "完成"
+
+ ig_menu.2.name:0 "自定义§YAI选项§!"
+ ig_menu.2.desc:0 "By default, 当您持有“无限宝石”时，AI帝国会产生恶意。普通帝国会获得£opinion£ §R-50§!取决于你有几块无限宝石,以及堕落帝国会获得£opinion£ §R-20§!取决于你有几块无限宝石.\n\n虽然可以通过多种方式提高AI的能力，但有些玩家可能希望禁用它。"
+ ig_menu.2.fallenempire.enabled:0 "消极堕落帝国: §G开启§!"
+ ig_menu.2.fallenempire.disabled:0 "消极堕落帝国: §R关闭§!"
+ ig_menu.2.normalempire.enabled:0 "消极普通帝国: §G开启§!"
+ ig_menu.2.normalempire.disabled:0 "消极普通帝国: §R关闭§!"
+ ig_menu.2.back:0 "返回主菜单"
+
+ ig_menu.3.name:0 "自定义§Y无限手套§!"
+ ig_menu.3.desc:0 "默认状态下, §Y无限手套§!会给予那些已经收集了2块无限宝石的帝国. 然后可以使用手套消除无限宝石的冷却时间，以允许同时使用多个宝石。\n\n同时使用某些宝石会增加修饰符以改善您的帝国，这称为§Y无限电路§!。\n\n手套的两种效果都可以认为非常强大，因此，某些玩家可能希望禁用其中一种或两种效果。(The gauntlet will always be given if the play has all six stones but can only be used to snap)"
+ ig_menu.3.infinitygauntlet.enabled:0 "无限手套: §G开启§!"
+ ig_menu.3.infinitygauntlet.disabled:0 "无限手套: §R关闭§!"
+ ig_menu.3.infinitycircuit.enabled:0 "无限电路: §G开启§!"
+ ig_menu.3.infinitycircuit.disabled:0 "无限电路: §R关闭§!"
+
+ ig_menu.4.name:0 "自定义§Y现实宝石§!"
+ ig_menu.4.desc:0 "默认状态下,§Y现实宝石§!可以将行星转换为盖亚世界£influence£ §H50 Influence§!, 但是，额外£influence£ §H50 Influence§!你可以将行星转化成§YMachine worlds, Hive worlds and Ecumenopolises§!.\n\nThe option below will allow you to disable §YMachine worlds, Hive worlds and Ecumenopolises§! so the Reality Stones just creates Gaia Worlds.\n\nWhilst there are relics in the base game that can instantly create Gaia worlds, there are not ones that can create the other special worlds, so some players may feel this makes the stone too powerful."
+ ig_menu.4.realitystone.enabled:0 "现实宝石可以创造特殊世界: §G开启§!"
+ ig_menu.4.realitystone.disabled:0 "现实宝石可以创造特殊世界: §R关闭§!"
+
+ ig_menu.5.name:0 "自定义§Y事件领袖§!"
+ ig_menu.5.desc:0 "默认状态下,在无限宝石的挖掘点发展过程中,您可能会遇到独特的领导者. 这些领导者是对漫威宇宙中与无尽宝石有联系的角色的引用。\n\n过去，有些玩家表示他们只想要无限宝石，仅此而已，因此存在这些选项以允许那些玩家禁用领导者。"
+ ig_menu.5.thor.enabled:0 "雷神(上将): §G开启§!"
+ ig_menu.5.thor.disabled:0 "雷神(上将): §R关闭§!"
+ ig_menu.5.captainmarvel.enabled:0 "惊奇队长(上将): §G开启§!"
+ ig_menu.5.captainmarvel.disabled:0 "惊奇队长(上将): §R关闭§!"
+ ig_menu.5.vision.enabled:0 "幻视(科学家): §G开启§!"
+ ig_menu.5.vision.disabled:0 "幻视(科学家): §R关闭§!"
+
+ ig_menu.6.name:0 "自定义§Y无限引擎§!"
+ ig_menu.6.desc:0 "默认状态下,§Y无限引擎§!是一项特殊技术，玩家在获得§Y空间宝石§!之后大约一年后可以进行研究。 该引擎与原版游戏的灵能跃迁引擎大致相同.\n\n禁用§Y无限引擎§!这意味着您必须依靠原版游戏的跃迁引擎和灵能跃迁引擎才能使用太空石的效果。"
+ ig_menu.6.infinitydrive.enabled:0 "无限引擎: §G开启§!"
+ ig_menu.6.infinitydrive.disabled:0 "无限引擎: §R关闭§!"
+
+
+  ##########################################################################################################################################################################
+ # CHEAT MENU
+
+ ig_cheats.0.name:0 "作弊菜单"
+ ig_cheats.0.desc:0 "此菜单包含许多作弊技巧，可量身定制您的体验或修复游戏:\n\n§Y遗物作弊§! - 添加和删除8件遗物。\n\n§Y打开其他选项§! - 打开mod设置菜单.\n\n§Y领袖菜单§! - 生成在各种事件的领导者。\n\n§Y响指作弊菜单§! - 允许激活某些快照选项，而无需无限手套.\n\n§Y中期-现有保存游戏选项§! - 可以将无限宝石添加到现有存档中。\n\n§Y作弊菜单§! - 用于测试mod的各种作弊. \n\nPress §Y完成§! 退出菜单."
+ ig_cheats.0.a:0 "§Y遗物作弊§!"
+ ig_cheats.0.b:0 "§Y打开其他选项§!"
+ ig_cheats.0.c:0 "§Y领袖菜单§!"
+ ig_cheats.0.d:0 "§Y响指作弊菜单§!"
+ ig_cheats.0.e:0 "§Y中期-现有保存游戏选项§!"
+ ig_cheats.0.f:0 "§Y其他作弊§!"
+ ig_cheats.0.g:0 "§Y完成§!"
+
+ ig_cheats.1.name:0 "遗物作弊"
+ ig_cheats.1.desc:0 "在此菜单中，您可以添加和删除此mod中的所有遗物。"
+ ig_cheats.1.allstones.give:0 "§R添加§!所有无限宝石"
+ ig_cheats.1.allstones.remove:0 "§R删除§!所有无限宝石"
+ ig_cheats.1.powerstone.give:0 "§R添加§!力量宝石"
+ ig_cheats.1.powerstone.remove:0 "§R删除§!力量宝石"
+ ig_cheats.1.realitystone.give:0 "§R添加§!现实宝石"
+ ig_cheats.1.realitystone.remove:0 "§R删除§!现实宝石"
+ ig_cheats.1.timestone.give:0 "§R添加§!时间宝石"
+ ig_cheats.1.timestone.remove:0 "§R删除§!时间宝石"
+ ig_cheats.1.soulstone.give:0 "§R添加§!灵魂宝石"
+ ig_cheats.1.soulstone.remove:0 "§R删除§!灵魂宝石"
+ ig_cheats.1.mindstone.give:0 "§R添加§!心灵宝石"
+ ig_cheats.1.mindstone.remove:0 "§R删除§!心灵宝石"
+ ig_cheats.1.spacestone.give:0 "§R添加§!空间宝石"
+ ig_cheats.1.spacestone.remove:0 "§R删除§!空间宝石"
+ ig_cheats.1.infinitygauntlet.give:0 "§R添加§!无限手套"
+ ig_cheats.1.infinitygauntlet.remove:0 "§R删除§!无限手套"
+ ig_cheats.1.mjolnir.give:0 "§R添加§!雷神之锤"
+ ig_cheats.1.mjolnir.remove:0 "§R删除§!雷神之锤"
+
+ ig_cheats.4.name:0 "响指作弊菜单"
+ ig_cheats.4.desc:0 "当您拥有全部6个无限宝石时，此菜单可让您为可用的多个快照选项中的几个（但不是全部）触发事件。 将鼠标悬停在选项上可获得更多详细信息。\n\n§H强烈建议您在使用此列表中的任何内容之前先进行保存！§!"
+ ig_cheats.4.a:0 "清除有机物"
+ gauntlet_option_organics:1 "所有有机生命都将从银河中清除。"
+
+ ig_cheats.5.name:0 "中期-现有保存游戏选项"
+ ig_cheats.5.desc:0 "此菜单将使您可以将无限宝石添加到现有存档.\n\n选择"§Y生成系统§!"会在系统和挖掘地点中生成无限宝石到您的存档中。\n\n选择"§Y生成无限宝石§!"会随机添加无限宝石至任意帝国. \n\n如果您在这里看不到任何选择，则说明您的星系中应该已经有无限宝石了。"
+ ig_cheats.5.systems:0 "§Y生成系统§!"
+ ig_cheats.5.stones:0 "§Y生成无限宝石§!"
+
+ ig_cheats.3.name:0 "领袖菜单"
+ ig_cheats.3.desc:0 "在此菜单中，您可以生成此mod添加的各种事件领导者。 领导者可以通过领导者菜单解雇。"
+ ig_cheats.3.thor:0 "§Y雷神§! (上将)"
+ ig_cheats.3.captainmarvel:0 "§Y惊奇队长§! (上将)"
+ ig_cheats.3.vision:0 "§Y幻视§! (科学家)"
+ ig_cheats.3.soulborn:0 "§Y人造灵魂§!"
+
+ ig_cheats.6.name:0 "其他作弊选项"
+ ig_cheats.6.desc:0 "这个菜单包含了我在开发此mod时使用的各种作弊列表。在使用其中任何一种之前，应该保存游戏，因为它们无法撤消。"
+ ig_cheats.6.ifdrive:0 "提供无限引擎技术。"
+ ig_cheats.6.explore:0 "探索援助活动"
+
+ ##################################################################################################################################################################################
+
+ origin_power_stone:0 "力量宝石"
+ origin_power_stone_desc:0 "我们的帝国掌握§H力量宝石§!已经有了上千年,现在我们实现了太空旅行，我们将使用无限宝石在银河系中传播我们的影响力。"
+ origin_tooltip_power_stone_effects:0 "开局拥有§H力量宝石§!"
+
+ origin_time_stone:0 "时间宝石"
+ origin_time_stone_desc:0 "我们的帝国掌握§H时间宝石§!已经有了上千年,现在我们实现了太空旅行，我们将使用无限宝石在银河系中传播我们的影响力。"
+ origin_tooltip_time_stone_effects:0 "开局拥有§H时间宝石§!"
+
+ origin_reality_stone:0 "现实宝石"
+ origin_reality_stone_desc:0 "我们的帝国掌握§H现实宝石§!已经有了上千年,现在我们实现了太空旅行，我们将使用无限宝石在银河系中传播我们的影响力。"
+ origin_tooltip_reality_stone_effects:0 "开局拥有§H现实宝石§!"
+
+ origin_soul_stone:0 "灵魂宝石"
+ origin_soul_stone_desc:0 "我们的帝国掌握§H灵魂宝石§!已经有了上千年,现在我们实现了太空旅行，我们将使用无限宝石在银河系中传播我们的影响力。"
+ origin_tooltip_soul_stone_effects:0 "开局拥有§H灵魂宝石§!"
+
+ origin_mind_stone:0 "心灵宝石"
+ origin_mind_stone_desc:0 "我们的帝国掌握§H心灵宝石§!已经有了上千年,现在我们实现了太空旅行，我们将使用无限宝石在银河系中传播我们的影响力。"
+ origin_tooltip_mind_stone_effects:0 "开局拥有§H心灵宝石§!"
+
+ origin_space_stone:0 "空间宝石"
+ origin_space_stone_desc:0 "我们的帝国掌握§H空间宝石§!已经有了上千年,现在我们实现了太空旅行，我们将使用无限宝石在银河系中传播我们的影响力。"
+ origin_tooltip_space_stone_effects:0 "开局拥有§H空间宝石§!"

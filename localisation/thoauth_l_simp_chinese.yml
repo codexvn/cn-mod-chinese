@@ -1,0 +1,10 @@
+﻿l_simp_chinese:
+
+ auth_tho_democratic:0  "宪政主义代表制 "
+ auth_tho_democratic_desc:0  "虽然这个政体拥簇着一位拥有着绝对地位的国家领袖，但政治上仍由民主选举产生的议会主导。"
+ auth_tho_democratic_imperial:0  "君主立宪制"
+ auth_tho_democratic_imperial_desc:0  "虽然这个政体是一个以世袭君主为领袖的政体，但其权力被宪法所限制。"
+ auth_tho_oligarchic:0  "寡头代表制"
+ auth_tho_oligarchic_desc:0  "虽然这个政体拥簇着一位拥有着绝对地位的国家领袖，但政治上由诸侯、各部族首领拥有权力者主导。"
+ auth_tho_oligarchic_imperial:0  "推戴君主制"
+ auth_tho_oligarchic_imperial_desc:0  "这个政体中的领袖是被诸侯、各部族首领等拥有权力者推选的，政治实权始终在推举的一方手中。"

@@ -1,0 +1,6 @@
+﻿l_simp_chinese:
+
+ civic_tooltip_feudal_realm_effects:2  "附庸权力对§Y关系影响§!降低§Y50%§!，但所有附庸都可以扩张到无人认领的星系中。 可以在游戏开始时将其变成附庸。"
+ distar.3013.a.tooltip:0  "在 [nivlac_planet.GetName] 行星填充 $NAME_Nivlac$ £pops 人口"
+ distar.3017.a.tooltip:0  "$NAME_Nivlac$ £pops 人口已经被添加到 [nivlac_planet.Capital.GetName] 上。"
+ distar.3032.a.tooltip:0  "[molluscoid_miners_species.GetName] £pops 人口已经填满了 [Root.Capital.GetName]。"

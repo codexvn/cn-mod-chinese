@@ -1,0 +1,17 @@
+﻿l_simp_chinese:
+
+ # Red toxin bombardment
+ bombardment_redtoxin:0 "猩红灾祸"
+ bombardment_redtoxin_desc:3 "$bombardment_redtoxin$ 通过轨道轰炸和杀死星球上的所有生命，利用猩红色天灾毒化一个星球。\n- §R大量的§! 损害 §Y军队§!\n- §R大量的§! 损害 §Y星球§!\n- §R大量的§! 损害 §Y人口§!\n- 会轰击没有防御的星球\n- 可以减少行星不适合居住，但容易形成的红色有毒世界"
+ opinion_policy_orbital_bombardment_redtoxin:0 "我们不喜欢你的芥子气"
+ orbital_bombardment_redtoxin:0 "猩红灾祸"
+ orbital_bombardment_redtoxin_name:0 "轨道轰击"
+ orbital_bombardment_redtoxin_desc:0 "允许将猩红色天灾的变形作为轨道轰炸的武器。\n\n§E允许“猩红灾祸”轨道轰炸姿态。§!"
+ ehof_red_toxin.2.name:0 "世界被炸成了红色的有毒世界"
+ ehof_red_toxin.2.desc:0 "我们的一个星球被炸成了一个红色的有毒星球"
+ ehof_red_toxin.2.a:0 "这是可怕的!"
+ bombed_to_red_toxic:0 "这个世界现在不适合居住，但可以很快地改造."
+ ehof_red_toxin.3.desc:0 "我们的舰队通过猩红灾祸轰炸把一个敌国变成了一个红色的有毒世界。"
+ ehof_red_toxic_world:0 "行星改造效率增加"
+ ehof_red_toxic_world_desc:0 "猩红灾祸提高了环境改造的效率，使我们能够非常迅速地改造这个星球。"
+ 

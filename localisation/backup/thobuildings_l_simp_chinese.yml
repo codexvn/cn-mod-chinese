@@ -1,0 +1,14 @@
+﻿l_simp_chinese:
+####################################
+# 建造物のローカライゼーション
+####################################
+ building_maid_training_school:0 "女仆培训班"
+ building_maid_training_school_desc:0 "一个专门为红魔馆服务的女仆提供的培训机构。教导妖精们知道如何成为女仆，如何用知识和技巧来履行其职责。"
+ building_kenjutsu_dojo:0 "剑术道场"
+ building_kenjutsu_dojo_desc:0 "继承先代白玉楼庭师的教诲，培养身体和精神都达到梦想之极致剑圣们的修行场所。"
+ building_daoshifu:0 "道士府"
+ building_daoshifu_desc:0 "国家有名的道士们为民安日常工作的设施。虽然有传闻说在进行着奇怪的研究活动，但那只是怀疑道术不科学之人的妄言。"
+
+ building_bakuen_dome:0 "原子能穹顶"
+ building_bakuen_dome_desc:0 "以神秘的核能源为动力，提供理想居住环境的设施。"
+

@@ -1,0 +1,8 @@
+﻿l_simp_chinese:
+
+ centralized_housing:0  "高密度住宅区"
+ centralized_housing_desc:0  "高密度住宅区将增加城市住宅的可用空间，而减少乡村住宅的可用空间。这将增加贸易额并为我们的居民提供便利。"
+ policy_housing_philosophy:0  "住宅政策"
+ policy_housing_philosophy_desc:0  ""
+ rural_housing:0  "低密度住宅区"
+ rural_housing_desc:0  "低密度住宅区将减少城市住宅的可用空间，而增加乡村住宅的可用空间。这将增加工人的产出。"

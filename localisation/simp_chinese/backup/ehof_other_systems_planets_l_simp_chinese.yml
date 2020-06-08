@@ -1,0 +1,32 @@
+﻿l_simp_chinese:
+
+    # Planet Classes
+    pc_ehof_cplanet:0 "球面"
+    pc_ehof_cplanet_desc:0 "这个巨大的球体是由一种未知的物质组成的，它似乎在不断地变化。"
+    pc_ehof_planet:0 "暗物质天体"
+    pc_ehof_planet_desc:0 "一个巨大的球体，完全由暗物质组成。$ehof_the_compound$ 用这些来增加他们舰队的力量。"
+    pc_red_toxic:0 "红色有毒的世界"
+    pc_red_toxic_desc:0 "这是一种独特的有毒星球，完全被红色的有毒颗粒污染，使大气变成红色。"
+    pc_ehof_black_hole:0 "$pc_black_hole$"
+    pc_ehof_black_hole_desc:0 "$pc_black_hole_desc$"
+    pc_wh_star:0 "白洞"
+    pc_wh_star_desc:0 "一个黑洞的对应部分。白洞释放出天文数字的能量，排斥所有物质。不可能越过它的$eho_eh$。所有的能量从何而来仍然是个谜。它可能由真空能量提供能量，这是宇宙中神秘的背景能量，可能有无限的能量供应。或者它甚至可能是由整个宇宙的暴胀性生产机制提供动力!没有人知道真正的答案……"
+    pc_whdyson_star:0 "$pc_wh_star$"
+    pc_whdyson_star_desc:0 "$pc_wh_star_desc$"
+    pc_whc_star:0 "保护范围"
+    pc_whc_star_desc:0 "构造由 §B创造者§! 保护黑暗物质不受负质量的影响."
+    pc_ehof_habitat:0 "小行星的栖息地"
+    pc_ehof_unhabitat:0 "小行星的栖息地"
+    pc_ehof_habitat_desc:0 "一个由多个小行星组成的大型栖息地，由一个失落的、现已灭绝的文明所建造。它的建造者发生了什么还不得而知。"
+    pc_ehof_unhabitat_desc:0 "一个由多个小行星组成的大型栖息地，由一个失落的、现已灭绝的文明所建造。它的建造者发生了什么还不得而知。"
+    # Star Classes
+    sc_ehof_black_hole:0 "$pc_ehof_black_hole$"
+    sc_ehof_black_hole_desc:0 "$pc_ehof_black_hole_desc$"
+    sc_white_hole:0 "白洞"
+    sc_white_hole_desc:0 "一个黑洞的对应部分。白洞释放出天文数字的能量，排斥所有物质。不可能越过它的$eho_eh$。 所有的能量从何而来仍然是个谜。它可能由真空能量提供能量，这是宇宙中神秘的背景能量，可能有无限的能量供应。或者它甚至可能是由整个宇宙的暴胀性生产机制提供动力!没有人知道真正的答案……"
+    sc_t:0 "$pc_t_star$"
+
+    # Traits
+    mod_pc_ehof_habitat_habitability:0 "小行星栖息地适居性"
+    trait_pc_ehof_habitat_preference:0 "小行星栖息地偏好"
+    trait_pc_ehof_habitat_preference_desc:0 "小行星栖息地偏好"

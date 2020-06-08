@@ -1,0 +1,6 @@
+﻿l_simp_chinese:
+
+ehof_wc_poi_ex:0 "（§H关注点§!）"
+ehof_wc_poi_unex:0 "（§G关注点§!）"
+ehof_wc_explored:0 "（§H已探索§!）"
+ehof_wc_unexplored:0 "（§G$BYPASS_DESC_UNEXPLORED$§!）"

@@ -1,0 +1,120 @@
+﻿l_simp_chinese:
+
+
+  # Anomaly categories
+  tremendous_ring_system_category:0 "异常的气体层"
+  methane_oceans_category:0 "“不应该如此荒芜”世界"
+  nanite_deserts_category:0 "奇怪的沙漠"
+  coreless_planet_category:0 "无核行星"
+  cataclysmic_star_category:0 "激烈恒星"
+  oxygen_world_category:0 "异常冷冻星球"
+  abandoned_seat_category:0 "毁坏的世界"
+  natural_network_category:0 "思考星球?"
+  connected_asteroid_category:0 "小行星站"
+  hot_society_category:0 "栖息地的熔岩星球"
+  intoxicated_world_category:0 "红色星球"
+  scarred_planet_category:0 "疤痕"
+
+
+  # Anomaly introduction texts
+  tremendous_ring_system_category_desc:0 "这个气体层 §H[From.GetName]§! 在这个 §H[Root.Solar_System.GetName]§! 星系显示不常见的质量分布和尺度特性。\n\n我们的科学家想要调查这颗行星，以便发现更多关于这颗行星的异常现象。"
+
+  methane_oceans_category_desc:0 "我们科学船上的扫描仪探测到了这颗贫瘠星球表面的异常性质 §H[From.GetName]§! 在这个 §H[Root.Solar_System.GetName]§! 星系.\n\n我们的科学家想要调查这颗行星，以便发现更多关于这颗行星的异常现象。"
+
+  nanite_deserts_category_desc:0 "沙漠星球的表面 §H[From.GetName]§!在这个 §H[Root.Solar_System.GetName]§! 星系 显示奇怪的属性。\n\n根据我们的科学飞船的扫描结果，我们的科学家想要派遣一个探索小组去寻找更多关于这个行星异常的信息。"
+
+  coreless_planet_category_desc:0 "贫瘠的星球 §H[From.GetName]§! 在这 §H[Root.Solar_System.GetName]§! 星系在它的内部组成和结构上显示出奇怪的性质。\n\n为了进一步了解这颗行星的异常情况，还需要进一步的研究。"
+
+  cataclysmic_star_category_desc:0 "行星 §H[From.GetName]§! 发射出强烈的、不规则的能量信号，并显示出异常的质量分布。\n\n为了进一步了解这颗恒星的异常情况，还需要进一步的研究。"
+
+  oxygen_world_category_desc:0 "我们的科考船已经探测到 §H[From.GetName]§!, 在这§H[Root.Solar_System.GetName]§! 星系.\n\n我们的科学家想派一个考察队到这颗行星上去，以便更多地了解这颗行星的异常情况。"
+
+  abandoned_seat_category_desc:0 "一个被分离的星球，一个被称为坟墓的世界 §H[From.GetName]§! 被我们的一艘科考船发现了。\n\n它位于 §H[Root.Solar_System.GetName]§! 并拥有一个由太空碎片组成的小环，这似乎是以前的卫星和空间站的残留物。\n\n我们的科学家认为，同样的事件导致了死亡 §H[From.GetName]§!,还负责摧毁卫星和空间站。\n\n他们想要探索碎片环和行星本身，以便发现更多关于世界发生了什么的信息。"
+
+  natural_network_category_desc:0 "我们正在探测来自世界各地的奇怪信号 §H[From.GetName]§!在这§H[Root.Solar_System.GetName]§! 星系.\n\n探测到的信号与动物生命的脑电波模式相似，我们的科学家已经很困惑了，这个星球是有生命的还是完全不同的。\n\n为了发现更多关于这个行星异常的信息，还需要进一步的研究。"
+
+  connected_asteroid_category_desc:0 "在这 §H[Root.Solar_System.GetName]§! 星系, 在小行星群中发现了一个质量分布和组成异常的非自然地层。\n\n我们的科学家想要调查这一异常现象，以发现更多有关它的信息。"
+
+  hot_society_category_desc:0 "在熔化的行星表面 §H[From.GetName]§!, 已经发现了类似生命活动的迹象。\n\n有机生命体通常无法在如此恶劣的环境中生存，当然也无法自然地发展。\n\n为了发现更多关于这个熔融世界的异常活动，还需要进一步的研究。"
+
+  intoxicated_world_category_desc:0 "在这 §H[Root.Solar_System.GetName]§! 星系, 一个直到现在都看不见的世界已经被发现了。\n\n根据远程观察和扫描，这可能是一个有毒的世界，但直接调查是必要的，以确定安全的行星类型。"
+
+  scarred_planet_category_desc:0 "一个贫瘠的星球 §H[Root.Solar_System.GetName]§! 星系表现出反常的性质。\n\n我们的传感器提醒我们注意到行星表面的一个巨大的峡谷，但需要进一步的调查来确定它出了什么问题。"
+
+
+  # Anomaly titles
+  ehof_anomaly.01.name:0 "巨大的环星系"
+  ehof_anomaly.02.name:0 "甲烷海洋"
+  ehof_anomaly.03.name:0 "纳米机器人沙漠"
+  ehof_anomaly.04.name:0 "核心异常"
+  ehof_anomaly.05.name:0 "激变变星"
+  ehof_anomaly.06.name:0 "结晶的氧气世界"
+  ehof_anomaly.07.name:0 "受损的空间站"
+  ehof_anomaly.08.name:0 "自然的全球网络"
+  ehof_anomaly.09.name:0 "连接小行星站"
+  ehof_anomaly.10.name:0 "原生质的生命形式"
+  ehof_anomaly.11.name:0 "红色有毒的世界"
+  ehof_anomaly.13.name:0 "一个轨道"
+  ehof_anomaly.12.name:0 "伤疤"
+  #ehof_anomaly.14.name:0 "战争-摧毁星系"
+  ehof_anomaly.15.name:0 "摧毁的星系"
+
+
+  # Anomaly success results
+  ehof_anomaly.01.desc:0 "我们已经发现了巨大的气体§H[From.GetName]§!拥有一个巨大的环形星系，比一般的环形星系大得多。\n\n这一环系的直径估计约为378万公里，比行星本身的直径171557公里高出许多倍。\n\n这样一个令人印象深刻的环状星系是如何形成的，是目前分析宇宙计算研究和天体数学的一个课题。"
+
+  ehof_anomaly.02.desc:0 "我们的科学家已经发现了这个看似贫瘠的星球 §H[From.GetName]§! 并非完全荒芜。\n\n在小行星撞击地球的环形山中有一小片液态甲烷海洋 §H[From.GetName]§!.海洋之所以存在，是因为这些陨石坑的表面温度在-193摄氏度到-143摄氏度之间，这取决于世界的昼夜循环。\n\n甲烷海洋§H[From.GetName]§! 可能包含简单形式的有机、生物生命。\n\n如果甲烷海洋中存在任何形式的生命，那么在生物学界就会引起争论。"
+
+  ehof_anomaly.03.desc:0 "我们已经发现50%的沙漠 §H[From.GetName]§! 由模仿沙粒的纳米机器组成。\n\n另外50%的沙漠是由天然颗粒物质构成的，就像银河系其他行星上的大多数沙漠一样。\n\n通过对样品“纳米沙”的直接分析，我们发现纳米机器似乎没有更高的功能。\n\n这种纳米沙子与其他天然沙漠中的“普通”沙子看起来一模一样，只能通过显微镜分析来区分。\n\n这些纳米机器的使用为什么只有50%§H[From.GetName]§!沙漠是由它们构成的，这仍然是个谜。"
+
+  ehof_anomaly.04.desc:0 "我们的科学家已经发现了这个星球 §H[From.GetName]§! 没有真正的核心。\n\n它完全没有核心，它的岩石地幔完全延伸到它的核心应该在的位置。在行星的中央，有一个异常的结构。\n\n我们的科学家不能确定它是由外来物质构成的还是人工结构。\n\n他们想要派遣一个探索小组到行星内部，去了解更多关于这个异常的情况，但是到达这个设施需要时间和资源。"
+
+  ehof_anomaly.05.desc:0 "我们已经发现了那颗恒星 §H[From.GetName]§! 蕴含着 §YD等级§! 核心之星, 一个 §Y白矮星§! 恒星遗迹。\n\n白矮星使恒星的质量增加了1.2倍，并且位于恒星的“地幔”的放射性区域内。\n\n这§Y白矮星§!会导致极端的不稳定§H[From.GetName]§!的核心, 这似乎是剧烈、频繁和不规则的等离子体爆发的原因，等离子体爆发将数十亿吨的恒星质量喷射到太空中。\n\n 这§YD等级§! 恒星可能与 §H[From.GetName]§! 几百万年前被恒星完全吞噬了\n\n§H[From.GetName]§!这颗恒星很可能在未来10万年内死亡。"
+
+  ehof_anomaly.06.desc:0 "我们的科学家已经发现，表面的冰 §H[From.GetName]§! 不是水冰或干冰，而是结晶的氧。\n\n的平均表面温度§H[From.GetName]§!温度非常低，比氧的熔点低51开尔文。\n\n在一个恒星星系中，稳定的固体氧的要求是极其困难的。\n\n§H[From.GetName]§! 真是一个独特的世界。§H[From.GetName]§! 将成为未来低温物理学研究的中心。"
+
+  ehof_anomaly.07.desc:0 "周围都是残骸§H[From.GetName]§!, 我们的科学家发现了一个大型空间站。\n\n从我们的科学飞船上的扫描显示，空间站有轻微结构损坏的迹象，而且似乎被废弃了。\n\n与其他太空碎片相比，空间站未受损的结构展现出一种独特的风格。\n\n我们的科学家认为国际空间站对人类文明非常重要，人类文明曾经居住在现在被摧毁的世界上。\n\n他们想对驻地作进一步的调查，希望查出发生了什么事 §H[From.GetName]§!."
+
+  ehof_anomaly.08.desc:0 "我们已经发现了 §H[From.GetName]§! 由遍布全球的相互连接的植物群落组成的巨大网络连接在一起。\n\n网络是由一个单一的植物属来体现的，它们似乎有能力通过它们的根互相连接。植物属主宰着地球，约占全球植物群的65%。它们是我们的科学飞船探测到的奇怪信号的来源。\n\n我们的科学家认为，这个神经网络至少有一种小型的准神经活动。由于其植物性，上述活动可能仍与动物神经活动截然不同。\n\n我们的科学家希望扩大对这些植物的研究，以便更多地了解它们和全球网络。"
+
+  ehof_anomaly.09.desc:0 "结果表明，在小行星群中存在着非自然的形成§H[Root.Solar_System.GetName]§!星系是一个巨大的空间站，由多个小行星组成。空间站最大直径约35公里，由23颗直径在400至1.5公里之间的小行星组成，通过大型金属管将小行星连接起来。\n\n根据我们最新的扫描结果，空间站似乎被废弃了，但没有受到破坏。需要进一步的调查来证实这个猜想。\n\n空间站周围没有探测到任何宇宙飞船或其他活动。\n\n我们的科学家要求对空间站内部进行一次探测，以便发现更多的情况。"
+
+  ehof_anomaly.10.desc:0 "对星球上异常活动的深入的远程调查 §H[From.GetName]§! 带来令人着迷的结果。\n\n地球上确实居住着一种独特的生命形式，我们的科学家称之为“等离子生命形式”。它们似乎是由伪有机等离子体组成的，其功能与有机生命体的工作方式类似。\n\n在这个世界上生活着许多这样的生命形式，似乎这个星球已经形成了一个独特的生物圈。\n\n如果它们是由以碳为基础的“结构”组成，理论上它们可以算作有机生命形式。它们是否是极其罕见的有机生命体还不得而知。\n\n为了找到这个问题的答案，有必要对等离子寿命进行直接研究，因为行星的环境是致命的，这是很危险的。"
+
+  ehof_anomaly.11.desc:0 "通过直接调查§H[From.GetName]§!'s atmosphere,我们发现这个星球实际上是一个有毒的世界。这颗行星的颜色，或者更具体地说，它的大气层，是由一种未知物质组成的剧毒粒子造成的。\n\n根据颗粒的化学分析结果，它们主要由铜、碳化合物、磷、硫、钴，甚至锕系元素组成，从而使毒素具有放射性。\n\n除了它的放射性，它还具有很强的腐蚀性，破坏有机和无机结构。\n\n甚至无机金属也受到一定程度的腐蚀。\n\n除了它对任何有机生命形式都是致命的之外，它的密度也极高，而且不透明，让人无法透过它看到东西。较弱形式的辐射也无法穿透地表，因此很难对地表进行扫描。\n\n我们的研究人员要求使用高强度扫描仪来分析地球表面，并了解红雾背后的原因。"
+
+  ehof_anomaly.13.desc:0 "我们到达后不久 §H[Root.Solar_System.GetName]§! 星系中，我们的传感器开始探测到星系中一些奇怪的行星排列。\n\n这个恒星星系似乎有两颗行星，但它们都有相同的轨道。它们到恒星的距离几乎完全相同。\n\n我们的科学家想要研究这两颗行星，以便更多地了解它们和这种奇怪的轨道排列。"
+
+  ehof_anomaly.12.desc:0 "通过我们对§H[From.GetName]§!我们发现，大峡谷本身并不是自然形成的，它绵延1600多公里，一直延伸到上地幔。峡谷本身的结构表明它不可能是自然形成的。\n\n如果我们的研究人员的理论是正确的，那么这个行星环也可能是峡谷形成的结果，这取决于它的成因。\n\n我们还没有找到造成“疤痕”的原因，我们的科学家已经这样称呼它了，但是对疤痕和行星环的行星物质进行更深入的分析，可能会给我们一些线索，让我们知道它可能是什么。"
+
+  # ehof_anomaly.14.desc:0 "在§H[Root.Solar_System.GetName]§! 星系，我们被一个可怕的景象。我们周围到处都是被摧毁的宇宙飞船和太空碎片。\n\n根据我们的扫描结果，整个星系充满了无数被摧毁的宇宙飞船和空间建筑。即使是行星也对任何形式的生物生命产生了分离或严重的敌意。星系中存在多个巨型结构，其用途尚不清楚。\n\n其中一颗行星是一种异常类型的行星，它发出奇怪的信号。就在这颗行星的正上方，是这个星系中最大的人造结构。\n\n整个体系极有可能被一场巨大的战争摧毁。\n\n为了找出更多关于这个星系发生了什么，我们应该探索它并调查主要的位置。"
+
+  ehof_anomaly.15.desc:0 "我们到达§H[Root.Solar_System.GetName]§!星球时，我们检测到一个短的子空间信号，它是从星系的恒星发出的。子空间信号与广播有关解的信息的子空间信号相似 $ehof_the_compound$, 在整个星系。\n\n然而，信号并不是我们在星系中检测到的唯一东西。分离分散在整个星系中。所有的行星要么被打碎成碎片，要么正在燃烧。最里面的那颗行星甚至完全消失了，只剩下几个较大的部分和围绕中心的小行星带。\n\n造成这种分离的原因仍然未知，但它似乎是由星系星引起的。它具有异常的能量分布，并在其表面和层中显示出不同寻常的性质。\n\n这种难以置信的破坏只能自然地由像超新星一样的极端巨大的能量爆发引起，但是恒星仍然在那里。\n\n这颗恒星发生了可怕的事情，它似乎是消息的来源，这使得它的调查比其他任何事情都重要。"
+
+  # Anomaly success answers
+  ehof_anomaly.01.a:0 "迷人."
+  ehof_anomaly.02.a:0 "激动."
+  ehof_anomaly.03.a:0 "惊异!"
+  ehof_anomaly.04.a:0 "印象深刻，派出探险队."
+  ehof_anomaly.04.b:0 "我们不应该那样做."
+  ehof_anomaly.05.a:0 "恐惧!"
+  ehof_anomaly.06.a:0 "惊讶!"
+  ehof_anomaly.07.a:0 "有趣，调查驻地!"
+  ehof_anomaly.07.b:0 "不是所有的秘密都要揭露."
+  ehof_anomaly.08.a:0 "很有意思，扩大对植物的研究!"
+  ehof_anomaly.08.b:0 "让植物成为植物."
+  ehof_anomaly.09.a:0 "探索驻地，但要小心."
+  ehof_anomaly.09.b:0 "不用管驻地."
+  ehof_anomaly.10.a:0 "很有趣，扩展对这种生命形式的研究."
+  ehof_anomaly.10.b:0 "我们不应该拿我们的科学家的生命和资源去冒险."
+  ehof_anomaly.11.a:0 "多么好玩又迷人啊!试着穿透大气层."
+  ehof_anomaly.11.b:0 "如果我们不知道雾后面是什么可能会更好."
+  ehof_anomaly.12.a:0 "有趣的是，是什么形成了这么大的峡谷?"
+  ehof_anomaly.12.b:0 "没时间讲地质学了。离开."
+  ehof_anomaly.10020.a:0 "终于!希望我们能结束这场银河系噩梦!"
+  ehof_anomaly.10416.a:0 "这是难以置信的!"
+
+
+  # Ambient objects
+  ehof_d_dreadnought:0 "摧毁了无畏"
+  ehof_damaged_star_rail:0 "受损的星轨"

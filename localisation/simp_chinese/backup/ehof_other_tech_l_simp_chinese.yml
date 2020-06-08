@@ -1,0 +1,88 @@
+﻿l_simp_chinese:
+
+    # Condensed Quantum Electrodynamics
+    tech_condensed_qe:0 "扼要的量子电动力学"
+    tech_condensed_qe_desc:0 "对电磁场的控制将允许我们进一步操纵概率，量子效应主导的实体到一个水平，这只能被真正的引力场控制超越。"
+
+    # Event Horizon Offset Facility Alpha
+    allow_ehof_p1:0 "§H解锁巨型结构:§! $ehof_ehofp1$"
+    tech_ehof_phase_01:0 "$ehof_ehofp1$"
+    tech_ehof_phase_01_desc:0 "利用压缩、凝聚电磁场来操纵和膨胀的概率$ehof_wormholes$, 那些人在黑洞里消失了$eho_eh$. 由于它们的概率行为，它们所指向的位置是随机的。"
+
+    # Abstract Physics Theory
+    tech_abstract_1:0 "抽象的物理理论"
+    tech_abstract_1_desc:0 "一些“违反物理定律”的现象可能无法用量子力学的方法来解释。物理学的一个新分支被称为“抽象物理学”，它使用极端非常规和抽象的数学和物理方法来解决问题，甚至可能导致宇宙中最荒谬的物理现象的答案。"
+
+    # Applied Abstract Physics
+    tech_abstract_2:0 "应用抽象的物理"
+    tech_abstract_2_desc:0 "抽象物理学的开创性方法无疑有助于我们更好地解释宇宙中最抽象的现象。用这些方法来取得以前从未有人想到过的、新奇的、荒唐的、突破性的突破，可能会使我们获得独特而强大的技术。" 
+
+    # Negative Pressure Application
+    tech_negative_pressure:0 "负压应用程序"
+    tech_negative_pressure_desc:0 "：负压是量子力学卡西米尔效应中出现过的一种现象。它以真空能量的形式出现，但不幸的是无法控制。应用抽象物理已经导致发现替代，更有用和更好的应用方式来产生和控制负压。它可以用于各种应用领域，但特别适用于超高强度空间扭曲的操作，如黑洞。"
+
+    # Event Horizon Offset Facility Lambda
+    allow_ehof_p2:0 "§H解锁巨型结构:§! $ehof_ehofp2$"
+    tech_ehof_phase_02:0 "$ehof_ehofp2$"
+    tech_ehof_phase_02_desc:0 "利用压缩、凝聚电磁场来操纵和膨胀的概率$ehof_wormholes$, 那些人在黑洞里消失了$eho_eh$.负压降低了不准确的概率，增加了可能到达目的地的可能性。"
+
+    # Dark Matter Injection
+    tech_dm_injection:0 "暗物质注入"
+    tech_dm_injection_desc:0 "扩大$ehof_ehof$将允许我们，除了应用负压外，还要注入 §H£sr_dark_matter£ 暗物质§! 进入黑洞，其性质将在很大程度上提高我们的效率 $ehof_ehof$. 负压和$ehof_darkmatter$, 会进一步稳定通道膨胀 $ehof_wormholes$."
+    
+    # Gravitational field control
+    tech_grav_control:0 "引力场控制"
+    tech_grav_control_desc:0 "抽象物理学的进步最终使我们控制了引力场。引力场的动态性，使我们可以很容易地扩展和压缩局部时空曲率到某一点，即量子效应的引力操纵支配实体，就像基本粒子一样，可以很容易地大规模地进行。"
+
+    # Passive Negative Mass Enrichment
+    tech_negative_mass_enrichment:0 "被动负质量富集"
+    tech_negative_mass_enrichment_desc:0 "弱而持久的负压应用和永久$ehof_darkmatter$注入时，在$eho_eh$周围有恒定的负质量流。这个负质量可以被我们的$ehof_ehofs$收集系统收集，下面是由$ehof_ehof$部署创建的大量数据。"
+
+    # Event Horizon Offset Facility Omega
+    allow_ehof_p3:0 "§H解锁巨型结构:§! $ehof_ehofp3$"
+    tech_ehof_phase_03:0 "$ehof_ehofp3$"
+    tech_ehof_phase_03_desc:0 "利用压缩的、凝聚的电磁场来操纵和膨胀概率性的$ehof_wormholes$，它在黑洞的$eho_eh$中出现和消失。 重力电磁场的存在，极大地提高了膨胀过程的效率和$ehof_darkmatter$的组合! 以及负压大大降低了不准确的概率，增加了可能到达目的地的可能性。"
+
+    # Micro-wormhole Destination Precognition
+    tech_prob_c:0 "$ehof_wormhole$ 目的地的预知能力"
+    tech_prob_c_desc:0 "难以想象的灵敏速子传感器，能够在几千普朗克时间内做出反应和探测到，被用来在一个$ehof_wormhole$被$ehof_ehof$膨胀之前确定$ehof_wormhole$的目标。这是虫洞目标的预兆，增加了$ehof_ehof$旅行的安全性和精度到一个不可预见的量级。有了这项技术，我们的$ehof_ehof$将能够直接选择银河系中的任何目的地，没有任何限制。无限的可能性等。"
+
+    # Vacuum Energy Density Resonance Stimulation
+    tech_vedrs:0 "真空能量密度共振刺激"
+    tech_vedrs_desc:0 "我们在球体内部发现的秘密导致了大规模真空操作技术的发展。振荡速子场投影板，通过真空能量密度共振刺激，在一定体积内主动控制希格斯场的自发对称性破缺机制。这创造了一个局部的时空气泡，真空能量密度降低，具有不同的物理定律，这将允许我们$ehof_ehof$创造绝对稳定$ehof_wormholes$, 它永远不会崩溃，甚至 $ehof_wormholes$ 可以永久保持开放状态."
+
+    # Event Horizon Offset Facility Ultima
+    allow_ehof_p4:0 "§H解锁巨型结构:§! $ehof_ehofp4$"
+    tech_ehof_phase_04:0 "$ehof_ehofp4$"
+    tech_ehof_phase_04_desc:0 "$tech_prob_c$利用超快反应速子传感器，甚至在目标膨胀之前就能探测到它，从而可以选择星系中的任何位置。真空能量密度共振刺激，创造一个低真空能量体积的空间，结合已经建立的稳定方法，完全防止崩溃和不准确。"
+
+    # Quasi-Neural Networks
+    tech_quasi_neural_net:0 "准神经网络"
+    tech_quasi_neural_net_desc:0 "通过研究行星-植物-大脑的发现导致了人工准神经网络的发展。这些允许我们在不同的应用领域中执行替代的和未知的数据传输和数据管理方法。"
+    
+    # Scourge Deployment
+    tech_scourge_deployment:0 "灾祸部署"
+    tech_scourge_deployment_desc:0 "猩红灾祸是一种先进的合成毒素，它既可以作为一种改造地球的媒介，也可以作为一种改造地球的媒介。或者作为一个包裹着化学武器的星球，能够摧毁一个星球上的所有生命。它的使用取决于我们。"
+
+    # Quasi-Negative-Mass Utilities
+    tech_qnm_utilities:0 "准负质量改进"
+    tech_qnm_utilities_desc:0 "$ehof_the_compound$ 是银河系中所有生命的威胁，甚至可能在银河系之外。外来的负质量物质似乎是唯一能伤害它们的东西。我们能够了解到他们的这个秘密弱点，并利用我们新获得的知识，开始将负质量武器化来对付他们的舰队。终于有机会击退入侵了!"
+    FAKE_QNM_WEAPONS:0 "准负质量武器增强"
+    FAKE_QNM_WEAPONS_DESC:0 "$ehof_the_stellar_annihilator$ 已经教了我们很多关于武器化准负质量的艺术，我们的武器现在已经装备好，可以使用这些新发现的知识。"
+
+    # Quasi-Negative-Mass Thrusters
+    tech_qnm_thrusters:0 "准负质量推进器"
+    tech_qnm_thrusters_desc:0 "发现$ehof_qnm$其更多的秘密, 允许我们扩大其使用在我们的帝国。$ehof_qnm$ 允许我们超越因果障碍，光的速度，并使我们的船有能力飞得比光还快，即使没有超级驱动器。考虑到这一点，我们能够创建'$ehof_qnm$ (QNM)推进器'. 这是银河系有史以来最快的推进器!"
+    TECH_UNLOCK_QNM_THRUSTER_TITLE:0 "§H解锁组件:§! $tech_qnm_thrusters$"
+    TECH_UNLOCK_QNM_THRUSTER_2_DESC:0 "§H$tech_qnm_thrusters$§!\n银河系有史以来最快的推进器!"
+
+    # Quasi-Negative-Mass Enhanced Jump drive
+    tech_qnm_e_jump_drive:0 "准负质量增强型跳跃引擎"
+    tech_qnm_e_jump_drive_desc:0 "跳跃驱动器本身已经是一个令人难以置信的发明，但具有独特的性质 $ehof_qnm$, 我们能够进一步增强它!这个新'$ehof_qnm$ 增强(QNME) 跳跃引擎', 允许我们跳得更快更远，比传统的跳跃驱动。"
+    TECH_UNLOCK_QNM_E_JUMP_DRIVE_TITLE:0 "§H解锁组件:§! $tech_qnm_e_jump_drive$"
+    TECH_UNLOCK_QNM_E_JUMP_DRIVE_TITLE_DESC:0 "§H$tech_qnm_e_jump_drive$§!\n比传统的跳跃驱动器跳得更快更远。"
+
+    # Micro EHOF
+    allow_ehof_p5:0 "§H解锁巨型结构:§! $ehof_ehofp5$"
+    tech_ehof_phase_micro:0 "$ehof_ehofp5$"
+    tech_ehof_phase_micro_desc:0 "$ehof_ehofp5$是$ehof_ehof$的一个专门版本，它的规模比原来的$ehof_ehof$小得多。 最初设想是一个更便宜的$ehof_ehof$版本，现在我们唯一的希望是找到针对$ehof_the_compound$的解决方案， 在 $ehof_cohesive$ 星系."

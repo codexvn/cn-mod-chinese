@@ -1,0 +1,4 @@
+﻿l_simp_chinese:
+
+ vb.psi.format.souleaters.1:  "[This.GetSpeciesName] <vb_soul_eaters>"
+ vb.psi.format.souleaters.2:  "<vb_soul_eaters_prefix_adj> <vb_soul_eaters_prefix_noun>[This.Capital.GetName]"

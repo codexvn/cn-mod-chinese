@@ -1,0 +1,55 @@
+﻿l_simp_chinese:
+
+    CREATORGATE_GALACTIC:0 "§H古老的能量塔§!"
+    CREATORGATE_GALACTICS:0 "§H古老的能量塔§!"
+    CREATORGATE_GALACTIC_DESC:0 "这个星系包含一个 $CREATORGATE_GALACTIC$"
+    CREATORGATE_COUNTRY_CANNOT_USE:0 "$TRIGGER_FAIL$ 我们没有使用它的方法 '$ehof_gateway_disabled$'"
+
+    ehof_gateway_consite:0 "$CREATORGATE_GALACTIC$建筑基址"
+    ehof_gateway_consite_DESC:0 "$ehof_gateway_DESC$"
+    ehof_gateway_consite_MEGASTRUCTURE_DETAILS:0 "$ehof_gateway_DESC$"
+
+    ehof_gateway_disabled:0 "§H古老的石头§!"
+    ehof_gateway_disableds:0 "§H$ehof_gateway_disabled$群§!"
+    ehof_gateway_disabled_DESC:0 "我们已经获得了打开$ehof_gateway_disabled$的技术， 这可能会将我们永久地链接到$ehof_cohesive$星系。"
+    ehof_gateway_disabled_MEGASTRUCTURE_DETAILS:0 "$ehof_gateway_DESC$"
+
+    ehof_gateway_unknown:0 "§H古老的石头§!"
+    ehof_gateway_unknown_DESC:0 "这是什么?…"
+    ehof_gateway_unknown_MEGASTRUCTURE_DETAILS:0 "$ehof_gateway_DESC$"
+
+    ehof_gateway_restored:0 "$CREATORGATE_GALACTIC$"
+    ehof_gateway_restored_DESC:0 "$ehof_gateway_DESC$"
+
+    ehof_gateway:0 "$CREATORGATE_GALACTIC$"
+    ehof_gateway_DESC:0 "这是一种通过子空间结构的管道，可以快速到达其他空间$CREATORGATE_GALACTICS$."
+
+    BYPASS_DESC_INACTIVE_CREATORGATE:0 "需要通过升级激活 $ehof_gateway_disabled$."
+    requires_cohesive_system:0 "$TRIGGER_FAIL$需要 $ehof_cohesive$ 星系."
+    requires_no_existing_ehof_gateway:0 "$TRIGGER_FAIL$由于存在而无法构建 $CREATORGATE_GALACTIC$."
+    requires_technology_ehof_gateway_construction:0 "$TRIGGER_FAIL$需要技术£engineering£ §H$tech_ehof_build_gateway$§!."
+
+    tech_ehof_use_gateway:0 "$ehof_gateway_disabled$ 激活"
+    tech_ehof_use_gateway_desc:0 "重新激活$ehof_gateway_disableds$的能力可以在$ehof_cohesive$星系中找到，这可能会将我们永久地链接到这些新发现的系统。"
+    tech_ehof_build_gateway:0 "$CREATORGATE_GALACTIC$ 构造"
+    tech_ehof_build_gateway_desc:0 "构建一个$CREATORGATE_GALACTIC$，把我们连接到$ehof_cohesive$星系有无限的可能。"
+    allow_ehof_gateway:0 "$CREATORGATE_GALACTIC$"
+    ehof_megastructure_gateway_DESC:0 "$ehof_gateway_DESC$"
+
+    ehof_mega_gateway.001.name:0 "$CREATORGATE_GALACTIC$ 构造"
+    ehof_mega_gateway.001.desc:0 "我们已经完成了我们的第一个操作系统的建设，这只能被描述为科学和工程的胜利$CREATORGATE_GALACTIC$ 在 [ehof_gateway_system.GetName] 星系!该装置已经形成了一个稳定的子空间管道，并与银河系的其余部分建立了成功的联系 $CREATORGATE_GALACTIC$ 网络"
+
+    ehof_mega_gateway.002.desc:0 "新建工程已竣工 $CREATORGATE_GALACTIC$ 在§H[ehof_gateway_system.GetName]§! 星系。一个稳定的子空间连接到 $CREATORGATE_GALACTIC$ 网络已经建立，现在已经全面运作。"
+
+    ehof_mega_gateway.003.name:0 "$CREATORGATE_GALACTIC$ 施工现场准备"
+    ehof_mega_gateway.003.desc:0 "为规划中的深空施工场地 $CREATORGATE_GALACTIC$ 在 §H[ehof_gateway_system.GetName]§! 系统现在已经就位。一旦我们有了必要的资源，实际的建设 $CREATORGATE_GALACTIC$ 可以随时开始."
+
+    ehof_mega_gateway.004.name:0 "$CREATORGATE_GALACTIC$ 恢复"
+    ehof_mega_gateway.004.desc:0 "已经恢复了在§H[ehof_gateway_system.GetName]§! 中发现的被废弃的$CREATORGATE_GALACTIC$的电力!系统。它已经连接到 $CREATORGATE_GALACTIC$ 网络现已全面运行。"
+
+    ehof_mega_gateway.005.name:0 "$ehof_gateway_disabled$ 激活?"
+    ehof_mega_gateway.005.desc:0 "在发现如何激活$ehof_gateway_disabled$之后，我们边界内的每个$ehof_gateway_disabled$似乎都显示出活动的迹象，就好像它知道我们的发现一样。"
+
+	ehof_mega_gateway.006.name:0 "不稳定的连接"
+	ehof_mega_gateway.006.desc1:0 "里面有些东西在 [ehof_delete_gateway.GetName] 星系干扰网关的连接， 现场的工程师认为，这与 $ehof_gateway_disabled$ 在星系中有关系。\n\n大门的建设已被拆除，所有费用已退还。"
+	ehof_mega_gateway.006.desc2:0 "里面有些东西在 [ehof_delete_gateway.GetName] 星系干扰网关的连接， 现场的工程师认为，这与 $CREATORGATE_GALACTIC$ 在星系中有关系。\n\n大门的建设已被拆除，所有费用已退还。"

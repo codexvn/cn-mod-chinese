@@ -1,0 +1,76 @@
+﻿l_simp_chinese:
+  # Underground City Decision
+ 
+ decision_search_for_cave_systems:0 "地下勘探"
+
+  decision_search_for_cave_systems_desc:0 ""
+
+  decision_search_for_cave_systems_effects:0 "地下勘探将为地下城市的建设提供合适的洞穴。"
+
+
+  # Underground City AP
+
+  allow_underground_city_project:0 "新技术允许我们在巨大的行星洞穴中建造大城市。"
+
+  # Secondary District Decisions
+  decision_remove_secondary_district:0 "移除附属区划"
+  decision_remove_secondary_district_desc:0 ""
+  decision_remove_secondary_districts_requirements:0 "附属区划必须为空"
+  decision_remove_secondary_district_effects:0 "您可以在移除附属区划后更改其类型"
+  
+  decision_secondary_workshops:0 "建造车间区划"
+  decision_secondary_workshops_desc:0 ""
+  
+  decision_secondary_university:0 "建造研究区划"
+  decision_secondary_university_desc:0 ""
+  
+  decision_secondary_local_industry:0 "建造小型合金工业区划"
+  decision_secondary_local_industry_desc:0 ""
+  
+  decision_secondary_production_hub:0 "建造小型民用工业区划"
+  decision_secondary_production_hub_desc:0 ""
+  
+  decision_secondary_local_stores:0 "建造商业区划"
+  decision_secondary_local_stores_desc:0 ""
+  
+  decision_secondary_spaceport:0 "建造宇航中心区划"
+  decision_secondary_spaceport_desc:0 ""
+  
+  decision_secondary_academy:0 "建造军事学院区划"
+  decision_secondary_academy_desc:0 ""
+  
+  decision_secondary_logistics_hub:0 "建造物流区划"
+  decision_secondary_logistics_hub_desc:0 ""
+  
+  # Tier 2 Secondary Districts
+  decision_secondary_commerce:0 "升级至大型商业区划"
+  decision_secondary_commerce_desc:0 ""
+  decision_secondary_commerce_requirements:0 "至少拥有40人口才可升级"
+  
+  decision_secondary_workshops_t2:0 "升级至工程学中心区划"
+  decision_secondary_workshops_t2_desc:0 ""
+  decision_secondary_workshops_t2_requirements:0 "至少拥有40人口才可升级"
+  
+  decision_secondary_university_t2:0 "升级至研究中心区划"
+  decision_secondary_university_t2_desc:0 ""
+  decision_secondary_university_t2_requirements:0 "至少拥有40人口才可升级"
+  
+  decision_secondary_industry:0 "升级至大型合金工业区划"
+  decision_secondary_industry_desc:0 ""
+  decision_secondary_industry_requirements:0 "至少拥有40人口才可升级"
+  
+  decision_secondary_civilian_industry:0 "升级至大型民用工业区划"
+  decision_secondary_civilian_industry_desc:0 ""
+  decision_secondary_civilian_industry_requirements:0 "至少拥有40人口才可升级"
+  
+  decision_secondary_spaceport_t2:0 "升级至大型宇航中心区划"
+  decision_secondary_spaceport_t2_desc:0 ""
+  decision_secondary_spaceport_t2_requirements:0 "至少拥有40人口才可升级"
+  
+  decision_secondary_academy_t2:0 "升级至大型军事学院区划"
+  decision_secondary_academy_t2_desc:0 ""
+  decision_secondary_academy_t2_requirements:0 "至少拥有40人口才可升级"
+  
+  decision_secondary_logistics_hub_t2:0 "升级至物流中心区划"
+  decision_secondary_logistics_hub_t2_desc:0 ""
+  decision_secondary_logistics_hub_t2_requirements:0 "至少拥有40人口才可升级"

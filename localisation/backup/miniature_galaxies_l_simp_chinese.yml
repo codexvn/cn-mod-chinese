@@ -1,0 +1,43 @@
+﻿l_simp_chinese:
+
+debris_dwellers_system_initializer_NAME:0 "起源: 碎片居民"
+debris_dwellers_system_initializer_DESC:0 "在这个系统中发生了灾难性的事件。每一个小行星都被粉碎，在单一的恒星体周围形成了多个小行星环。\n\n开始从一个 §Y小行星 §作为你的家园。\n\n§R警告:非常具有挑战性;目前,这颗小行星没有背景纹理,只会显示你所选择的任何东西。如果你知道如何解决这个问题,请联系我。\n\n$system_initializer_DESC$"
+
+reliquary_system_initializer_NAME:0 "回到未来"
+reliquary_system_initializer_DESC:0 "最大尺寸的仨恒星与一个 §Y遗产世界§L (尺寸 26),伴随着两个遗迹卫星，其中一个很小 (尺寸 11 和 1).\n\n$system_initializer_DESC$"
+
+origin_reliquary:0 "回到未来"
+origin_reliquary_desc:0 "这个文明曾经经历了巨大的科学发展，使它得以在其行星的卫星上定居下来。然而，当来自太阳的日冕物质抛射摧毁了所有的电子设备时，他们的技术力量就丧失了。只有他们的祖先能创造奇迹的故事流传下来。亿万年之后，科学家们再次发现，魔术只不过是一种令人费解的技术。"
+origin_tooltip_reliquary_effects:0 "最大尺寸的仨恒星与一个 §Y遗产世界§W (尺寸 26), 伴随着两个遗迹卫星，其中一个很小 (尺寸 11 和 1)."
+
+origin_hive:0 "生态系统集成"
+origin_hive_desc:0 "这种蜂群思维已经发展出一种对周围环境的理解，到目前为止还不知道。它已经成功地与它的母星合并。"
+origin_tooltip_hive_effects:0 "§W开始于一个 §Y蜂巢的世界 §是你的家园."
+
+origin_emperor:0 "天选之子"
+origin_emperor_desc:0 "''你是被选中的那个。你给这个世界带来了平衡。沿着这条路走下去，你会再走一次……的星系。但是当心你的心……'' \n- 父亲的临终遗言"
+origin_tooltip_emperor_effects:0 "§W你的规则是§Y天选之子§W, 一个不朽的10级领袖."
+
+fratricide_system_initializer_NAME:0 "自相残杀"
+fratricide_system_initializer_DESC:0 "这§Y坟墓的世界 §L是这个恒星体系的一部分是对曾经与你们相邻的文明的无声提醒。\n\n$system_initializer_DESC$"
+
+origin_fratricide:0 "自相残杀"
+origin_fratricide_desc:0 "坟墓世界是这个恒星系统的一部分，它无声地提醒着你，你的文明曾经与你的文明相邻。从你的历史中学习，或者拥抱并重复它。"
+origin_tooltip_fratricide_effects:0 "§W以一个附加的 §Y坟墓的世界§赢得你的家园星系."
+
+nine_sun_system_initializer_NAME:0 "九大太阳的遗产"
+nine_sun_system_initializer_DESC:0 "当一个姐妹星系与我们的星系相撞时，它的超大质量黑洞将多颗恒星从它们的星系壁龛中撕裂。它们都到了这里，伴随着新的重心。一颗巨大的行星从星系中的碎片中形成，围绕着黑洞运行。九颗太阳的光芒创造了一个不断变化的日光和辐射的新循环。那里的生命仍在进化，不顾恶劣的条件。\n\n$system_initializer_DESC$"
+
+origin_nine_suns:0 "九大太阳的遗产"
+origin_nine_suns_desc:0 "当一个姐妹星系与我们的星系相撞时，它的超大质量黑洞将多颗恒星从它们的星系壁龛中撕裂。它们都到了这里，伴随着新的重心。一颗巨大的行星从星系中的碎片中形成，围绕着黑洞运行。九颗太阳的光芒创造了一个不断变化的日光和辐射的新循环。那里的生命仍在进化，不顾恶劣的条件。"
+origin_tooltip_nine_suns_effects:0 "§W开始在一个 §Y尺寸 30 §W行星由九颗不同的恒星围绕这颗超级巨星运行§Y黑洞 §赢得你的家园星系。一个 §Y超级耀斑 §W 一年后会抗拒."
+
+origin_subterra:0 "眼不见心不烦"
+origin_subterra_desc:0 "你们的文明并不知道，一个地下物种已经在地表下繁盛了亿万年。"
+origin_tooltip_subterra_effects:0 "§W开始于一个 §Y地下文明 §赢取你的星球."
+
+pc_asteroid_ori:1 "小行星"
+pc_asteroid_ori_desc:0 "这颗小行星曾经是一个破碎世界的构造板块，现在它正围绕着它运行。"
+
+d_hydroponic_farms:1 "水培农场"
+d_hydroponic_farms_desc:0 "从远古时代起，这个地区的温室和田地就一直被用来养活地球。现在大部分都不能用了，但还是能产出一点食物。"

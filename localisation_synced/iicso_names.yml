@@ -1,0 +1,10 @@
+﻿l_simp_chinese:
+
+ colony_freighter_fleet:  "[PREV.GetName] Intercolonial Freight"
+ gas_miner_fleet:  "[ROOT.GetName] Gas Miner"
+ hub_freighter_fleet:  "[PREV.GetName] Hub Freight"
+ migration_fleet:  "[PREVPREVPREV.GetSpeciesAdj] Migrant Fleet"
+ miner_fleet:  "[ROOT.GetName] Miner"
+ station_freighter_fleet:  "[PREV.GetName] Station Freight"
+ system_freighter_fleet:  "[PREV.GetName] System Freight"
+ trader_fleet:  "[ROOT.GetName] Trader Fleet"
