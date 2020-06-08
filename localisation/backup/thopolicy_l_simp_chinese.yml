@@ -1,9 +1,0 @@
-﻿l_simp_chinese:
-policy_bloc_economy_policy:0 "区域经济政策"
-policy_bloc_economy_policy_desc:1 "决定是否让各行星政府官员实行区域经济"
-bloc_economy_policy_normal:0 "使区域经济政策无效"
-bloc_economy_policy_normal_name:0 "$bloc_economy_policy_normal$"
-bloc_economy_policy_normal_desc:1 "使区域经济政策无效，和其他的星际帝国进行经济交流"
-bloc_economy_policy_bloc:0 "使区域经济政策有效"
-bloc_economy_policy_bloc_name:0 "$bloc_economy_policy_bloc$"
-bloc_economy_policy_bloc_desc:1 "命令各行星政府官员实行区域经济。各行星将形成独自的区域贸经济，贸易价值的一部分将变换成能量，消费品，和综合产出。 \n 另外，据说新兴行星的经济区域偶尔会产生炼金术，但其原理至今认为知晓。 \n\n §E§Y惑星奉行§!将获得以下效果 \n§E §Y交易価値§! §R-25§! 减少 §Yエネルギー通貨§! §G8§! 增加 §!\n　§! 如果贸易政策是财富创造的话 ：\n§E　　增加更多 §Yエネルギー通貨§! §G8§! \n§!　如果贸易政策是消费者权益 ：\n§E　　增加更多§Y消費財§! §G4§!  \n§!　如果贸易政策是思想市场的话 ：\n§E　　增加更多 §Y統合力§! §G4§! §!"
